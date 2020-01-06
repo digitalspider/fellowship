@@ -1,0 +1,36 @@
+{
+  "name": "fellowship",
+  "version": "1.0.0",
+  "description": "Fellowship Baptist Church website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalspider/fellowship.git"
+  },
+  "keywords": [],
+  "author": "david.vittor",
+  "license": "TBC",
+  "bugs": {
+    "url": "https://github.com/digitalspider/fellowship/issues"
+  },
+  "homepage": "https://fellowship.org.au",
+  "dependencies": {
+    "isomorphic-unfetch": "3.0.0",
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "3.7.3"
+  }
+}

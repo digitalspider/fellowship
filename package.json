@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "export": "next export",
+    "start": "next start -p %PORT%",
     "type-check": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,10 +23,13 @@
   },
   "homepage": "https://fellowship.org.au",
   "dependencies": {
+    "cross-env": "^6.0.3",
     "isomorphic-unfetch": "3.0.0",
     "next": "^9.1.7",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.1",
+    "swr": "^0.1.16"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",

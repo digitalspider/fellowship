@@ -6,8 +6,8 @@ const layoutStyle = {
   border: '1px solid #DDD'
 };
 
-const Layout = props => (
-  <div style={layoutStyle}>
+const Layout = (props: any) => (
+  <div style={layoutStyle}>exit
     <Header />
     {props.children}
   </div>

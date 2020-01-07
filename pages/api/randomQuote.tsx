@@ -5,7 +5,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
   const { author } = req.query;
   let quotes = allQuotes;
 
-  const authorName = author instanceof Array ? author[0].toLowerCase() : author.toLowerCase();
+  const authorName = author instanceof Array ? (author.length>0 && author[0] ? author[0].toLowerCase() : '') : author && author.toLowerCase();
 
   if (author) {
     quotes = quotes.filter(quote => quote.author.toLowerCase().includes(authorName));

@@ -11,7 +11,7 @@ export default () => {
         <Markdown
           source={`
 This is our blog post.
-Yes. We can have a [link](/link).
+Yes. We can have a [posts link](/posts).
 And we can have a title as well.
 
 ### This is a title

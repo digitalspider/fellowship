@@ -7,7 +7,7 @@ const layoutStyle = {
 };
 
 const Layout = (props: any) => (
-  <div style={layoutStyle}>exit
+  <div style={layoutStyle}>
     <Header />
     {props.children}
   </div>

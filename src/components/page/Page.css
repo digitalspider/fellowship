@@ -1,0 +1,20 @@
+.page {
+  margin: 0 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media(min-width: 992px) {
+  .page{
+    margin: 0 100px;
+  }
+}
+
+.page h2 {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.page-bible-reference {
+  font-weight: 700;
+  color:#ff5a34;
+}

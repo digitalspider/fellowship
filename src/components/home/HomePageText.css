@@ -1,0 +1,55 @@
+.homepage-text {
+  padding: 50px 45px;
+}
+
+@media(min-width: 992px) {
+  .homepage-text{
+    padding: 50px 100px;
+  }
+}
+
+.homepage-text.about {
+  background-color: #ff5a34;
+  color: white;
+}
+
+.homepage-text.vision {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.homepage-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.homepage-text p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.homepage-text span {
+  font-style: italic;
+}
+
+.homepage-text.about a {
+  color: white;
+}
+
+.homepage-text.vision a {
+  color: black;
+}
+
+.homepage-text.about hr {
+  border: 1px solid white;
+  width: 20%;
+  margin: 15px auto;
+}
+
+.homepage-text.vision hr {
+  border: 1px solid black;
+  width: 20%;
+  margin: 15px auto;
+}

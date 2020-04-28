@@ -19,7 +19,7 @@ const Footer = (props) => {
           <div className="col-sm">
             <p className="footer-social-title">STAY CONNECTED</p>
             <div className="footer-social-links">
-              <a href="https://www.facebook.com/Fellowship-Baptist-Church-105178506183089/"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/groups/584850305633207/" target="_blank"><i className="fab fa-facebook-f"></i></a>
               {/* <a href="https://twitter.com/FellowshipBC"><i className="fab fa-twitter"></i></a> */}
             </div>
           </div>

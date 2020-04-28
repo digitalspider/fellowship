@@ -5,10 +5,12 @@ import PageSidebar from '../page/PageSidebar';
 import PageSection from '../page/PageSection';
 import WelcomeSection from './WelcomeSection';
 import HistorySection from './HistorySection';
+import GospelSection from './GospelSection';
+import MissionarySection from './MissionarySection';
 import HistorySectionMore from './HistorySectionMore';
 import WhatWeBelieveSection from './WhatWeBelieveSection';
 import WhatWeBelieveSectionMore from './WhatWeBelieveSectionMore';
-import WhatsOnSection from './WhatsOnSection';
+import WhatToExpectSection from './WhatToExpectSection';
 import './AboutPage.css'
 
 class AboutPage extends React.Component {
@@ -41,6 +43,30 @@ class AboutPage extends React.Component {
           </PageSection>
 
           <PageSection
+            linkTitle="What to Expect"
+            bannerImageUrl="/img/about_us.jpg"
+            url="/about/expect"
+            bannerMobilePosition="right">
+            <WhatToExpectSection/>
+          </PageSection>
+
+          <PageSection
+            linkTitle="The Gospel"
+            bannerImageUrl="/img/about_us.jpg"
+            url="/about/gospel"
+            bannerMobilePosition="right">
+            <GospelSection/>
+          </PageSection>
+
+          <PageSection
+            linkTitle="Missionaries"
+            bannerImageUrl="/img/about_us.jpg"
+            url="/about/missionary"
+            bannerMobilePosition="right">
+            <MissionarySection/>
+          </PageSection>
+
+          <PageSection
             linkTitle="History"
             bannerTitle="HOW IT ALL BEGAN"
             bannerImageUrl="/img/history.jpg"
@@ -57,14 +83,6 @@ class AboutPage extends React.Component {
             bannerMobilePosition="center">
             <WhatWeBelieveSection />
             <WhatWeBelieveSectionMore />
-          </PageSection>
-
-          <PageSection
-            linkTitle="What's On"
-            bannerImageUrl="/img/about_us.jpg"
-            url="/about/whats-on"
-            bannerMobilePosition="center">
-            <WhatsOnSection/>
           </PageSection>
 
         </PageSidebar>

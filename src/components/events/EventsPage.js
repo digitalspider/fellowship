@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatsOnSection = (props) => {
   return (
-    <div>
+    <div className="page">
       <div className="alert alert-warning">
         <p>Many of our scheduled church gatherings are currently on Zoom.</p>
         <a href="/covid19">Read more</a>

@@ -14,6 +14,29 @@ class HomePageSlider extends React.Component {
     this.state = {
       padding: this.getPadding(),
       slides: [{
+          "imageUrl":"/img/about_us_fbc.jpeg",
+          "backgroundPosition":"center",
+          "internalLink":true,
+        },{
+          "imageUrl":"http://fellowship.org.au/site/user/images/Screen_Shot_2011_08_27_at_8_30_58_AM.png",
+          "backgroundPosition":"center",
+          "internalLink":false,
+        },{
+          "subtitle":"Kwok Family",
+          "imageUrl":"http://fellowship.org.au/site/user/images/Kwok_Family.jpeg",
+          "backgroundPosition":"center",
+          "internalLink":false,
+        },{
+          "subtitle":"Eggert Family",
+          "imageUrl":"http://fellowship.org.au/site/user/images/Eggert_famliy_pic_2017_Dec.jpg",
+          "backgroundPosition":"center",
+          "internalLink":false,
+        },{
+          "subtitle":"Weber Family",
+          "imageUrl":"http://fellowship.org.au/site/user/images/Weber_Family_Photos___2019.JPG",
+          "backgroundPosition":"center",
+          "internalLink":false,
+        },{
           "type":"GOSPEL SERIES",
           "title":"Revelations",
           "subtitle": "Revelation of Jesus Christ",

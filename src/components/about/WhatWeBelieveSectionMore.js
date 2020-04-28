@@ -4,76 +4,45 @@ import BibleVerse from '../utils/BibleVerse'
 const WhatWeBelieveSectionMore = (props) => {
   return (
     <div>
-      <h4>The Devil</h4>
-      <p>We believe in the reality and personality of the devil. We believe in his creation by God, his subjection to God, his evil activity and final doom. (<BibleVerse reference="EPH.6.11-12" text="Ephesians 6:11-12"/>,
-        <BibleVerse reference="1PE.5.8" text="1 Peter 5:8"/>,
-        <BibleVerse reference="REV.20.10" text="Revelation 20:10"/>).</p>
-
-      <h4>Man</h4>
-      <p>We believe in the creation of man in the image of God. The entrance of sin through Adam’s disobedience. The fallen and totally deprived state of all men. Their subjection to God’s wrath and condemnation. Their responsibility to repent and believe the Gospel. (<BibleVerse reference="GEN.1.26-27" text="Genesis 1:26-27"/>;
-        <BibleVerse reference="ROM.3.22-23" text="Romans 3:22-23"/>;
-        <BibleVerse reference="ROM.5.12" text="Romans 5:12"/>,
-        <BibleVerse reference="EPH.2.1-3" text="Ephesians 2:1-3"/>,
-        <BibleVerse reference="EPH.2.12" text="12"/>).</p>
-
-      <h4>Salvation</h4>
-      <p>We believe in the need for “repentance toward God and faith toward our Lord Jesus Christ”. We believe that salvation is by grace, through faith alone, in Christ alone. We believe that Christ died for every man, and that there is a responsibility placed on an individual to either accept or reject the message of the Gospel. We believe in the justification of the sinner by God’s grace and the eternal security of the believer. (<BibleVerse reference="ACT.20.21" text="Acts 20:21"/>;
-        <BibleVerse reference="ROM.5.1-2" text="Romans 5:1-2"/>,
-        <BibleVerse reference="EPH.2.8-10" text="Ephesians 2:8-10"/>;
-        <BibleVerse reference="HEB.2.9" text="Hebrews 2:9"/>;
-        <BibleVerse reference="1JN.2.2" text="1 John 2:2"/>,
-        <BibleVerse reference="1PE.1.4-5" text="1 Peter 1:4-5"/>)</p>
-
-      <h4>The Church</h4>
-      <p>We believe the local church to be company of baptised believers gathered under the headship of Christ for worship, fellowship, instruction and evangelism. (<BibleVerse reference="ACT.11.26" text="Acts 11:26"/>;
-        <BibleVerse reference="ACT.14.23" text="Acts 14:23"/>;
-        <BibleVerse reference="ACT.14.27" text="Acts 14:27"/>;
-        <BibleVerse reference="ACT.20.17" text="20:17"/>,
-        <BibleVerse reference="ACT.20.28-32" text="28-32"/>;
-        <BibleVerse reference="COL.1.18" text="Colossians 1:18"/>) We believe in the ordinances of Baptism and the Lord’s supper.</p>
-      <p>Baptism: Being the immersion of believers on profession of their faith in the Lord Jesus Christ, and as a symbol of their identification with Him in His death, burial and resurrection. The public demonstration of a personal transformation. (<BibleVerse reference="MAT.28.18-20" text="Matthew 28:18-20"/>,
-        <BibleVerse reference="ACT.2.41" text="Acts 2:41"/>,
-        <BibleVerse reference="ACT.8.12" text="8:12"/>)</p>
-      <p>The Lord’s Supper: being the weekly remembrance, for believers, of the atoning death of the Lord Jesus Christ until He comes and a renewal of commitment to Him. The purely symbolic nature of the emblems of bread and wine. (<BibleVerse reference="LUK.22.14-20" text="Luke 22:14-20"/>;
-        <BibleVerse reference="ACT.2.42" text="Acts 2:42"/>;
-        <BibleVerse reference="ACT.20.7" text="Acts 20:7"/>;
-        <BibleVerse reference="1CO.11.17-30" text="1 Corinthians 11:17-30"/>)</p>
-      <p>
-        We believe in the autonomy of the local church. (<BibleVerse reference="COL.1.18" text="Colossians 1:18"/>;
-        <BibleVerse reference="2CO.8.1-5" text="2 Corinthians 8:1-5"/>,<BibleVerse reference="2CO.8.19" text="19"/>,
-        <BibleVerse reference="2CO.8.23" text="23"/>)<br/>
-        The offices of elder and deacon (<BibleVerse reference="1TI.3.1-13" text="1 Timothy 3:1-13"/>,
-        <BibleVerse reference="TIT.1.6-9" text="Titus 1:6-9"/>.)<br/>
-        The gifts of an Evangelist and Pastor-Teacher (<BibleVerse reference="EPH.4.11" text="Ephesians 4:11"/>;
-        <BibleVerse reference="1TI.5.17" text="1 Timothy 5:17"/>).
-        <br/>
-        The priesthood of all believers and their unity in the Body of Christ. (<BibleVerse reference="1CO.12.12-30" text="1 Corinthians 12:12-30"/>,
-        <BibleVerse reference="1PE.2.5" text="1 Peter 2:5"/>,<BibleVerse reference="1PE.2.9" text="9"/>;
-        <BibleVerse reference="REV.5.9" text="Revelation 5:9"/>,<BibleVerse reference="REV.5.10" text="10"/>).<br/>
-        The separation of Church and State.<br/>
-      </p>
-
-      <h4>The Future State</h4>
-      <p>We believe in the unconditional immortality of the Soul. The resurrection of the body. The eternal joy in Heaven of the believer. The conscious eternal punishment in Hell of those who die without Christ. (<BibleVerse reference="MAT.25.46" text="Matthew 25:46"/>;
-        <BibleVerse reference="JOH.5.28" text="John 5:28"/>,
-        <BibleVerse reference="JOH.5.29" text="29"/>,
-        <BibleVerse reference="JOH.11.25-26" text="11:25-26"/>;
-        <BibleVerse reference="REV.20.5-6" text="Revelation 20:5-6"/>,
-        <BibleVerse reference="REV.20.12-13" text="12-13"/>).</p>
-
-      <h4>The Return of Christ</h4>
-      <p>We believe in the literal, personal, visible, imminent, premillennial, and pre-tribulational return of the Lord Jesus Christ. All believers will be caught up to be with the Lord prior to the seven years of tribulation. We believe at the end of the tribulation Christ will return with His saints to establish His literal Kingdom, on the earth, for 1000 years. (<BibleVerse reference="1TH.4.13-18" text="1 Thessalonians 4:13-18"/>;
-        <BibleVerse reference="TIT.2.13" text="Titus 2:13"/>;
-        <BibleVerse reference="1TH.1.10" text="1 Thessalonians 1:10"/>;
-        <BibleVerse reference="REV.3.10" text="Revelation 3:10"/>;
-        <BibleVerse reference="ZEC.14.4-11" text="Zechariah 14:4-11"/>;
-        <BibleVerse reference="REV.19.11-16" text="Revelation 19:11-16"/>,
-        <BibleVerse reference="REV.20.1-6" text="20:1-6"/>).</p>
-
-      <h4>Christian Behaviour and Discipline</h4>
-      <p>We believe it is the responsibility of all believers to obey and serve the Lord and to live self-controlled, upright and godly lives. The duty of each church member to exercise godly discipline in a loving and caring fashion. (<BibleVerse reference="2TI.3.1-5" text="2 Timothy 3:1-5"/>;
-        <BibleVerse reference="ROM.12.1-2" text="Romans 12:1-2"/>,
-        <BibleVerse reference="2JN.1.9-11" text="2 John 1:9-11"/>;)</p>
+        <h2>Salvation</h2>
+        <p>1. Salvation is wholly of God by grace through faith on the basis of the redemption by Christ Jesus, the merit of His shed blood, and not on the basis of human merit or works; and</p>
+        <p>2. Salvation is an all-inclusive term from the special calling of God to justification by faith to regeneration and sanctification through the Holy Spirit to ultimate glorification in the presence of God; and</p>
+        <p>3. Believers have two natures, namely the flesh and the spirit; that the believer is to grow in grace and in the knowledge of Christ, and to strive to live a life of holiness, characterized by his love of God and the love of his neighbours; and</p>
+        <p>4. If the believer is truly regenerated or born again, he has eternal security through the election and grace of God.</p>
+        <p><em><a href="http://biblia.com/bible/esv/John%201.12" class="lbsBibleRef" data-reference="John 1.12" data-version="esv" target="_blank">John 1:12</a>; <a href="http://biblia.com/bible/esv/John3.16" class="lbsBibleRef" data-reference="John3.16" data-version="esv" target="_blank">John3:16</a>; <a href="http://biblia.com/bible/esv/Romans%203.24-30" class="lbsBibleRef" data-reference="Romans 3.24-30" data-version="esv" target="_blank">Romans 3:24-30</a>; <a href="http://biblia.com/bible/esv/Romans%208.30-39" class="lbsBibleRef" data-reference="Romans 8.30-39" data-version="esv" target="_blank">Romans 8:30-39</a>; <a href="http://biblia.com/bible/esv/2%20Corinthians%205.21" class="lbsBibleRef" data-reference="2 Corinthians 5.21" data-version="esv" target="_blank">2 Corinthians 5:21</a>; <a href="http://biblia.com/bible/esv/Ephesians%201.7" class="lbsBibleRef" data-reference="Ephesians 1.7" data-version="esv" target="_blank">Ephesians 1:7</a>, <a href="http://biblia.com/bible/esv/1Thessalonians%204.3" class="lbsBibleRef" data-reference="1Thessalonians 4.3" data-version="esv" target="_blank">1Thessalonians 4:3</a>; <a href="http://biblia.com/bible/esv/1%20Peter%201.18-19" class="lbsBibleRef" data-reference="1 Peter 1.18-19" data-version="esv" target="_blank">1 Peter 1:18-19</a>.</em></p>
+        <h2>Satan</h2>
+        <p>We believe in the existence of Satan as a supernatural being, the deceiver and prince of this world; that he was defeated and judged by the death and resurrection of the Lord Jesus Christ, and therefore that his final doom is certain.</p>
+        <p><em><a href="http://biblia.com/bible/esv/John%208.44" class="lbsBibleRef" data-reference="John 8.44" data-version="esv" target="_blank">John 8:44</a>; <a href="http://biblia.com/bible/esv/Ephesians%202.2" class="lbsBibleRef" data-reference="Ephesians 2.2" data-version="esv" target="_blank">Ephesians 2:2</a>; <a href="http://biblia.com/bible/esv/Hebrews%202.14" class="lbsBibleRef" data-reference="Hebrews 2.14" data-version="esv" target="_blank">Hebrews 2:14</a>. </em></p>
+        <h2>The Church</h2>
+        <p>1. All who place their faith in the Lord Jesus Christ are immediately placed by the Holy Spirit into one united spiritual body, the Church, the Bride of Christ, of which He is the Head; and</p>
+        <p>2. The formation of the church, the body of Christ, began on the day of Pentecost and will be completed at the coming of Christ for His own at His second coming; and</p>
+        <p>3. The establishment and continuity of local churches or assemblies is clearly taught and defined in the New Testament, and that the members of the one spiritual body are directed to associate themselves together in a local church or assembly.</p>
+        <p>4. The responsibilities of leaders are to lead or rule as servants and to have Christ's authority in directing the church, the congregation of which are to submit themselves to their leadership; and</p>
+        <p>5. The Scriptures stress discipleship within the context of the local church and mutual submission of all believers fellowshipping therein to each other; and</p>
+        <p>6. Discipline of sinning members of the local church is to be administered in accordance with the Scriptures; and</p>
+        <p>7. The purpose of the Church is to glorify God by the following: <br/>
+        (a) Building herself up in the faith; and <br/>
+        (b) Instruction of the Word; and <br/>
+        (c) Fellowship; and <br/>
+        (d) Keeping the ordinances of the Church; and <br/>
+        (e) Advancing and communicating the Gospel to the entire world; and <br/>
+        (f) Prayer.</p>
+        <p>8. The ordinances of the local church which were instituted by Jesus Christ are two in <br/>
+        number and are as follows: <br/>
+        (a) Believer's Baptism by immersion; and <br/>
+        (b) The Lord's Supper, in which all believers in the Lord Jesus Christ shall be invited to participate with due regard to the Scriptural warnings in <em><a href="http://biblia.com/bible/esv/1%20Corinthians%2011.27-29" class="lbsBibleRef" data-reference="1 Corinthians 11.27-29" data-version="esv" target="_blank">1 Corinthians 11:27-29</a></em>.</p>
+        <h2>Separation</h2>
+        <p>We believe that the Scriptures require separation to God from the world and from apostasy within the visible church. This doctrine is based upon God's eternal principle of division between truth and error, darkness and light, and His specific command to be separated from unbelievers and disobedient brethren.</p>
+        <p><em><a href="http://biblia.com/bible/esv/2%20Corinthians%206.14-17" class="lbsBibleRef" data-reference="2 Corinthians 6.14-17" data-version="esv" target="_blank">2 Corinthians 6:14-17</a>, <a href="http://biblia.com/bible/esv/2%20Thessalonians%203.6" class="lbsBibleRef" data-reference="2 Thessalonians 3.6" data-version="esv" target="_blank">2 Thessalonians 3:6</a>, <a href="http://biblia.com/bible/esv/1%20Timothy%206.3-5" class="lbsBibleRef" data-reference="1 Timothy 6.3-5" data-version="esv" target="_blank">1 Timothy 6:3-5</a>; <a href="http://biblia.com/bible/esv/James%204.4" class="lbsBibleRef" data-reference="James 4.4" data-version="esv" target="_blank">James 4:4</a>; <a href="http://biblia.com/bible/esv/1%20John%202.15-16" class="lbsBibleRef" data-reference="1 John 2.15-16" data-version="esv" target="_blank">1 John 2:15-16</a>; <a href="http://biblia.com/bible/esv/2%20John%201.9-11" class="lbsBibleRef" data-reference="2 John 1.9-11" data-version="esv" target="_blank">2 John 1:9-11</a>. </em></p>
+        <h2>Last Things</h2>
+        <p>1. We believe in: the resurrection of the body, the judgment of the world by the Lord Jesus Christ, with eternal blessedness of the righteous and eternal punishment of the wicked.</p>
+        <p><em><a href="http://biblia.com/bible/esv/Matthew%2025.32-34" class="lbsBibleRef" data-reference="Matthew 25.32-34" data-version="esv" target="_blank">Matthew 25:32-34</a>; <a href="http://biblia.com/bible/esv/Matthew%2025.46" class="lbsBibleRef" data-reference="Matthew 25.46" data-version="esv" target="_blank">46</a>; <a href="http://biblia.com/bible/esv/Revelation%2020.5-6" class="lbsBibleRef" data-reference="Revelation 20.5-6" data-version="esv" target="_blank">Revelation 20:5-6</a>, <a href="http://biblia.com/bible/esv/Revelation%2020.12-15" class="lbsBibleRef" data-reference="Revelation 20.12-15" data-version="esv" target="_blank">12-15</a>; and </em></p>
+        <p>2. The imminent return of the Lord Jesus Christ.</p>
+        <p><em><a href="http://biblia.com/bible/esv/Philippians%204.5" class="lbsBibleRef" data-reference="Philippians 4.5" data-version="esv" target="_blank">Philippians 4:5</a>; <a href="http://biblia.com/bible/esv/James%205.9" class="lbsBibleRef" data-reference="James 5.9" data-version="esv" target="_blank">James 5:9</a>; <a href="http://biblia.com/bible/esv/Revelation%2022.12" class="lbsBibleRef" data-reference="Revelation 22.12" data-version="esv" target="_blank">Revelation 22:12</a> </em></p>
+        <p>(a) Believers will be caught up to meet the Lord in the air prior to the seven year tribulation</p>
+        <p><em><a href="http://biblia.com/bible/esv/I%20Corinthians%2015.51-52" class="lbsBibleRef" data-reference="I Corinthians 15.51-52" data-version="esv" target="_blank">I Corinthians 15:51-52</a>; <a href="http://biblia.com/bible/esv/1%20Thessalonians%204.17" class="lbsBibleRef" data-reference="1 Thessalonians 4.17" data-version="esv" target="_blank">1 Thessalonians 4:17</a></em>; and</p>
+        <p>(b) The Lord Jesus Christ will personally and visibly return to the earth with the saints to end the seven year tribulation and to reign with the saints for 1000 years.</p>
+        <p><em><a href="http://biblia.com/bible/esv/Daniel%209.24-27" class="lbsBibleRef" data-reference="Daniel 9.24-27" data-version="esv" target="_blank">Daniel 9:24-27</a>; <a href="http://biblia.com/bible/esv/Matthew%2024.30-31" class="lbsBibleRef" data-reference="Matthew 24.30-31" data-version="esv" target="_blank">Matthew 24:30-31</a>; <a href="http://biblia.com/bible/esv/Matthew%2025.31-32" class="lbsBibleRef" data-reference="Matthew 25.31-32" data-version="esv" target="_blank">Matthew 25:31-32</a>; <a href="http://biblia.com/bible/esv/Revelation%2019.11" class="lbsBibleRef" data-reference="Revelation 19.11" data-version="esv" target="_blank">Revelation 19:11</a>; <a href="http://biblia.com/bible/esv/Revelation%2020.1-6" class="lbsBibleRef" data-reference="Revelation 20.1-6" data-version="esv" target="_blank">20:1-6</a><br/></em></p>
     </div>
   )
 }

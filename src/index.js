@@ -5,6 +5,7 @@ import FBC from './components/fbc/FBC'
 import HomePage from './components/home/HomePage'
 import AboutPage from './components/about/AboutPage';
 import LivePage from './components/live/LivePage';
+import EventsPage from './components/events/EventsPage';
 import SermonsPage from './components/sermons/SermonsPage'
 import SermonSeriesPage from './components/sermons/SermonSeriesPage'
 import SermonPage from './components/sermons/SermonPage'
@@ -39,6 +40,7 @@ const Index = () => (
       <Route exact path="/" component={HomePage}/>
       <Route path="/about" component={AboutPage}/>
       <Route path="/live" component={LivePage}/>
+      <Route path="/events" component={EventsPage}/>
       <Route path="/sermons" exact component={SermonsPage}/>
       <Route path="/sermons/series/:title" component={SermonSeriesPage}/>
       <Route path="/sermon/:sermonId/:title" component={SermonPage}/>

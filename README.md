@@ -1,7 +1,16 @@
-# Saintfield Baptist Church #
+# Fellowship Baptist Church #
 
-[![Build Status](https://travis-ci.org/matthewwilson/SaintfieldBaptistChurch.svg?branch=master)](https://travis-ci.org/matthewwilson/SaintfieldBaptistChurch)
-
-[saintfieldbaptist.org.uk](http://www.saintfieldbaptist.org.uk)
+[fellowship.org.au](http://fellowship.org.au)
 
 Built with react.
+
+Many thanks to Matthew Wilson for his original source code:
+* [https://github.com/matthewwilson/SaintfieldBaptistChurch]
+* [http://www.saintfieldbaptist.org.uk/]
+
+## Installation
+Run the following for local installation
+```
+npm install
+npm run start
+```

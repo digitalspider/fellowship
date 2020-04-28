@@ -72,7 +72,7 @@ class Covid19Page extends React.Component {
 
           <p>
             Yours in Christ,<br/>
-            The Elders of Saintfield Baptist Church
+            The Elders of Fellowship Baptist Church
           </p>
 
           <p><a href="/live">To view our live webcast click here.</a></p>

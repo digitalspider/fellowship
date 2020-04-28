@@ -16,7 +16,7 @@ const ContactPage = (props) => {
           Blacktown NSW 2148<br/>
         </p>
         <br/>
-        <a href="mailto:pastor@saintfieldbaptist.org.uk"><i className="far fa-envelope"></i> Email Us</a>
+        <a href="mailto:pastor@fellowship.org.au"><i className="far fa-envelope"></i> Email Us</a>
       </div>
     </Page>
   )

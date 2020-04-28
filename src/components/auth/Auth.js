@@ -7,11 +7,11 @@ export default class Auth {
   expiresAt;
 
   auth0 = new auth0.WebAuth({
-    domain: 'saintfieldbaptist.eu.auth0.com',
-    clientID: 'Z1kMtZGepUuW8J7R7e1joUyJR0GBFMdZ',
+    domain: 'fellowship.au.auth0.com',
+    clientID: '',
     redirectUri: process.env.REACT_APP_AUTH_CALLBACK_URL ? process.env.REACT_APP_AUTH_CALLBACK_URL : 'http://localhost:3000/callback',
     responseType: 'token id_token',
-    audience: 'https://api.saintfieldbaptist.org.uk',
+    audience: 'https://api.fellowship.org.au',
     scope: 'openid'
   });
 

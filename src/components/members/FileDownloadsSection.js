@@ -17,7 +17,7 @@ class FileDownloadsSection extends React.Component {
     const accessToken = auth.getAccessToken()
     const headers = { 'Authorization': `Bearer ${accessToken}`}
 
-    axios.get('https://api.saintfieldbaptist.org.uk/api/v1/members/files', { headers })
+    axios.get('https://api.fellowship.org.au/api/v1/members/files', { headers })
     .then((response) => {
       // handle success
       console.log(response);

@@ -1,6 +1,6 @@
 {
-  "short_name": "SBC",
-  "name": "Saintfield Baptist Church",
+  "short_name": "FBC",
+  "name": "Fellowship Baptist Church",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "https://saintfieldbaptist.org.uk",
+  "start_url": "https://fellowship.org.au",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#233d68"

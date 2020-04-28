@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Redirect} from 'react-router-dom';
-import SBC from './components/sbc/SBC'
+import FBC from './components/fbc/FBC'
 import HomePage from './components/home/HomePage'
 import AboutPage from './components/about/AboutPage';
 import LivePage from './components/live/LivePage';
@@ -35,7 +35,7 @@ function privateRoute(auth, component, props) {
 
 const Index = () => (
   <BrowserRouter>
-    <SBC>
+    <FBC>
       <Route exact path="/" component={HomePage}/>
       <Route path="/about" component={AboutPage}/>
       <Route path="/live" component={LivePage}/>
@@ -50,7 +50,7 @@ const Index = () => (
         handleAuthentication(props);
         return <Callback {...props}/>
       }}/>
-    </SBC>
+    </FBC>
   </BrowserRouter>
 )
 

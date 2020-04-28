@@ -20,21 +20,21 @@ class HomePageSlider extends React.Component {
           "imageUrl":"img/slides/family.jpg",
           "backgroundPosition":"center",
           "internalLink":true,
-          "url":"/sermons/series/Family%20Ties"
+          "url":"/sermons/series/Revelations"
         },{
           "type":"GOSPEL SERIES",
           "title":"Psalms 119",
           "subtitle": "Studies on Psalms 119",
           "imageUrl":"img/slides/romance.jpg",
           "internalLink":true,
-          "url":"/sermons/series/The%20Romance%20of%20Redemption"
+          "url":"/sermons/series/Psalms%20119"
         },{
           "type":"GOSPEL SERIES",
           "title":"Exodus",
           "subtitle":"Studies in Exodus",
-          "url":"/sermons/series/Unsearchable%20Riches",
           "imageUrl":"img/slides/riches.jpg",
-          "internalLink":true
+          "internalLink":true,
+          "url":"/sermons/series/Exodus",
         }
       ]
     }

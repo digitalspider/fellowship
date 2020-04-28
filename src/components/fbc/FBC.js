@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './SBC.css';
+import './FBC.css';
 
-const SBC = (props) => {
+const FBC = (props) => {
     return (
       <div>
           <Header/>
@@ -14,4 +14,4 @@ const SBC = (props) => {
     );
 }
 
-export default SBC;
+export default FBC;

@@ -1,6 +1,6 @@
 {
-    "name": "SBC",
-    "short_name": "SBC",
+    "name": "FBC",
+    "short_name": "FBC",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

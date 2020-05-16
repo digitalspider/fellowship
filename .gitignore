@@ -4,4 +4,4 @@ dist
 out
 .env
 .next
-
+.DS_Store

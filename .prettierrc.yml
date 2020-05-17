@@ -1,0 +1,8 @@
+singleQuote: true
+tabWidth: 2
+trailingComma: "all"
+semi: true
+printWidth: 240
+parser: flow
+filepath: "**/*.js"
+endOfLine: lf

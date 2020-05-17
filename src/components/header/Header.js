@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink, Link} from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import Auth from '../auth/Auth.js'
 import './Header.css';
 
@@ -8,20 +8,20 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapsed:true
+      collapsed: true
     }
     this.auth = new Auth();
   }
 
   navBarToggleClick = (event) => {
     this.setState({
-      collapsed:this.state.collapsed ? false : true
+      collapsed: this.state.collapsed ? false : true
     });
   }
 
   navLinkClick = (event) => {
     this.setState({
-      collapsed:true
+      collapsed: true
     });
   }
 
@@ -33,26 +33,26 @@ class Header extends React.Component {
 
     let collapsedClass = "collapse";
 
-    if(!this.state.collapsed) {
+    if (!this.state.collapsed) {
       collapsedClass = "";
     }
 
-    var loginNavItem = (<button className="btn btn-link nav-link login-btn" onClick={this.login}>Login</button>)
+    // var loginNavItem = (<button className="btn btn-link nav-link login-btn" onClick={this.login}>Login</button>)
 
-    if(this.auth.isAuthenticated()) {
+    if (this.auth.isAuthenticated()) {
       loginNavItem = (<NavLink to="/members" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Members</NavLink>)
     }
 
     return (
       <nav className="sbc-navbar navbar fixed-top navbar-expand-lg navbar-light">
         <Link to="/" className="navbar-brand" onClick={this.navLinkClick}>
-          <img className="sbc-navbar-logo" src="/img/fellowship_logo.png" srcSet="/img/fellowship_logo.png 2x" alt="Fellowship Baptist Church"/>
+          <img className="sbc-navbar-logo" src="/img/fellowship_logo.png" srcSet="/img/fellowship_logo.png 2x" alt="Fellowship Baptist Church" />
         </Link>
         <button className="navbar-toggler" type="button" onClick={this.navBarToggleClick}>
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className={collapsedClass+" navbar-collapse sbc-navbar-collapse"} id="navbarSupportedContent">
+        <div className={collapsedClass + " navbar-collapse sbc-navbar-collapse"} id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto"></ul>
           <ul className="navbar-nav sbc-navbar-content">
             <li className="nav-item">
@@ -82,8 +82,5 @@ class Header extends React.Component {
     )
   }
 };
-
-
-
 
 export default Header;

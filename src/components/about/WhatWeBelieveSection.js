@@ -6,9 +6,9 @@ const WhatWeBelieveSection = (props) => {
     <div>
       <h2>Our Beliefs</h2>
       <h4>The Scriptures</h4>
-      <p>We believe in the verbal inspiration, total inerrancy and infallibility of the Holy Scriptures in their entirety. These being God breathed, we believe the bible to be solely-sufficient and the final authority in all matters of faith, doctrine and practice. 
-        (<BibleVerse reference="1TH.2.13" text="1 Thessalonians 2:13"/>,
-        <BibleVerse reference="2TI.3.16" text="2 Timothy 3:16"/>)</p>
+      <p>We believe in the verbal inspiration, total inerrancy and infallibility of the Holy Scriptures in their entirety. These being God breathed, we believe the bible to be solely-sufficient and the final authority in all matters of faith, doctrine and practice.
+        (<BibleVerse reference="1TH.2.13" text="1 Thessalonians 2:13" />,
+        <BibleVerse reference="2TI.3.16" text="2 Timothy 3:16" />)</p>
 
       <div id="contentRight">
         <h4>The Bible</h4>

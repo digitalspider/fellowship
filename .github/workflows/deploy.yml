@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v1
 
       - name: NPM Install
-        run: sudo npm install -g create-react-app
+        run: sudo npm install
 
       - name: Build website
         run: npm run build

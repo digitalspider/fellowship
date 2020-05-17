@@ -30,7 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "node ./npm_scripts/deploy.js"
+    "deploy": "aws s3 sync build/ s3://fellowship.org.au",
+    "deploy-fellowship": "aws --profile fellowship s3 sync build/ s3://fellowship.org.au"
   },
   "browserslist": [
     ">0.2%",

@@ -10,23 +10,14 @@ const WhatWeBelieveSectionMore = (props) => {
       <p>3. Believers have two natures, namely the flesh and the spirit; that the believer is to grow in grace and in the knowledge of Christ, and to strive to live a life of holiness, characterized by his love of God and the love of his neighbours; and</p>
       <p>4. If the believer is truly regenerated or born again, he has eternal security through the election and grace of God.</p>
       <p>
-        <BibleVerse reference="1TH.2.13" text="John 1:12" />;
-          <BibleVerse reference="2TI.3.16" text="John 3:16" />;
-          <BibleVerse reference="2TI.3.16" text="Romans 3:24-30" />;
-          <BibleVerse reference="2TI.3.16" text="Romans 8:30-39" />;
-          <BibleVerse reference="2TI.3.16" text="2 Corinthians 5:21" />;
-          <BibleVerse reference="2TI.3.16" text="Ephesians 1:7" />;
-          <BibleVerse reference="2TI.3.16" text="1 Thessalonians 4:3" />;
-          <BibleVerse reference="2TI.3.16" text="1 Peter 1:18-19" />;
-          <em>
-          <a href="http://biblia.com/bible/esv/John%201.12" class="lbsBibleRef" data-reference="John 1.12" data-version="esv" target="_blank" rel="noopener noreferrer">John 1:12</a>;
-          <a href="http://biblia.com/bible/esv/John3.16" class="lbsBibleRef" data-reference="John3.16" data-version="esv" target="_blank" rel="noopener noreferrer">John3:16</a>;
-          <a href="http://biblia.com/bible/esv/Romans%203.24-30" class="lbsBibleRef" data-reference="Romans 3.24-30" data-version="esv" target="_blank" rel="noopener noreferrer">Romans 3:24-30</a>;
-          <a href="http://biblia.com/bible/esv/Romans%208.30-39" class="lbsBibleRef" data-reference="Romans 8.30-39" data-version="esv" target="_blank" rel="noopener noreferrer">Romans 8:30-39</a>;
-          <a href="http://biblia.com/bible/esv/2%20Corinthians%205.21" class="lbsBibleRef" data-reference="2 Corinthians 5.21" data-version="esv" target="_blank" rel="noopener noreferrer">2 Corinthians 5:21</a>;
-          <a href="http://biblia.com/bible/esv/Ephesians%201.7" class="lbsBibleRef" data-reference="Ephesians 1.7" data-version="esv" target="_blank" rel="noopener noreferrer">Ephesians 1:7</a>,
-          <a href="http://biblia.com/bible/esv/1Thessalonians%204.3" class="lbsBibleRef" data-reference="1Thessalonians 4.3" data-version="esv" target="_blank" rel="noopener noreferrer">1Thessalonians 4:3</a>;
-          <a href="http://biblia.com/bible/esv/1%20Peter%201.18-19" class="lbsBibleRef" data-reference="1 Peter 1.18-19" data-version="esv" target="_blank" rel="noopener noreferrer">1 Peter 1:18-19</a>.</em>
+        <BibleVerse reference="JHN.1.12" text="John 1:12" />;
+        <BibleVerse reference="JHN.3.16" text="John 3:16" />;
+        <BibleVerse reference="ROM.3.24-30" text="Romans 3:24-30" />;
+        <BibleVerse reference="ROM.8.30-39" text="Romans 8:30-39" />;
+        <BibleVerse reference="2CO.5.21" text="2 Corinthians 5:21" />;
+        <BibleVerse reference="EPH.1.7" text="Ephesians 1:7" />;
+        <BibleVerse reference="1TH.4.3" text="1 Thessalonians 4:3" />;
+        <BibleVerse reference="1PE.1.18-19" text="1 Peter 1:18-19" />;
       </p>
       <h2>Satan</h2>
       <p>We believe in the existence of Satan as a supernatural being, the deceiver and prince of this world; that he was defeated and judged by the death and resurrection of the Lord Jesus Christ, and therefore that his final doom is certain.</p>

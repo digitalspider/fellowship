@@ -44,8 +44,8 @@ class Covid19Page extends React.Component {
           </p>
 
           <p>
-            Throughout, our Pastor will continue preaching gospel messages via Zoom
-            each Sunday morning at 10:00am, and on our usual SermonAudio feed. Additionally we are encouraging
+            Throughout, our Pastor will continue preaching gospel messages via Zoom each Sunday morning at 10:00am,
+            and most our available <a href="/sermons">on our usual SermonAudio feed</a>. Additionally we are encouraging
             the congregation to unite in essential prayer at home.
           </p>
 

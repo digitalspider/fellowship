@@ -39,9 +39,9 @@ class Header extends React.Component {
 
     // var loginNavItem = (<button className="btn btn-link nav-link login-btn" onClick={this.login}>Login</button>)
 
-    if (this.auth.isAuthenticated()) {
-      loginNavItem = (<NavLink to="/members" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Members</NavLink>)
-    }
+    // if (this.auth.isAuthenticated()) {
+    //   loginNavItem = (<NavLink to="/members" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Members</NavLink>)
+    // }
 
     return (
       <nav className="sbc-navbar navbar fixed-top navbar-expand-lg navbar-light">

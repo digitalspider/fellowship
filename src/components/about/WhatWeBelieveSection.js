@@ -4,7 +4,7 @@ import BibleVerse from '../utils/BibleVerse'
 const WhatWeBelieveSection = (props) => {
   return (
     <div>
-      <h3>Our Beliefs</h3>
+      <h2>Our Beliefs</h2>
       <h3>The Scriptures</h3>
       <p>We believe in the verbal inspiration, total inerrancy and infallibility of the Holy Scriptures in their entirety. These being God breathed, we believe the bible to be solely-sufficient and the final authority in all matters of faith, doctrine and practice.
         (<BibleVerse reference="1TH.2.13" text="1 Thessalonians 2:13" />,

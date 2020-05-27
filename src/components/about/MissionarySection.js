@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WhatsOnSection = (props) => {
+const MissionarySection = (props) => {
   return (
     <div>
       <h2>Dave and Julie Crowe - Papua New Guinea</h2> 
@@ -69,4 +69,4 @@ const WhatsOnSection = (props) => {
   )
 }
 
-export default WhatsOnSection;
+export default MissionarySection;

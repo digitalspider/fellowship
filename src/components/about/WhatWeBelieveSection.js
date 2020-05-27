@@ -14,26 +14,85 @@ const WhatWeBelieveSection = (props) => {
         <h4>The Bible</h4>
         <p>1. Both the Old and New Testament Scriptures are verbally inspired by God, inerrant in the original manuscripts, and are the ultimate authorities in all areas of faith and practice and,</p>
         <p>2. The Scriptures should be interpreted literally whenever possible, consistently, contextually, grammatically, culturally and historically.</p>
-        <p><em><a href="http://biblia.com/bible/esv/Psalm%2019.7-11" class="lbsBibleRef" data-reference="Psalm 19.7-11" data-version="esv" target="_blank" rel="noopener noreferrer">Psalm 19:7-11</a>; <a href="http://biblia.com/bible/esv/Psalm%20119.160" class="lbsBibleRef" data-reference="Psalm 119.160" data-version="esv" target="_blank" rel="noopener noreferrer">Psalm 119:160</a>; <a href="http://biblia.com/bible/esv/Romans%207.5" class="lbsBibleRef" data-reference="Romans 7.5" data-version="esv" target="_blank" rel="noopener noreferrer">Romans 7:5</a>; <a href="http://biblia.com/bible/esv/2%20Timothy%203.16-17" class="lbsBibleRef" data-reference="2 Timothy 3.16-17" data-version="esv" target="_blank" rel="noopener noreferrer">2 Timothy 3:16-17</a>; <a href="http://biblia.com/bible/esv/Revelation%2022.18-19" class="lbsBibleRef" data-reference="Revelation 22.18-19" data-version="esv" target="_blank" rel="noopener noreferrer">Revelation 22:18-19</a>. </em></p>
+        <p><em>
+          <BibleVerse reference="PSA.19.7-11" text="Psalm 19:7-11" />;
+          <BibleVerse reference="PSA.119.160" text="Psalm 119:160" />;
+          <BibleVerse reference="ROM.7.5" text="Romans 7:5" />;
+          <BibleVerse reference="2TI.3.16-17" text="2 Timothy 3:16-17" />;
+          <BibleVerse reference="REV.22.18-19" text="Revelation 22:18-19" />;
+        </em></p>
         <h2>God</h2>
         <p>1. We believe that the Godhead, also known as "The Trinity," eternally exists in three persons: GOD THE FATHER, GOD THE SON, GOD THE HOLY SPIRIT. They are one God, having the same nature, attributes and perfection.</p>
-        <p><em><a href="http://biblia.com/bible/esv/Isaiah%2048.16" class="lbsBibleRef" data-reference="Isaiah 48.16" data-version="esv" target="_blank" rel="noopener noreferrer">Isaiah 48:16</a>; <a href="http://biblia.com/bible/esv/Matthew%2028.19" class="lbsBibleRef" data-reference="Matthew 28.19" data-version="esv" target="_blank" rel="noopener noreferrer">Matthew 28:19</a>; <a href="http://biblia.com/bible/esv/John%2017.5" class="lbsBibleRef" data-reference="John 17.5" data-version="esv" target="_blank" rel="noopener noreferrer">John 17.5</a>; <a href="http://biblia.com/bible/esv/Romans%201.20" class="lbsBibleRef" data-reference="Romans 1.20" data-version="esv" target="_blank" rel="noopener noreferrer">Romans 1:20</a>; <a href="http://biblia.com/bible/esv/2%20Corinthians%2013.14" class="lbsBibleRef" data-reference="2 Corinthians 13.14" data-version="esv" target="_blank" rel="noopener noreferrer">2 Corinthians 13:14</a>.</em></p>
+        <p><em>
+          <BibleVerse reference="ISA.48.16" text="Isaiah 48:16" />;
+          <BibleVerse reference="MAT.28.19" text="Matthew 28:19" />;
+          <BibleVerse reference="JHN.17.5" text="John 17.5" />;
+          <BibleVerse reference="ROM.1.20" text="Romans 1:20" />;
+          <BibleVerse reference="2CO.13.14" text="2 Corinthians 13:14" />;
+        </em></p>
         <p>2. We believe that the Father is perfect in holiness, almighty in power, and infinite in wisdom. As the Creator of all, He is the Father to all men, but, He is a spiritual Father only to those who believe in the Lord Jesus Christ.</p>
-        <p><em><a href="http://biblia.com/bible/esv/Psalm%20145.8-9" class="lbsBibleRef" data-reference="Psalm 145.8-9" data-version="esv" target="_blank" rel="noopener noreferrer">Psalm 145:8-9</a>; <a href="http://biblia.com/bible/esv/Matthew%205.45" class="lbsBibleRef" data-reference="Matthew 5.45" data-version="esv" target="_blank" rel="noopener noreferrer">Matthew 5:45</a>; <a href="http://biblia.com/bible/esv/Matthew%206.24-34" class="lbsBibleRef" data-reference="Matthew 6.24-34" data-version="esv" target="_blank" rel="noopener noreferrer">6:24-34</a>; <a href="http://biblia.com/bible/esv/John%2014.6" class="lbsBibleRef" data-reference="John 14.6" data-version="esv" target="_blank" rel="noopener noreferrer">John 14:6</a>; <a href="http://biblia.com/bible/esv/1%20Timothy%202.5" class="lbsBibleRef" data-reference="1 Timothy 2.5" data-version="esv" target="_blank" rel="noopener noreferrer">1 Timothy 2:5</a>. </em></p>
+        <p><em>
+          <BibleVerse reference="PSA.145.8-9" text="Psalm 145:8-9" />;
+          <BibleVerse reference="MAT.5.45" text="Matthew 5:45" />;
+          <BibleVerse reference="MAT.6.24-34" text="Matthew 6:24-34" />;
+          <BibleVerse reference="JHN.14.6" text="John 14:6" />;
+          <BibleVerse reference="1TI.2.5" text="1 Timothy 2:5" />;
+        </em></p>
         <p>3. We believe in the personality and deity of the Lord Jesus Christ, begotten of the Holy Spirit, born of the virgin Mary, truly God and truly Man. We believe in His sinless life, His vicarious atonement for the sins of mankind by the shedding of His blood on the cross and in His bodily resurrection from the tomb.</p>
-        <p><em><a href="http://biblia.com/bible/esv/Matthew%201.20" class="lbsBibleRef" data-reference="Matthew 1.20" data-version="esv" target="_blank" rel="noopener noreferrer">Matthew 1:20</a>; <a href="http://biblia.com/bible/esv/Luke%201.30-37" class="lbsBibleRef" data-reference="Luke 1.30-37" data-version="esv" target="_blank" rel="noopener noreferrer">Luke 1:30-37</a>; <a href="http://biblia.com/bible/esv/John%201.1" class="lbsBibleRef" data-reference="John 1.1" data-version="esv" target="_blank" rel="noopener noreferrer">John 1:1</a>, <a href="http://biblia.com/bible/esv/John%201.14" class="lbsBibleRef" data-reference="John 1.14" data-version="esv" target="_blank" rel="noopener noreferrer">1:14</a>, <a href="http://biblia.com/bible/esv/John%2010.30" class="lbsBibleRef" data-reference="John 10.30" data-version="esv" target="_blank" rel="noopener noreferrer">10:30</a>; <a href="http://biblia.com/bible/esv/Philippians%202.5-7" class="lbsBibleRef" data-reference="Philippians 2.5-7" data-version="esv" target="_blank" rel="noopener noreferrer">Philippians 2:5-7</a>; <a href="http://biblia.com/bible/esv/Colossians%201.19" class="lbsBibleRef" data-reference="Colossians 1.19" data-version="esv" target="_blank" rel="noopener noreferrer">Colossians 1:19</a>; <a href="http://biblia.com/bible/esv/1%20Timothy%203.16" class="lbsBibleRef" data-reference="1 Timothy 3.16" data-version="esv" target="_blank" rel="noopener noreferrer">1 Timothy 3:16</a>. </em></p>
+        <p><em>
+          <BibleVerse reference="MAT.1.20" text="Matthew 1:20" />;
+          <BibleVerse reference="LUK.1.30-37" text="Luke 1:30-37" />;
+          <BibleVerse reference="JHN.1.1" text="John 1:1" />;
+          <BibleVerse reference="JHN.1.14" text="John 1:14" />;
+          <BibleVerse reference="JHN.10.30" text="John 10:30" />;
+          <BibleVerse reference="PHP.2.5-7" text="Philippians 2:5-7" />;
+          <BibleVerse reference="COL.1.19" text="Colossians 1:19" />;
+          <BibleVerse reference="1TI.3.16" text="1 Timothy 3:16" />;
+        </em></p>
         <p>4. We believe that the Holy Spirit is the divine third person of the Godhead, and thereby co-equal with the Father and the Son. He is the infallible interpreter of the Word of God. He convicts man of sin; indwells every believer; is ever present to testify of Christ; regenerates; baptizes; seals the believer; guides; teaches; empowers the life of the believer and is vitally involved in the sanctification of the believer.</p>
-        <p><em><a href="http://biblia.com/bible/esv/John%203.5" class="lbsBibleRef" data-reference="John 3.5" data-version="esv" target="_blank" rel="noopener noreferrer">John 3:5</a>, <a href="http://biblia.com/bible/esv/John%203.6" class="lbsBibleRef" data-reference="John 3.6" data-version="esv" target="_blank" rel="noopener noreferrer">6</a>,<a href="http://biblia.com/bible/esv/John%203.8" class="lbsBibleRef" data-reference="John 3.8" data-version="esv" target="_blank" rel="noopener noreferrer">8</a>; <a href="http://biblia.com/bible/esv/John%2014.16-18" class="lbsBibleRef" data-reference="John 14.16-18" data-version="esv" target="_blank" rel="noopener noreferrer">14:16-18</a>; <a href="http://biblia.com/bible/esv/John%2016.8-11" class="lbsBibleRef" data-reference="John 16.8-11" data-version="esv" target="_blank" rel="noopener noreferrer">16:8-11</a>; <a href="http://biblia.com/bible/esv/Romans%208.9" class="lbsBibleRef" data-reference="Romans 8.9" data-version="esv" target="_blank" rel="noopener noreferrer">Romans 8:9</a>; <a href="http://biblia.com/bible/esv/I%20Corinthians%2012.13" class="lbsBibleRef" data-reference="I Corinthians 12.13" data-version="esv" target="_blank" rel="noopener noreferrer">I Corinthians 12:13</a>; <a href="http://biblia.com/bible/esv/2%20Corinthians%203.18" class="lbsBibleRef" data-reference="2 Corinthians 3.18" data-version="esv" target="_blank" rel="noopener noreferrer">2 Corinthians 3:18</a>; <a href="http://biblia.com/bible/esv/Ephesians%201.13" class="lbsBibleRef" data-reference="Ephesians 1.13" data-version="esv" target="_blank" rel="noopener noreferrer">Ephesians 1:13</a>; <a href="http://biblia.com/bible/esv/Ephesians%205.18" class="lbsBibleRef" data-reference="Ephesians 5.18" data-version="esv" target="_blank" rel="noopener noreferrer">5:18</a>.</em></p>
+        <p><em>
+          <BibleVerse reference="JHN.3.5" text="John 3:5" />;
+          <BibleVerse reference="JHN.3.6" text="John 3:6" />;
+          <BibleVerse reference="JHN.3.8" text="John 3:8" />;
+          <BibleVerse reference="JHN.14.16-18" text="John 14:16-18" />;
+          <BibleVerse reference="JHN.16.8-11" text="John 16:8-11" />;
+          <BibleVerse reference="ROM.8.9" text="Romans 8:9" />;
+          <BibleVerse reference="1CO.12.13" text="1 Corinthians 12:13" />;
+          <BibleVerse reference="2CO.3.18" text="2 Corinthians 3:18" />;
+          <BibleVerse reference="EPH.1.13" text="Ephesians 1:13" />;
+          <BibleVerse reference="EPH.5.18" text="Ephesians 5:18" />;
+        </em></p>
         <h2>Creation</h2>
         <p>We believe that the account of the six day creation as given in the Book of Genesis is to be literally understood and that creation was a direct act of God. Therefore we teach that any evolutionary hypothesis is totally inconsistent with the Scriptures.</p>
-        <p><em><a href="http://biblia.com/bible/esv/Genesis%201.1-2.25" class="lbsBibleRef" data-reference="Genesis 1.1-2.25" data-version="esv" target="_blank" rel="noopener noreferrer">Genesis 1:1-2:25</a>; <a href="http://biblia.com/bible/esv/John%201.3-%2010" class="lbsBibleRef" data-reference="John 1.3- 10" data-version="esv" target="_blank" rel="noopener noreferrer">John 1:3- 10</a>; <a href="http://biblia.com/bible/esv/Colossians%201.%2016" class="lbsBibleRef" data-reference="Colossians 1. 16" data-version="esv" target="_blank" rel="noopener noreferrer">Colossians 1: 16</a>.</em></p>
+        <p><em>
+          <BibleVerse reference="GEN.1" text="Genesis 1:1-2:25" />;
+          <BibleVerse reference="JHN.1.3-10" text="John 1:3-10" />;
+          <BibleVerse reference="COL.1.16" text="Colossians 1:16" />;
+        </em></p>
         <h2>Mankind&nbsp;</h2>
         <p>1. Man was directly and immediately created by God in His likeness, free of sin, with a rational nature, intelligence, volition, self-determination, and moral responsibility to God; and,</p>
         <p>2. God's intention in the creation of man was that man should glorify God, enjoy His fellowship, live his life in the will of God, and by this accomplish God's purpose for him.</p>
-        <p><em><a href="http://biblia.com/bible/esv/Genesis%202.7" class="lbsBibleRef" data-reference="Genesis 2.7" data-version="esv" target="_blank" rel="noopener noreferrer">Genesis 2:7</a>, <a href="http://biblia.com/bible/esv/Genesis%202.15-25" class="lbsBibleRef" data-reference="Genesis 2.15-25" data-version="esv" target="_blank" rel="noopener noreferrer">15-25</a>; <a href="http://biblia.com/bible/esv/Isaiah%2043.7" class="lbsBibleRef" data-reference="Isaiah 43.7" data-version="esv" target="_blank" rel="noopener noreferrer">Isaiah 43:7</a>, <a href="http://biblia.com/bible/esv/Colossians%201.16" class="lbsBibleRef" data-reference="Colossians 1.16" data-version="esv" target="_blank" rel="noopener noreferrer">Colossians 1:16</a>; <a href="http://biblia.com/bible/esv/James%203.9" class="lbsBibleRef" data-reference="James 3.9" data-version="esv" target="_blank" rel="noopener noreferrer">James 3:9</a>; <a href="http://biblia.com/bible/esv/Revelation%204.11" class="lbsBibleRef" data-reference="Revelation 4.11" data-version="esv" target="_blank" rel="noopener noreferrer">Revelation 4:11</a>. </em></p>
+        <p><em>
+          <BibleVerse reference="GEN.2.7" text="Genesis 2:7" />;
+          <BibleVerse reference="GEN.2.15-25" text="Genesis 2:15-25" />;
+          <BibleVerse reference="ISA.43.7" text="Isaiah 43:7" />;
+          <BibleVerse reference="COL.1.16" text="Colossians 1:16" />;
+          <BibleVerse reference="JAS.3.9" text="James 3:9" />;
+          <BibleVerse reference="REV.4.11" text="Revelation 4:11" />;
+        </em></p>
         <h2>Sin&nbsp;</h2>
         <p>We believe that, in Adam's sin of disobedience to the revealed will and Word of God, man lost his innocence; incurred the penalty of spiritual and physical death; became subject to the wrath of God; and became inherently corrupt and apart from divine grace utterly incapable of choosing or doing that which is acceptable to God. With no recuperative powers to enable him to recover himself, man is hopelessly lost. Therefore, man's salvation is wholly dependent upon the redemptive work of our Lord Jesus Christ.</p>
-        <p><em><a href="http://biblia.com/bible/esv/Genesis%202.17" class="lbsBibleRef" data-reference="Genesis 2.17" data-version="esv" target="_blank" rel="noopener noreferrer">Genesis 2:17</a>, <a href="http://biblia.com/bible/esv/Genesis%203.1-19" class="lbsBibleRef" data-reference="Genesis 3.1-19" data-version="esv" target="_blank" rel="noopener noreferrer">3:1-19</a>; <a href="http://biblia.com/bible/esv/John%203.36" class="lbsBibleRef" data-reference="John 3.36" data-version="esv" target="_blank" rel="noopener noreferrer">John 3:36</a>; <a href="http://biblia.com/bible/esv/Romans%203.23" class="lbsBibleRef" data-reference="Romans 3.23" data-version="esv" target="_blank" rel="noopener noreferrer">Romans 3:23</a>; <a href="http://biblia.com/bible/esv/Romans%206.23" class="lbsBibleRef" data-reference="Romans 6.23" data-version="esv" target="_blank" rel="noopener noreferrer">6:23</a>; <a href="http://biblia.com/bible/esv/1%20Corinthians%202.14" class="lbsBibleRef" data-reference="1 Corinthians 2.14" data-version="esv" target="_blank" rel="noopener noreferrer">1 Corinthians 2:14</a>; <a href="http://biblia.com/bible/esv/Ephesians%202.1-3" class="lbsBibleRef" data-reference="Ephesians 2.1-3" data-version="esv" target="_blank" rel="noopener noreferrer">Ephesians 2:1-3</a>; <a href="http://biblia.com/bible/esv/1Timothy%202.13-14" class="lbsBibleRef" data-reference="1Timothy 2.13-14" data-version="esv" target="_blank" rel="noopener noreferrer">1Timothy 2:13-14</a>; <a href="http://biblia.com/bible/esv/1%20John%201.8" class="lbsBibleRef" data-reference="1 John 1.8" data-version="esv" target="_blank" rel="noopener noreferrer">1 John 1:8</a>. </em></p>
+        <p><em>
+          <BibleVerse reference="GEN.2.17" text="Genesis 2:17" />;
+          <BibleVerse reference="GEN.2.1-19" text="Genesis 3:1-19" />;
+          <BibleVerse reference="JHN.3.36" text="John 3:36" />;
+          <BibleVerse reference="ROM.3.23" text="Romans 3:23" />;
+          <BibleVerse reference="ROM.6.23" text="Romans 6:23" />;
+          <BibleVerse reference="1CO.2.14" text="1 Corinthians 2:14" />;
+          <BibleVerse reference="EPH.2.1-3" text="Ephesians 2:1-3" />;
+          <BibleVerse reference="1TI.2.13-14" text="1 Timothy 2:13-14" />;
+          <BibleVerse reference="1JN.1.8" text="1 John 1:8" />;
+        </em></p>
       </div>
     </div>
   )

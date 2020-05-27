@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WhatsOnSection = (props) => {
+const WhatToExpectSection = (props) => {
   return (
     <div>
       <h2>Parking</h2>
@@ -20,4 +20,4 @@ const WhatsOnSection = (props) => {
   )
 }
 
-export default WhatsOnSection;
+export default WhatToExpectSection;

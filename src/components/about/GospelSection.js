@@ -1,7 +1,7 @@
 import React from 'react';
 import BibleVerse from '../utils/BibleVerse'
 
-const WhatsOnSection = (props) => {
+const GospelSection = (props) => {
   return (
     <div>
       <h2>God </h2>
@@ -22,22 +22,22 @@ const WhatsOnSection = (props) => {
 
       <h2>Christ</h2>
       <p>From the Bible we learn that Jesus Christ is the perfect Son of God AND the perfect Son of Man, the only way to eternal life:</p>
-      <p>"Jesus said to him [Thomas], 'I AM the Way, the Truth, and the Life. No one comes to the Father except through Me.'" - John 14:6</p>
+      <p>"Jesus said to him [Thomas], 'I AM the Way, the Truth, and the Life. No one comes to the Father except through Me.'" - <BibleVerse reference="JHN.14.6" text="John 14:6"/></p>
 
       <h2>Cross</h2>
       <p>From the Bible we learn that Jesus Christ, God's Son, died physically for our sins and rose from the dead to rescue us from death (God's eternal wrath) and give us eternal life:</p>
-      <p>"[He] Himself bore our sins in His own body on the tree, that we, having died to sins, might live for righteousness - by whose stripes you were healed." - 1 Peter 2:24</p>
+      <p>"[He] Himself bore our sins in His own body on the tree, that we, having died to sins, might live for righteousness - by whose stripes you were healed." - <BibleVerse reference="1PE.2.24" text="1 Peter 2:24"/></p>
 
       <h2>Faith </h2>
       <p>From the Bible we learn that we must trust in Jesus' death on the cross as the only satisfactory payment for our sins, as we abandon our trust in other things that we formerly relied upon to save us:</p>
-      <p>"... by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, lest anyone should boast." - Ephesians 2:8–9</p>
+      <p>"... by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, lest anyone should boast." - <BibleVerse reference="EPH.2.8-9" text="Ephesians 2:8–9"/></p>
 
       <h2>Life</h2>
       <p>From the Bible we learn that Jesus alone has power over death and that He gives eternal life to those who trust solely in Him for the forgiveness of sins:</p>
-      <p>"Jesus said..., 'I AM the resurrection and the life. He who believes in Me, though he may die, he shall live. And whoever lives and believes in Me shall never die. Do you believe this?'" - John 11:25-26</p>
+      <p>"Jesus said..., 'I AM the resurrection and the life. He who believes in Me, though he may die, he shall live. And whoever lives and believes in Me shall never die. Do you believe this?'" - <BibleVerse reference="JHN.11.25-26" text="John 11:25-26"/></p>
       <p>"... if you confess with your mouth that Jesus is Lord [God] and believe in your heart that God [the Father] raised Him from the dead, you will be saved. For with the heart one believes and is justified, and with the mouth one confesses and is saved." - <BibleVerse reference="ROM.10.9-10" text="Romans 10:9–10"/></p>
     </div>
   )
 }
 
-export default WhatsOnSection;
+export default GospelSection;

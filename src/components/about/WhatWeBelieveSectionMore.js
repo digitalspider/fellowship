@@ -1,5 +1,5 @@
 import React from 'react';
-import BibleVerse from '../utils/BibleVerse'
+import BibleVerse from '../utils/BibleVerse';
 
 const WhatWeBelieveSectionMore = (props) => {
   return (
@@ -51,7 +51,7 @@ const WhatWeBelieveSectionMore = (props) => {
           <ol type="a">
             <li>Believer's Baptism by immersion; and</li>
             <li>The Lord's Supper, in which all believers in the Lord Jesus Christ shall be invited to participate with due regard to the Scriptural warnings in <em>
-                <BibleVerse reference="1CO.11.27-29" text="1 Corinthians 11:27-29" /></em></li>
+              <BibleVerse reference="1CO.11.27-29" text="1 Corinthians 11:27-29" /></em></li>
           </ol>
         </li>
       </ol>

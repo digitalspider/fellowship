@@ -1,5 +1,5 @@
 import React from 'react';
-import BibleVerse from '../utils/BibleVerse'
+import BibleVerse from '../utils/BibleVerse';
 
 const WhatWeBelieveSection = (props) => {
   return (

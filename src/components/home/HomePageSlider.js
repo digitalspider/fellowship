@@ -18,22 +18,22 @@ class HomePageSlider extends React.Component {
         "backgroundPosition": "center",
         "internalLink": true,
       }, {
-        "imageUrl": "/img/Screen_Shot_2011_08_27_at_8_30_58_AM.png",
+        "imageUrl": "/img/GlorifyGod.png",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Kwok Family",
-        "imageUrl": "/img/Kwok_Family.jpeg",
+        "imageUrl": "/img/community/Kwok_Family.jpeg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Eggert Family",
-        "imageUrl": "/img/Eggert_famliy_pic_2017_Dec.jpg",
+        "imageUrl": "/img/community/Eggert_famliy_pic_2017_Dec.jpg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Weber Family",
-        "imageUrl": "/img/Weber_Family_Photos___2019.JPG",
+        "imageUrl": "/img/community/Weber_Family_Photos___2019.JPG",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {

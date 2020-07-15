@@ -5,16 +5,11 @@ const WhatWeBelieveSection = (props) => {
   return (
     <div>
       <h2>Our Beliefs</h2>
-      <h3>The Scriptures</h3>
-      <p>We believe in the verbal inspiration, total inerrancy and infallibility of the Holy Scriptures in their entirety. These being God breathed, we believe the bible to be solely-sufficient and the final authority in all matters of faith, doctrine and practice.
-        (<BibleVerse reference="1TH.2.13" text="1 Thessalonians 2:13" />,
-        <BibleVerse reference="2TI.3.16" text="2 Timothy 3:16" />)</p>
-
       <div id="contentRight">
         <h3>The Bible</h3>
         <ol type="1">
-          <li>Both the Old and New Testament Scriptures are verbally inspired by God, inerrant in the original manuscripts, and are the ultimate authorities in all areas of faith and practice and,</li>
-          <li>The Scriptures should be interpreted literally whenever possible, consistently, contextually, grammatically, culturally and historically.
+          <li>Both the Old and New Testament Scriptures are verbally inspired by God, inerrant in the original manuscripts, and are the ultimate authorities in all areas of faith and practice.</li>
+          <li>The Scriptures should be interpreted literally whenever possible, consistently, contextually, grammatically, culturally, and historically.
             <p><em>
               <BibleVerse reference="PSA.19.7-11" text="Psalm 19:7-11" />;
               <BibleVerse reference="PSA.119.160" text="Psalm 119:160" />;
@@ -26,7 +21,7 @@ const WhatWeBelieveSection = (props) => {
         </ol>
         <h3>God</h3>
         <ol type="1">
-          <li>We believe that the Godhead, also known as "The Trinity," eternally exists in three persons: GOD THE FATHER, GOD THE SON, GOD THE HOLY SPIRIT. They are one God, having the same nature, attributes and perfection.
+          <li>The Godhead, also known as &quot;The Trinity,&quot; eternally exists in three persons: GOD THE FATHER, GOD THE SON, and GOD THE HOLY SPIRIT. They are one God, having the same nature, attributes, and perfection.
             <p><em>
               <BibleVerse reference="ISA.48.16" text="Isaiah 48:16" />;
               <BibleVerse reference="MAT.28.19" text="Matthew 28:19" />;
@@ -35,7 +30,7 @@ const WhatWeBelieveSection = (props) => {
               <BibleVerse reference="2CO.13.14" text="2 Corinthians 13:14" />;
             </em></p>
           </li>
-          <li>We believe that the Father is perfect in holiness, almighty in power, and infinite in wisdom. As the Creator of all, He is the Father to all men, but, He is a spiritual Father only to those who believe in the Lord Jesus Christ.
+          <li>The Father is perfect in holiness, almighty in power, and infinite in wisdom. As the Creator of all, He is the Father to all men, but He is a spiritual Father only to those who believe in the Lord Jesus Christ.
             <p><em>
               <BibleVerse reference="PSA.145.8-9" text="Psalm 145:8-9" />;
               <BibleVerse reference="MAT.5.45" text="Matthew 5:45" />;
@@ -44,7 +39,7 @@ const WhatWeBelieveSection = (props) => {
               <BibleVerse reference="1TI.2.5" text="1 Timothy 2:5" />;
             </em></p>
           </li>
-          <li>We believe in the personality and deity of the Lord Jesus Christ, begotten of the Holy Spirit, born of the virgin Mary, truly God and truly Man. We believe in His sinless life, His vicarious atonement for the sins of mankind by the shedding of His blood on the cross and in His bodily resurrection from the tomb.
+          <li>We believe in the personality and deity of the Lord Jesus Christ, begotten of the Holy Spirit, born of the virgin Mary, truly God and truly Man. We believe in His sinless life, His vicarious atonement for the sins of mankind by the shedding of His blood on the cross, and in His bodily resurrection from the tomb.
             <p><em>
               <BibleVerse reference="MAT.1.20" text="Matthew 1:20" />;
               <BibleVerse reference="LUK.1.30-37" text="Luke 1:30-37" />;
@@ -56,7 +51,7 @@ const WhatWeBelieveSection = (props) => {
               <BibleVerse reference="1TI.3.16" text="1 Timothy 3:16" />;
             </em></p>
           </li>
-          <li>We believe that the Holy Spirit is the divine third person of the Godhead, and thereby co-equal with the Father and the Son. He is the infallible interpreter of the Word of God. He convicts man of sin; indwells every believer; is ever present to testify of Christ; regenerates; baptizes; seals the believer; guides; teaches; empowers the life of the believer and is vitally involved in the sanctification of the believer.
+          <li>The Holy Spirit is the divine third person of the Godhead, and thereby co-equal with the Father and the Son. He is the infallible interpreter of the Word of God. He convicts man of sin; indwells every believer; is ever present to testify of Christ; regenerates; baptizes; seals the believer; guides; teaches; empowers the life of the believer; and is vitally involved in the sanctification of the believer.
             <p><em>
               <BibleVerse reference="JHN.3.5" text="John 3:5" />;
               <BibleVerse reference="JHN.3.6" text="John 3:6" />;
@@ -72,7 +67,8 @@ const WhatWeBelieveSection = (props) => {
           </li>
         </ol>
         <h3>Creation</h3>
-        <p>We believe that the account of the six day creation as given in the Book of Genesis is to be literally understood and that creation was a direct act of God. Therefore we teach that any evolutionary hypothesis is totally inconsistent with the Scriptures.</p>
+        <p>We believe that the account of the six-day creation as given in the Book of Genesis is to be understood literally and that creation was a direct act of God.</p>
+        <p>Therefore, we teach that any evolutionary hypothesis is totally inconsistent with the Scriptures.</p>
         <p><em>
           <BibleVerse reference="GEN.1" text="Genesis 1:1-2:25" />;
           <BibleVerse reference="JHN.1.3-10" text="John 1:3-10" />;
@@ -81,7 +77,7 @@ const WhatWeBelieveSection = (props) => {
         <h3>Mankind</h3>
         <ol type="1">
           <li>Man was directly and immediately created by God in His likeness, free of sin, with a rational nature, intelligence, volition, self-determination, and moral responsibility to God; and,</li>
-          <li>God's intention in the creation of man was that man should glorify God, enjoy His fellowship, live his life in the will of God, and by this accomplish God's purpose for him.</li>
+          <li>God&#39;s intention in the creation of man was that man should glorify God, enjoy His fellowship, live his life in the will of God, and by this accomplish God&#39;s purpose for him.</li>
         </ol>
         <p><em>
           <BibleVerse reference="GEN.2.7" text="Genesis 2:7" />;
@@ -92,7 +88,13 @@ const WhatWeBelieveSection = (props) => {
           <BibleVerse reference="REV.4.11" text="Revelation 4:11" />;
         </em></p>
         <h3>Sin&nbsp;</h3>
-        <p>We believe that, in Adam's sin of disobedience to the revealed will and Word of God, man lost his innocence; incurred the penalty of spiritual and physical death; became subject to the wrath of God; and became inherently corrupt and apart from divine grace utterly incapable of choosing or doing that which is acceptable to God. With no recuperative powers to enable him to recover himself, man is hopelessly lost. Therefore, man's salvation is wholly dependent upon the redemptive work of our Lord Jesus Christ.</p>
+        <p>We believe that, in Adam&#39;s sin of disobedience to the revealed will and Word of
+God, man lost his innocence; incurred the penalty of spiritual and physical death;
+became subject to the wrath of God; and became inherently corrupt and apart
+from divine grace, utterly incapable of choosing or doing that which is acceptable
+to God. With no recuperative powers to enable him to recover himself, man is
+hopelessly lost. Therefore, man&#39;s salvation is wholly dependent upon the
+redemptive work of our Lord Jesus Christ.</p>
         <p><em>
           <BibleVerse reference="GEN.2.17" text="Genesis 2:17" />;
           <BibleVerse reference="GEN.2.1-19" text="Genesis 3:1-19" />;

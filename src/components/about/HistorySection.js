@@ -41,13 +41,6 @@ const HistorySection = (props) => {
 
       <p><img src='/img/history/Scan10009.jpeg' alt='preaching' style={imgStyle} align='right'></img></p>
 
-      <p>Mike Kwok began serving as an elder in 1998. New children’s ministries (24/7 and Patch Clubs; Mums n' Tots)
-        were formed and the teen group began meeting regularly. By God’s gracious provision, the church purchased its
-        current property in 1999. Formerly a commercial property, the building serves the church’s purpose well with multiple
-        rooms for small groups and seating for over 150. Care groups were introduced in 2002, providing opportunities for
-        fellowship in homes.
-      </p>
-
       <p>In 2010, an American missionary family, the Eggert family, joined Fellowship.
         Brian Eggert was ordained as an elder and took on the ministry of corporate worship and teaching.
       </p>

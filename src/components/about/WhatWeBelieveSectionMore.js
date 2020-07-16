@@ -13,28 +13,106 @@ const WhatWeBelieveSectionMore = (props) => {
       </ol>
       <p>
         <BibleVerse reference="JHN.1.12" text="John 1:12" />;
-        <BibleVerse reference="JHN.3.16" text="John 3:16" />;
-        <BibleVerse reference="ROM.3.24-30" text="Romans 3:24-30" />;
+        <BibleVerse reference="JHN.3.16-18" text="John 3:16-18" />;
+        <BibleVerse reference="JHN.3.36" text="John 3:36" />;
+        <BibleVerse reference="JHN.14.6" text="John 14:6" />;
+        <BibleVerse reference="ACT.4.11-12" text="Acts 4:11-12" />;
+        <BibleVerse reference="ROM.3.21-30" text="Romans 3:21-30" />;
         <BibleVerse reference="ROM.8.30-39" text="Romans 8:30-39" />;
+        <BibleVerse reference="ROM.10.9-13" text="Romans 10:9-13" />;
         <BibleVerse reference="2CO.5.21" text="2 Corinthians 5:21" />;
         <BibleVerse reference="EPH.1.7" text="Ephesians 1:7" />;
+        <BibleVerse reference="EPH.2.8-10" text="Ephesians 2:8-10" />;
         <BibleVerse reference="1TH.4.3" text="1 Thessalonians 4:3" />;
         <BibleVerse reference="1PE.1.18-19" text="1 Peter 1:18-19" />;
       </p>
       <h3>Satan</h3>
       <p>We believe in the existence of Satan as a supernatural being, the deceiver and prince of this world. He was defeated and judged by the death and resurrection of the Lord Jesus Christ, and therefore his final doom is certain.</p>
       <p><em>
+        <BibleVerse reference="GEN.3.1-6" text="Genesis 3:1-6" />;
+        <BibleVerse reference="ISA.14.12-15" text="Isaiah 14:12-15" />;
+        <BibleVerse reference="EZK.28.11-19" text="Ezekiel 28:11-19" />;
+        <BibleVerse reference="MAT.4.1-11" text="Matthew 4:1-11" />;
+        <BibleVerse reference="MAT.25.41" text="Matthew 25:41" />;
         <BibleVerse reference="JHN.8.44" text="John 8:44" />;
-        <BibleVerse reference="EPH.2.2" text="Ephesians 2:2" />;
-        <BibleVerse reference="HEB.2.14" text="Hebrews 2:14" />;
+        <BibleVerse reference="JHN.14.30" text="John 14:30" />;
+        <BibleVerse reference="JHN.16.5-11" text="John 16:5-11" />;
+        <BibleVerse reference="2CO.4.4" text="2 Corinthians 4:4" />;
+        <BibleVerse reference="EPH.2.1-2" text="Ephesians 2:1-2" />;
+        <BibleVerse reference="HEB.2.14-15" text="Hebrews 2:14-15" />;
+        <BibleVerse reference="1PE.5.8" text="1 Peter 5:8" />;
+        <BibleVerse reference="1JN.3.8" text="1 John 3:8" />;
+        <BibleVerse reference="1JN.5.19" text="1 John 5:19" />;
+        <BibleVerse reference="REV.12.7-12" text="Revelation 12:7-12" />;
+        <BibleVerse reference="REV.20.1-3" text="Revelation 20:1-3" />;
+        <BibleVerse reference="REV.20.10" text="Revelation 20:10" />;
       </em></p>
       <h3>The Church</h3>
       <ol type="1">
-        <li>All who place their faith in the Lord Jesus Christ are immediately placed by the Holy Spirit into one united spiritual body, the Church, the Bride of Christ, of which He is the Head.</li>
-        <li>The formation of the church, the body of Christ, began on the day of Pentecost and will be completed at the coming of Christ for His own at the rapture.</li>
-        <li>The establishment and continuity of local churches is clearly taught and defined in the New Testament, and the members of the one spiritual body, also known as the universal church, are directed to associate themselves together in a local church or assembly.</li>
-        <li>There are two offices for the church, elders and deacons. They are to lead or rule as servants and to have Christ&#39;s authority in directing the church, the congregation which are to submit themselves to their leadership.</li>
-        <li>The Scriptures stress discipleship within the context of the local Church and the mutual submission of all believers fellowshipping therein to each other.</li>
+        <li>
+          All who place their faith in the Lord Jesus Christ are immediately placed by the Holy Spirit into one united spiritual body, the Church, the Bride of Christ, of which He is the Head.
+          <br/>
+          <em>
+            <BibleVerse reference="ACT.2.38" text="Acts 2:38" />;
+            <BibleVerse reference="ACT.11.15" text="Acts 11.15" />;
+            <BibleVerse reference="EPH.1.13-14" text="Ephesians 1:13-14" />;
+            <BibleVerse reference="EPH.1.22" text="Ephesians 1:22" />;
+            <BibleVerse reference="EPH.4.4-6" text="Ephesians 4:4-6" />;
+            <BibleVerse reference="EPH.5.23" text="Ephesians 5:23" />;
+            <BibleVerse reference="1CO.12.13" text="1 Corinthians 12:13" />;
+          </em>
+        </li>
+        <li>
+          The formation of the church, the body of Christ, began on the day of Pentecost and will be completed at the coming of Christ for His own at the rapture.
+          <br/>
+          <em>
+            <BibleVerse reference="ACT.2.1-47" text="Acts 2:1-47" />;
+            <BibleVerse reference="ACT.9.31" text="Acts 9:31" />;
+            <BibleVerse reference="1CO.15.21-23" text="1 Corinthians 15:21-23" />;
+            <BibleVerse reference="1TH.4.13-18" text="1 Thessalonians 4:13-18" />;
+          </em>
+        </li>
+        <li>
+          The establishment and continuity of local churches is clearly taught and defined in the New Testament, and the members of the one spiritual body, also known as the universal church, are directed to associate themselves together in a local church or assembly.
+          <br/>
+          <em>
+            <BibleVerse reference="ROM.16.3-5" text="Romans 16:3-5" />;
+            <BibleVerse reference="1CO.1.2-3" text="1 Corinthians 1:2-3" />;
+            <BibleVerse reference="1CO.16.19" text="1 Corinthians 16:19" />;
+            <BibleVerse reference="COL.4.15" text="Colossians 4:15" />;
+            <BibleVerse reference="PHM.1.2-3" text="Philemon 1:2-3" />;
+            <BibleVerse reference="GAL.1.2" text="Galatians 1:2" />;
+            <BibleVerse reference="1TH.1.1" text="1 Thessalonians 1:1" />;
+            <BibleVerse reference="REV.1" text="Revelation 1-3" />;
+            <BibleVerse reference="EPH.4.4-6" text="Ephesians 4:4-6" />;
+            <BibleVerse reference="EPH.5.22-32" text="Ephesians 5:22-32" />;
+            <BibleVerse reference="HEB.10.24-25" text="Hebrews 10:24-25" />;
+          </em>
+        </li>
+        <li>
+          There are two offices for the church, elders and deacons. They are to lead or rule as servants and to have Christ's authority in directing the church, the congregation which are to submit themselves to their leadership.
+          <br/>
+          <em> 
+            <BibleVerse reference="ACT.20.17-28" text="Acts 20:17-28" />;
+            <BibleVerse reference="1CO.14.40" text="1 Corinthians 14:40" />;
+            <BibleVerse reference="PHP.1.1" text="Philippians 1:1" />;
+            <BibleVerse reference="1TI.3.1-13" text="1 Timothy 3:1-13" />;
+            <BibleVerse reference="1TH.5.12-13" text="1 Thessalonians 5:12-13" />;
+            <BibleVerse reference="TIT.1.5-16" text="Titus 1:5-16" />;
+            <BibleVerse reference="HEB.13.17" text="Hebrews 13:17" />;
+            <BibleVerse reference="1PE.5.1-5" text="1 Peter 5:1-5" />;
+          </em>
+        </li>
+        <li>
+          The Scriptures stress discipleship within the context of the local Church and the mutual submission of all believers fellowshipping therein to each other.
+          <br/>
+          <em> 
+            <BibleVerse reference="EPH.4.11-16" text="Ephesians 4:11-16" />;
+            <BibleVerse reference="EPH.5.21" text="Ephesians 5:21" />;
+            <BibleVerse reference="1TH.5.12-15" text="1 Thessalonians 5:12-15" />;
+            <BibleVerse reference="HEB.13.17" text="Hebrews 13:17" />;
+          </em>
+        </li>
         <li>Discipline of sinning members of the local church is to be administered in accordance with the Scriptures.</li>
         <li>The purpose of the Church is to glorify God by the following: <br />
           <ol type="a">

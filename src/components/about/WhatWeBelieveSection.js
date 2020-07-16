@@ -13,7 +13,7 @@ const WhatWeBelieveSection = (props) => {
             <p><em>
               <BibleVerse reference="PSA.19.7-11" text="Psalm 19:7-11" />;
               <BibleVerse reference="PSA.119.160" text="Psalm 119:160" />;
-              <BibleVerse reference="ROM.7.5" text="Romans 7:5" />;
+              <BibleVerse reference="2PE.1.19-21" text="2 Peter 1:19-21" />;
               <BibleVerse reference="2TI.3.16-17" text="2 Timothy 3:16-17" />;
               <BibleVerse reference="REV.22.18-19" text="Revelation 22:18-19" />;
             </em></p>
@@ -53,9 +53,7 @@ const WhatWeBelieveSection = (props) => {
           </li>
           <li>The Holy Spirit is the divine third person of the Godhead, and thereby co-equal with the Father and the Son. He is the infallible interpreter of the Word of God. He convicts man of sin; indwells every believer; is ever present to testify of Christ; regenerates; baptizes; seals the believer; guides; teaches; empowers the life of the believer; and is vitally involved in the sanctification of the believer.
             <p><em>
-              <BibleVerse reference="JHN.3.5" text="John 3:5" />;
-              <BibleVerse reference="JHN.3.6" text="John 3:6" />;
-              <BibleVerse reference="JHN.3.8" text="John 3:8" />;
+              <BibleVerse reference="JHN.3.5-8" text="John 3:5-8" />;
               <BibleVerse reference="JHN.14.16-18" text="John 14:16-18" />;
               <BibleVerse reference="JHN.16.8-11" text="John 16:8-11" />;
               <BibleVerse reference="ROM.8.9" text="Romans 8:9" />;
@@ -71,8 +69,17 @@ const WhatWeBelieveSection = (props) => {
         <p>Therefore, we teach that any evolutionary hypothesis is totally inconsistent with the Scriptures.</p>
         <p><em>
           <BibleVerse reference="GEN.1" text="Genesis 1:1-2:25" />;
+          <BibleVerse reference="GEN.5.1-2" text="Genesis 5:1-2" />;
+          <BibleVerse reference="EXO.20.11" text="Exodus 20:11" />;
+          <BibleVerse reference="EXO.31.17" text="Exodus 31:17" />;
+          <BibleVerse reference="PSA.33.6-9" text="Psalm 33:6-9" />;
           <BibleVerse reference="JHN.1.3-10" text="John 1:3-10" />;
+          <BibleVerse reference="ACT.17.24-28" text="Acts 17:24-28" />;
+          <BibleVerse reference="ROM.1.19-20" text="Romans 1:19-20" />;
+          <BibleVerse reference="ROM.5.12" text="Romans 5:12" />;
           <BibleVerse reference="COL.1.16" text="Colossians 1:16" />;
+          <BibleVerse reference="HEB.3.3-4" text="Hebrews 3:3-4" />;
+          <BibleVerse reference="HEB.11.3" text="Hebrews 11:3" />;
         </em></p>
         <h3>Mankind</h3>
         <ol type="1">
@@ -82,23 +89,30 @@ const WhatWeBelieveSection = (props) => {
         <p><em>
           <BibleVerse reference="GEN.2.7" text="Genesis 2:7" />;
           <BibleVerse reference="GEN.2.15-25" text="Genesis 2:15-25" />;
+          <BibleVerse reference="GEN.3.21" text="Genesis 3:21" />;
+          <BibleVerse reference="GEN.6.6" text="Genesis 6:6" />;
+          <BibleVerse reference="GEN.9.6" text="Genesis 9:6" />;
+          <BibleVerse reference="PSA.139.13-16" text="Psalm 139:13-16" />;
           <BibleVerse reference="ISA.43.7" text="Isaiah 43:7" />;
+          <BibleVerse reference="ACT.17.24-26" text="Acts 17:24-26" />;
           <BibleVerse reference="COL.1.16" text="Colossians 1:16" />;
           <BibleVerse reference="JAS.3.9" text="James 3:9" />;
           <BibleVerse reference="REV.4.11" text="Revelation 4:11" />;
         </em></p>
         <h3>Sin&nbsp;</h3>
-        <p>We believe that, in Adam&#39;s sin of disobedience to the revealed will and Word of
+        <p>We believe that, in Adam's sin of disobedience to the revealed will and Word of
 God, man lost his innocence; incurred the penalty of spiritual and physical death;
 became subject to the wrath of God; and became inherently corrupt and apart
 from divine grace, utterly incapable of choosing or doing that which is acceptable
 to God. With no recuperative powers to enable him to recover himself, man is
-hopelessly lost. Therefore, man&#39;s salvation is wholly dependent upon the
+hopelessly lost. Therefore, man's salvation is wholly dependent upon the
 redemptive work of our Lord Jesus Christ.</p>
         <p><em>
           <BibleVerse reference="GEN.2.17" text="Genesis 2:17" />;
-          <BibleVerse reference="GEN.2.1-19" text="Genesis 3:1-19" />;
+          <BibleVerse reference="GEN.3.1-19" text="Genesis 3:1-19" />;
+          <BibleVerse reference="JHN.3.17-18" text="John 3:17-18" />;
           <BibleVerse reference="JHN.3.36" text="John 3:36" />;
+          <BibleVerse reference="ROM.3.10-12" text="Romans 3:10-12" />;
           <BibleVerse reference="ROM.3.23" text="Romans 3:23" />;
           <BibleVerse reference="ROM.6.23" text="Romans 6:23" />;
           <BibleVerse reference="1CO.2.14" text="1 Corinthians 2:14" />;

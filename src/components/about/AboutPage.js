@@ -23,23 +23,23 @@ class AboutPage extends React.Component {
   handleSectionChange = (bannerImage, title, bannerMobilePosition) => {
     this.setState({
       currentBannerImage: bannerImage,
-      title:title,
-      bannerMobilePosition:bannerMobilePosition
+      title: title,
+      bannerMobilePosition: bannerMobilePosition
     })
   }
 
   render() {
     return (
       <Page>
-        <PageBanner title={this.state.title} imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="white"/>
+        <PageBanner title={this.state.title} imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="white" />
         <PageSidebar onSectionChange={this.handleSectionChange} currentSection={this.state.currentSection}>
 
           <PageSection
-            linkTitle="About Us"
+            linkTitle="Welcome"
             bannerImageUrl="/img/about_us.jpg"
             url="/about"
             bannerMobilePosition="right">
-            <WelcomeSection/>
+            <WelcomeSection />
           </PageSection>
 
           <PageSection
@@ -47,15 +47,15 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/about_us.jpg"
             url="/about/expect"
             bannerMobilePosition="right">
-            <WhatToExpectSection/>
+            <WhatToExpectSection />
           </PageSection>
 
           <PageSection
-            linkTitle="The Gospel"
+            linkTitle="Good news"
             bannerImageUrl="/img/about_us.jpg"
             url="/about/gospel"
             bannerMobilePosition="right">
-            <GospelSection/>
+            <GospelSection />
           </PageSection>
 
           <PageSection
@@ -63,7 +63,7 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/about_us.jpg"
             url="/about/missionary"
             bannerMobilePosition="right">
-            <MissionarySection/>
+            <MissionarySection />
           </PageSection>
 
           <PageSection
@@ -72,8 +72,8 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/history.jpg"
             url="/about/history"
             bannerMobilePosition="right">
-            <HistorySection/>
-            <HistorySectionMore/>
+            <HistorySection />
+            <HistorySectionMore />
           </PageSection>
 
           <PageSection

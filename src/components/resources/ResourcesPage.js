@@ -2,7 +2,7 @@ import React from 'react';
 import moment from 'moment';
 
 const DATE_FORMAT_AUD = 'DD MMM YYYY';
-const DATE_FORMAT_ISO = 'YYYYMMDD';
+// const DATE_FORMAT_ISO = 'YYYYMMDD';
 const ResourcesSection = (props) => {
   const publishDay = moment().day('Thursday');
   return (
@@ -10,16 +10,16 @@ const ResourcesSection = (props) => {
       <h2>Newsletters</h2>
       <ul>
         <li>
-          <h4><a target="_blank" href={'/newsletters/' + publishDay.format(DATE_FORMAT_ISO) + '.pdf'}>{publishDay.format(DATE_FORMAT_AUD)} (Current)</a></h4>
+          <h4><a target="_blank" href='/newsletters/20200723.pdf'>{publishDay.format(DATE_FORMAT_AUD)} (Current)</a></h4>
         </li>
         <li>
-          <h4><a target="_blank" href={'/newsletters/' + publishDay.clone().add(-7, 'day').format(DATE_FORMAT_ISO) + '.pdf'}>{publishDay.clone().add(-7, 'day').format(DATE_FORMAT_AUD)}</a></h4>
+          <h4><a target="_blank" href='/newsletters/20200716.pdf'>{publishDay.clone().add(-7, 'day').format(DATE_FORMAT_AUD)}</a></h4>
         </li>
         <li>
-          <h4><a target="_blank" href={'/newsletters/' + publishDay.clone().add(-14, 'day').format(DATE_FORMAT_ISO) + '.pdf'}>{publishDay.clone().add(-14, 'day').format(DATE_FORMAT_AUD)}</a></h4>
+          <h4><a target="_blank" href='/newsletters/20200709.pdf'>{publishDay.clone().add(-14, 'day').format(DATE_FORMAT_AUD)}</a></h4>
         </li>
         <li>
-          <h4><a target="_blank" href={'/newsletters/' + publishDay.clone().add(-21, 'day').format(DATE_FORMAT_ISO) + '.pdf'}>{publishDay.clone().add(-21, 'day').format(DATE_FORMAT_AUD)}</a></h4>
+          <h4><a target="_blank" href='/newsletters/20200702.pdf'>{publishDay.clone().add(-21, 'day').format(DATE_FORMAT_AUD)}</a></h4>
         </li>
       </ul>
 

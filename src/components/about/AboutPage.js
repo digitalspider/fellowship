@@ -6,6 +6,7 @@ import PageSection from '../page/PageSection';
 import WelcomeSection from './WelcomeSection';
 import HistorySection from './HistorySection';
 import GospelSection from './GospelSection';
+import MinistryTeamSection from './MinistryTeamSection';
 import MissionarySection from './MissionarySection';
 import HistorySectionMore from './HistorySectionMore';
 import WhatWeBelieveSection from './WhatWeBelieveSection';
@@ -56,6 +57,14 @@ class AboutPage extends React.Component {
             url="/about/gospel"
             bannerMobilePosition="right">
             <GospelSection />
+          </PageSection>
+
+          <PageSection
+            linkTitle="Ministry Team"
+            bannerImageUrl="/img/about_us.jpg"
+            url="/about/ministry"
+            bannerMobilePosition="right">
+            <MinistryTeamSection />
           </PageSection>
 
           <PageSection

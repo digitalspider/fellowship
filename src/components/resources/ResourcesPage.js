@@ -26,7 +26,7 @@ const ResourcesSection = (props) => {
           <tr><th>Link</th><th>Description</th></tr>
         </thead>
         <tbody>
-          <tr><td><a target="_blank" href="https://peacewithgod.net/">Peace with God</a></td><td>Find peace with God</td></tr>
+          <tr><td><a rel="noopener noreferrer" target="_blank" href="https://peacewithgod.net/">Peace with God</a></td><td>Find peace with God</td></tr>
         </tbody>
       </table>
       <br />

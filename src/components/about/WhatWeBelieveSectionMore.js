@@ -51,7 +51,7 @@ const WhatWeBelieveSectionMore = (props) => {
       <ol type="1">
         <li>
           All who place their faith in the Lord Jesus Christ are immediately placed by the Holy Spirit into one united spiritual body, the Church, the Bride of Christ, of which He is the Head.
-          <br/>
+          <br />
           <em>
             <BibleVerse reference="ACT.2.38" text="Acts 2:38" />;
             <BibleVerse reference="ACT.11.15" text="Acts 11.15" />;
@@ -64,7 +64,7 @@ const WhatWeBelieveSectionMore = (props) => {
         </li>
         <li>
           The formation of the church, the body of Christ, began on the day of Pentecost and will be completed at the coming of Christ for His own at the rapture.
-          <br/>
+          <br />
           <em>
             <BibleVerse reference="ACT.2.1-47" text="Acts 2:1-47" />;
             <BibleVerse reference="ACT.9.31" text="Acts 9:31" />;
@@ -74,7 +74,7 @@ const WhatWeBelieveSectionMore = (props) => {
         </li>
         <li>
           The establishment and continuity of local churches is clearly taught and defined in the New Testament, and the members of the one spiritual body, also known as the universal church, are directed to associate themselves together in a local church or assembly.
-          <br/>
+          <br />
           <em>
             <BibleVerse reference="ROM.16.3-5" text="Romans 16:3-5" />;
             <BibleVerse reference="1CO.1.2-3" text="1 Corinthians 1:2-3" />;
@@ -91,8 +91,8 @@ const WhatWeBelieveSectionMore = (props) => {
         </li>
         <li>
           There are two offices for the church, elders and deacons. They are to lead or rule as servants and to have Christ's authority in directing the church, the congregation which are to submit themselves to their leadership.
-          <br/>
-          <em> 
+          <br />
+          <em>
             <BibleVerse reference="ACT.20.17-28" text="Acts 20:17-28" />;
             <BibleVerse reference="1CO.14.40" text="1 Corinthians 14:40" />;
             <BibleVerse reference="PHP.1.1" text="Philippians 1:1" />;
@@ -105,15 +105,26 @@ const WhatWeBelieveSectionMore = (props) => {
         </li>
         <li>
           The Scriptures stress discipleship within the context of the local Church and the mutual submission of all believers fellowshipping therein to each other.
-          <br/>
-          <em> 
+          <br />
+          <em>
             <BibleVerse reference="EPH.4.11-16" text="Ephesians 4:11-16" />;
             <BibleVerse reference="EPH.5.21" text="Ephesians 5:21" />;
             <BibleVerse reference="1TH.5.12-15" text="1 Thessalonians 5:12-15" />;
             <BibleVerse reference="HEB.13.17" text="Hebrews 13:17" />;
           </em>
         </li>
-        <li>Discipline of sinning members of the local church is to be administered in accordance with the Scriptures.</li>
+        <li>
+          Discipline of sinning members of the local church is to be administered in accordance with the Scriptures.
+          <br />
+          <em>
+            <BibleVerse reference="MAT.18.15-20" text="Matthew 18:15-20" />;
+            <BibleVerse reference="LUK.17.3-4" text="Luke 17:3-4" />;
+            <BibleVerse reference="1CO.5.4-5" text="1 Corinthians 5:4-5" />;
+            <BibleVerse reference="GAL.6.1" text="Galatians 6:1" />;
+            <BibleVerse reference="1TI.5.19-21" text="1 Timothy 5:19-21" />;
+            <BibleVerse reference="2TH.3.6" text="2 Thessalonians 3:6" />;
+          </em>
+        </li>
         <li>The purpose of the Church is to glorify God by the following: <br />
           <ol type="a">
             <li> Corporate worship</li>
@@ -124,6 +135,19 @@ const WhatWeBelieveSectionMore = (props) => {
             <li> Advancing and communicating the Gospel to the entire world</li>
             <li> Prayer</li>
           </ol>
+          <em>
+            <BibleVerse reference="MAT.22.37-39" text="Matthew 22:37-39" />;
+            <BibleVerse reference="MAT.28.18-20" text="Matthew 28:18-20" />;
+            <BibleVerse reference="MRK.16.15-16" text="Mark 16:15-16" />;
+            <BibleVerse reference="LUK.24.45-48" text="Luke 24:45-48" />;
+            <BibleVerse reference="JHN.20.21" text="John 20:21" />;
+            <BibleVerse reference="ACT.1.8" text="Acts 1:8" />;
+            <BibleVerse reference="ACT.2.41-47" text="Acts 2:41-47" />;
+            <BibleVerse reference="ACT.8.12" text="Acts 8:12" />;
+            <BibleVerse reference="ACT.8.36" text="Acts 8:36-39" />;
+            <BibleVerse reference="1CO.11.23-26" text="1 Corinthians 11:23-26" />;
+            <BibleVerse reference="EPH.4.11-16" text="Ephesians 4:11-16" />;
+          </em>
         </li>
         <li>The ordinances of the local church which were instituted by Jesus Christ are two
             in number and are as follows:<br />
@@ -132,13 +156,27 @@ const WhatWeBelieveSectionMore = (props) => {
 believer with Jesus Christ in his death, burial and resurrection. It is a visual
 indication of personal faith in the person and work of Christ for salvation and
 has no sacramental value in imparting salvation.
-              <em><BibleVerse reference="1CO.11.27-29" text="1 Corinthians 11:27-29" /></em>
+              <br />
+              <em>
+                <BibleVerse reference="MAT.3.16" text="Matthew 3:16" />;
+                <BibleVerse reference="MAT.28.19" text="Matthew 28:19" />;
+                <BibleVerse reference="JHN.3.23" text="John 3:23" />;
+                <BibleVerse reference="ACT.8.26-36" text="Acts 8:26-39" />;
+                <BibleVerse reference="ROM.6.3-5" text="Romans 6:3-5" />;
+                <BibleVerse reference="COL.2.12" text="Colossians 2:12" />;
+              </em>
             </li>
             <li>The Lord&#39;s Supper, in which all believers in the Lord Jesus Christ are invited
 to participate, with due regard to the Scriptural warnings in 1 Corinthians
 11:27-29. It is purely a time of remembering the death, burial, and resurrection
 of the Lord Jesus Christ and has no sacramental value in imparting salvation.
-              <em><BibleVerse reference="1CO.11.27-29" text="1 Corinthians 11:27-29" /></em>
+              <br />
+              <em>
+                <BibleVerse reference="MAT.26.26-30" text="Matthew 26:26-30" />;
+                <BibleVerse reference="MRK.14.22-26" text="Mark 14:22-26" />;
+                <BibleVerse reference="LUK.22.14-20" text="Luke 22:14-20" />;
+                <BibleVerse reference="1CO.11.23-28" text="1 Corinthians 11:23-28" />;
+              </em>
             </li>
           </ol>
         </li>
@@ -163,16 +201,18 @@ disobedient brethren.</p>
           <p><em>
             <BibleVerse reference="MAT.25.32-34" text="Matthew 25:32-34" />;
             <BibleVerse reference="MAT.25.46" text="Matthew 25:46" />;
+            <BibleVerse reference="1CO.15.12-28" text="1 Corinthians 15:12-28" />;
             <BibleVerse reference="REV.20.5-6" text="Revelation 20:5-6" />;
             <BibleVerse reference="REV.20.12-15" text="Revelation 20:12-15" />;
           and </em></p>
         </li>
         <li>We believe in the imminent return of the Lord Jesus Christ.
-          <p><em>
-            <BibleVerse reference="PHP.4.5" text="Philippians 4:5" />;
-            <BibleVerse reference="JAS.5.9" text="James 5:9" />;
+          <br />
+          <em>
+            <BibleVerse reference="PHP.4.4-6" text="Philippians 4:4-6" />;
+            <BibleVerse reference="JAS.5.8-9" text="James 5:8-9" />;
             <BibleVerse reference="REV.22.12" text="Revelation 22:12" />;
-          </em></p>
+          </em>
           <ol type="a">
             <li>Believers will be caught up to meet the Lord in the air prior to the seven-year tribulation.
               <p><em>

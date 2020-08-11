@@ -34,7 +34,7 @@ class ResourcesSection extends React.Component {
         <ul>
           {this.state.newsletters.map((value, index) => {
             return <li key={index}>
-              <h4><a target="_blank" rel="noreferrer" href={'/newsletters/' + value}>{moment(value, DATE_FORMAT_ISO).format(DATE_FORMAT_AUD) + (index === 0 ? ' (Current)' : '')}</a></h4>
+              <h4><a target="_blank" rel="noopener noreferrer" href={'/newsletters/' + value}>{moment(value, DATE_FORMAT_ISO).format(DATE_FORMAT_AUD) + (index === 0 ? ' (Current)' : '')}</a></h4>
             </li>
           })}
         </ul>

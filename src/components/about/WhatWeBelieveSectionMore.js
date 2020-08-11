@@ -215,10 +215,15 @@ disobedient brethren.</p>
           </em>
           <ol type="a">
             <li>Believers will be caught up to meet the Lord in the air prior to the seven-year tribulation.
-              <p><em>
-                <BibleVerse reference="1CO.15.51-52" text="1 Corinthians 15:51-52" />;
-                <BibleVerse reference="1TH.4.17" text="1 Thessalonians 4:17" />;
-              </em> and</p>
+              <br />
+              <em>
+                <BibleVerse reference="JHN.14.1-3" text="John 14:1-3" />;
+                <BibleVerse reference="1CO.15.51-55" text="1 Corinthians 15:51-55" />;
+                <BibleVerse reference="1TH.1.9-10" text="1 Thessalonians 1:9-10" />;
+                <BibleVerse reference="1TH.4.13-18" text="1 Thessalonians 4:13-18" />;
+                <BibleVerse reference="1TH.5.9-11" text="1 Thessalonians 5:9-11" />;
+                <BibleVerse reference="REV.3.10" text="Revelation 3:10" />;
+              </em>
             </li>
             <li>The Lord Jesus Christ will personally and visibly return to the earth with the saints to end the seven-year tribulation and to reign with the saints for 1000 years.
               <p><em>

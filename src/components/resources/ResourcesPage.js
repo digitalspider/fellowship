@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 
-const DATE_FORMAT_ISO = 'YYYYMMDD';
+const DATE_FORMAT_ISO = 'YYYY-MM-DD';
 const DATE_FORMAT_AUD = 'DD MMM YYYY';
 const GITHUB_NEWSLETTERS_URL = 'https://api.github.com/repos/digitalspider/fellowship/contents/public/newsletters';
 

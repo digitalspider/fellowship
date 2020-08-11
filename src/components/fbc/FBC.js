@@ -5,13 +5,13 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './FBC.css';
 
 const FBC = (props) => {
-    return (
-      <div>
-          <Header/>
-          {props.children}
-          <Footer/>
-      </div>
-    );
+  return (
+    <div>
+      <Header />
+      {props.children}
+      <Footer />
+    </div>
+  );
 }
 
 export default FBC;

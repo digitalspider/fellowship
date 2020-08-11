@@ -4,7 +4,7 @@ import $ from 'jquery';
 import HomePageSlide from './HomePageSlide'
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-import "./HomePageSlider.css"
+import "./HomePageSlider.css";
 
 
 class HomePageSlider extends React.Component {

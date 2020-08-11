@@ -1,21 +1,20 @@
 import React from 'react';
 import Page from '../page/Page';
 import Map from '../map/Map';
-import './ContactPage.css'
-
+import './ContactPage.css';
 
 const ContactPage = (props) => {
   return (
     <Page>
-      <Map fullWidth={true}/>
+      <Map fullWidth={true} />
       <div className="contact-page">
-        <br/>
+        <br />
         <p>
-          Fellowship Baptist Church<br/>
-          87 Fredrich Road<br/>
-          Blacktown NSW 2148<br/>
+          Fellowship Baptist Church<br />
+          87 Fredrich Road<br />
+          Blacktown NSW 2148<br />
         </p>
-        <br/>
+        <br />
         <a href="mailto:pastor@fellowship.org.au"><i className="far fa-envelope"></i> Email Us</a>
       </div>
     </Page>

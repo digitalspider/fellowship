@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from "react-router-dom";
-import './PageSidebar.css'
+import './PageSidebar.css';
 
 class PageSidebar extends React.Component {
 
@@ -8,15 +8,15 @@ class PageSidebar extends React.Component {
     super(props)
 
     this.state = {
-      currentSection:this.getCurrentSection(props),
-      collapsed:true
+      currentSection: this.getCurrentSection(props),
+      collapsed: true
     }
   }
 
   getCurrentSection = (props) => {
     let currentSection = 0;
-    for(var i = 0; i < props.children.length; i++) {
-      if(props.location.pathname === props.children[i].props.url) {
+    for (var i = 0; i < props.children.length; i++) {
+      if (props.location.pathname === props.children[i].props.url) {
         currentSection = i;
         break;
       }
@@ -33,12 +33,12 @@ class PageSidebar extends React.Component {
   }
 
   sectionLinkClicked = (event) => {
-   const newSection = this.getNewSection(event.target.dataset.index)
-   this.changeSection(newSection);
-   this.setState({
-     currentSection:event.target.dataset.index,
-     collapsed:true
-   })
+    const newSection = this.getNewSection(event.target.dataset.index)
+    this.changeSection(newSection);
+    this.setState({
+      currentSection: event.target.dataset.index,
+      collapsed: true
+    })
   }
 
   changeSection = (newSection) => {
@@ -56,7 +56,7 @@ class PageSidebar extends React.Component {
 
   getTitle = (section) => {
     let title = section.props.linkTitle
-    if(section.props.bannerTitle) {
+    if (section.props.bannerTitle) {
       title = section.props.bannerTitle
     }
     return title;
@@ -78,7 +78,7 @@ class PageSidebar extends React.Component {
       <button className="btn btn-link btn-page-sidebar-link btn-page-sidebar-mobile-toggle" onClick={this.toggleMobileMenu}>{buttonContents}</button>
     )
 
-    if(collapsed) {
+    if (collapsed) {
       return (
         <div className="col-md-3 d-lg-none d-xl-none page-sidebar-wrapper-mobile">
           <div className="row">
@@ -112,13 +112,13 @@ class PageSidebar extends React.Component {
 
       let classes = "";
 
-      if(this.state.currentSection && this.state.currentSection.toString() === index.toString()) {
+      if (this.state.currentSection && this.state.currentSection.toString() === index.toString()) {
         classes = "btn-page-sidebar-link-active"
       }
 
       return (
         <li key={index}>
-          <button className={"btn btn-link btn-page-sidebar-link "+classes} onClick={this.sectionLinkClicked} data-index={index}>
+          <button className={"btn btn-link btn-page-sidebar-link " + classes} onClick={this.sectionLinkClicked} data-index={index}>
             {section.props.linkTitle}
           </button>
         </li>
@@ -137,7 +137,7 @@ class PageSidebar extends React.Component {
           </div>
           {mobileMenu}
           <div className="col-md-9 page-sidebar-section">
-              {this.props.children[this.state.currentSection]}
+            {this.props.children[this.state.currentSection]}
           </div>
         </div>
       </div>

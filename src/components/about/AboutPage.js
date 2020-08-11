@@ -12,7 +12,7 @@ import HistorySectionMore from './HistorySectionMore';
 import WhatWeBelieveSection from './WhatWeBelieveSection';
 import WhatWeBelieveSectionMore from './WhatWeBelieveSectionMore';
 import WhatToExpectSection from './WhatToExpectSection';
-import './AboutPage.css'
+import './AboutPage.css';
 
 class AboutPage extends React.Component {
 

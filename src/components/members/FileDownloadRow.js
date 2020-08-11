@@ -1,7 +1,7 @@
 import React from 'react';
-import './FileDownloadRow.css'
+import './FileDownloadRow.css';
 
-const FileDownloadRow = ({file}) => {
+const FileDownloadRow = ({ file }) => {
 
   const downloadFile = () => {
     window.open(`https://api.fellowship.org.au/api/v1/members/files/${file}`)
@@ -11,7 +11,7 @@ const FileDownloadRow = ({file}) => {
     var fileName = file
 
     let fileNameParts = file.split('.')
-    if(fileNameParts.length > 0) {
+    if (fileNameParts.length > 0) {
       fileName = fileNameParts[0]
     }
     return fileName

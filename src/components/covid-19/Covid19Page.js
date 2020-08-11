@@ -1,7 +1,7 @@
 import React from 'react';
 import Page from '../page/Page';
 import PageBanner from '../page/PageBanner';
-import './Covid19Page.css'
+import './Covid19Page.css';
 
 class Covid19Page extends React.Component {
 

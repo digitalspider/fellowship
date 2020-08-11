@@ -1,18 +1,11 @@
 import React from 'react';
-
-const highlightText = {
-  fontSize: '2.5rem',
-  textAlign: 'center',
-  border: 'solid #a7b3ec',
-  marginTop: 40,
-  marginBottom: 40,
-};
+import './EventsPage.css';
 
 const WhatsOnSection = (props) => {
   return (
     <div className="page">
       <h2>Sunday Meetings</h2>
-      <p style={highlightText}>Morning service at 10.00am</p>
+      <p className="highlightText">Morning service at 10.00am</p>
 
       <h2>Midweek Meetings</h2>
       <table className="table">

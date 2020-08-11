@@ -4,7 +4,7 @@ import HomePageIntro from './HomePageIntro';
 // import HomePageText from './HomePageText';
 import HomePageMeetingTimes from './HomePageMeetingTimes';
 import Map from '../map/Map';
-import './HomePage.css'
+import './HomePage.css';
 
 const HomePage = (props) => {
   return (

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Page.css'
+import './Page.css';
 
 const Page = (props) => {
   return (
     <div className="page">
-       {props.children}
+      {props.children}
     </div>
   )
 }

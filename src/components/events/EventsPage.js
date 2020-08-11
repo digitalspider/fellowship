@@ -1,19 +1,18 @@
 import React from 'react';
 
+const highlightText = {
+  fontSize: '2.5rem',
+  textAlign: 'center',
+  border: 'solid #a7b3ec',
+  marginTop: 40,
+  marginBottom: 40,
+};
+
 const WhatsOnSection = (props) => {
   return (
     <div className="page">
-      <div className="alert alert-warning">
-        <p>Many of our scheduled church gatherings are currently on Zoom.</p>
-        <a href="/covid19">Read more</a>
-      </div>
-
       <h2>Sunday Meetings</h2>
-      <table className="table">
-        <tbody>
-          <tr><td>Morning service</td><td>10.00am</td></tr>
-        </tbody>
-      </table>
+      <p style={highlightText}>Morning service at 10.00am</p>
 
       <h2>Midweek Meetings</h2>
       <table className="table">
@@ -22,7 +21,6 @@ const WhatsOnSection = (props) => {
           <tr><td>Bible study and care groups</td><td>Friday fortnightly 7:30pm</td></tr>
           <tr><td>IGNITE Young adults</td><td>Friday fortnightly 7:30pm</td></tr>
           <tr><td>EPIC Youth</td><td>First Thursday of each month at 7:00pm</td></tr>
-          <tr><td>Mums and Tots</td><td>Mondays at 10am (During term time)</td></tr>
         </tbody>
       </table>
       <br />

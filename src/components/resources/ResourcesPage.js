@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import './ResourcesPage.css';
 
 const DATE_FORMAT_ISO = 'YYYY-MM-DD';
 const DATE_FORMAT_AUD = 'DD MMM YYYY';
@@ -7,11 +8,16 @@ const GITHUB_NEWSLETTERS_URL = 'https://api.github.com/repos/digitalspider/fello
 
 // String -> [String]
 async function getNewsletters() {
-  const response = await fetch(GITHUB_NEWSLETTERS_URL);
+  const options = {
+    method: 'GET',
+    headers: {
+      'Accept': 'application/vnd.github.v3+json',
+    },
+  };
+  const response = await fetch(GITHUB_NEWSLETTERS_URL, options);
   const data = await response.json();
-  return data.map((file) => file.name).filter((filename) => filename.slice(-4) === '.pdf').reverse();
+  return data.map((file) => file.name).filter((filename) => filename.slice(-4) === '.pdf').reverse().slice(0, 10);
 }
-
 
 class ResourcesSection extends React.Component {
   constructor(props) {
@@ -31,13 +37,13 @@ class ResourcesSection extends React.Component {
     return (
       <div className="page">
         <h2>Newsletters</h2>
-        <ul>
+        <div className="container">
           {this.state.newsletters.map((value, index) => {
-            return <li key={index}>
+            return <div className="item" key={index}>
               <h4><a target="_blank" rel="noopener noreferrer" href={'/newsletters/' + value}>{moment(value, DATE_FORMAT_ISO).format(DATE_FORMAT_AUD) + (index === 0 ? ' (Current)' : '')}</a></h4>
-            </li>
+            </div>
           })}
-        </ul>
+        </div>
 
         <h2>Links</h2>
         <table className="table">

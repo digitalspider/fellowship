@@ -50,3 +50,13 @@
   color:#233d68;
   text-decoration: none;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.item {
+  margin-bottom: 0%;
+}

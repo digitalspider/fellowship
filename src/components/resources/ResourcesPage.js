@@ -9,7 +9,6 @@ const GITHUB_NEWSLETTERS_URL = 'https://api.github.com/repos/digitalspider/fello
 async function getNewsletters() {
   const response = await fetch(GITHUB_NEWSLETTERS_URL);
   const data = await response.json();
-  console.log(data);
   return data.map((file) => file.name).filter((filename) => filename.slice(-4) === '.pdf').reverse();
 }
 

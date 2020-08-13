@@ -34,7 +34,7 @@ const PageBanner = (props) => {
         <meta name="twitter:title" content={props.title} />
       </Helmet>
       <div className="row">
-        <div className="col align-self-center">
+        <div className="col align-self-end">
           <h1>{props.title}</h1>
         </div>
       </div>

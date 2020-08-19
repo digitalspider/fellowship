@@ -36,26 +36,33 @@ class ResourcesSection extends React.Component {
   render() {
     return (
       <div className="page">
-        <h2>Newsletters</h2>
         <div className="container">
-          {this.state.newsletters.map((value, index) => {
-            return <div className="item" key={index}>
-              <h4><a target="_blank" rel="noopener noreferrer" href={'/newsletters/' + value}>{moment(value, DATE_FORMAT_ISO).format(DATE_FORMAT_AUD) + (index === 0 ? ' (Current)' : '')}</a></h4>
-            </div>
-          })}
-        </div>
 
-        <h2>Links</h2>
-        <table className="table">
-          <thead>
-            <tr><th>Link</th><th>Description</th></tr>
-          </thead>
-          <tbody>
-            <tr><td><a rel="noopener noreferrer" target="_blank" href="https://peacewithgod.net/">Peace with God (Link)</a></td><td>Find peace with God</td></tr>
-            <tr><td><a rel="noopener noreferrer" target="_blank" href="/media/Gospel-Steps-to-Peace-with-God.pdf">Peace with God (PDF)</a></td><td>Find peace with God</td></tr>
-          </tbody>
-        </table>
-        <br />
+          <div className="item" key="Left">
+            <h2>Newsletters</h2>
+            <div className="container-vertical">
+              {this.state.newsletters.map((value, index) => {
+                return <div className="item" key={index}>
+                  <h4><a target="_blank" rel="noopener noreferrer" href={'/newsletters/' + value}>{moment(value, DATE_FORMAT_ISO).format(DATE_FORMAT_AUD) + (index === 0 ? ' (Current)' : '')}</a></h4>
+                </div>
+              })}
+            </div>
+          </div>
+
+          <div className="item" key="Right">
+            <h2>Links</h2>
+            <table className="table">
+              <thead>
+                <tr><th>Link</th><th>Description</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><a rel="noopener noreferrer" target="_blank" href="https://peacewithgod.net/">Peace with God (Link)</a></td><td>Find peace with God</td></tr>
+                <tr><td><a rel="noopener noreferrer" target="_blank" href="/media/Gospel-Steps-to-Peace-with-God.pdf">Peace with God (PDF)</a></td><td>Find peace with God</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
       </div>
     )
   }

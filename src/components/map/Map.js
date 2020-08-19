@@ -5,15 +5,11 @@ import './Map.css';
 class Map extends React.Component {
   render() {
     const MyMapComponent = withScriptjs(withGoogleMap((props) =>
-      <iframe title="map"
+      <iframe title="Fellowship Baptist Church"
         width="100%"
         height="400"
         frameborder="0"
-        src="https://www.google.com/maps/embed/v1/place
-          ?key=AIzaSyARjU5xBCplgOPHWJUhRTKNRglNrrlaL1Y
-          &center=-33.7530345,150.9237903
-          &zoom=15
-          &maptype=satellite" allowfullscreen="true">
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARjU5xBCplgOPHWJUhRTKNRglNrrlaL1Y&center=-33.7530345,150.9237903&zoom=15" allowfullscreen>
       </iframe>
       // <GoogleMap
       //   defaultZoom={15}

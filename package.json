@@ -31,8 +31,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "aws s3 sync build/ s3://fellowship.org.au",
-    "deploy-fellowship": "aws --profile fellowship s3 sync build/ s3://fellowship.org.au"
+    "deploy": "aws s3 sync build/ s3://fellowship.org.au && aws s3 sync build/ s3://fellowship.com.au",
+    "deploy-fbc": "npm run build && aws --profile fbc s3 sync build/ s3://fellowship.org.au"
   },
   "browserslist": [
     ">0.2%",

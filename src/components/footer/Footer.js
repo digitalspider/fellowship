@@ -24,7 +24,9 @@ const Footer = (props) => {
           </div>
         </div>
         <div className="col-sm d-none d-sm-none d-md-none d-lg-block">
-          <img alt="footer-logo" srcSet="img/logo_footer@2x.png 2x" className="footer-logo float-right" src="img/logo_footer.png" />
+          <a href='/'>
+            <img className="footer-logo float-right" src="img/fellowship_logo.png" srcSet="img/fellowship_logo.png 2x" alt="Fellowship Baptist Church logo" />
+          </a>
         </div>
       </div>
     </div>

@@ -14,26 +14,26 @@ class HomePageSlider extends React.Component {
     this.state = {
       padding: this.getPadding(),
       slides: [{
-        "imageUrl": "/img/about_us_fbc.jpeg",
+        "imageUrl": "/img/banner/FBC.jpg",
         "backgroundPosition": "center",
         "internalLink": true,
       }, {
-        "imageUrl": "/img/GlorifyGod.png",
+        "imageUrl": "/img/banner/GlorifyGod.png",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Kwok Family",
-        "imageUrl": "/img/banner/Kwok_Family.jpeg",
+        "imageUrl": "/img/banner/KwokFamilyPhoto.jpg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Eggert Family",
-        "imageUrl": "/img/banner/Eggert_famliy_pic_2017_Dec.jpg",
+        "imageUrl": "/img/banner/EggertFamilyPhoto.jpg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Weber Family",
-        "imageUrl": "/img/banner/Weber_Family_Photos___2019.JPG",
+        "imageUrl": "/img/banner/WeberFamilyPhoto.jpg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {

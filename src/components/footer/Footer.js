@@ -16,13 +16,13 @@ const Footer = (props) => {
         <div className="col-sm">
           <p>Fellowship Baptist Church<br />87 Frederick Street, <br />Blacktown NSW 2148 <br />&copy; Fellowship Baptist Church</p>
         </div>
-        <div className="col-sm">
+        {/* <div className="col-sm">
           <p className="footer-social-title">STAY CONNECTED</p>
           <div className="footer-social-links">
             <a href="https://www.facebook.com/groups/584850305633207/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
-            {/* <a href="https://twitter.com/FellowshipBC"><i className="fab fa-twitter"></i></a> */}
+            <a href="https://twitter.com/FellowshipBC"><i className="fab fa-twitter"></i></a>
           </div>
-        </div>
+        </div> */}
         <div className="col-sm d-none d-sm-none d-md-none d-lg-block">
           <a href='/'>
             <img className="footer-logo float-right" src="img/fellowship_logo.png" srcSet="img/fellowship_logo.png 2x" alt="Fellowship Baptist Church logo" />

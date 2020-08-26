@@ -9,7 +9,7 @@ const imgStyleRight = {
   marginBottom: 10,
 };
 
-const MissionarySection = (props) => {
+const Missionary = (props) => {
   return (
     <div>
       <h2>Horacio and Sara Brancatelli</h2>
@@ -77,4 +77,4 @@ const MissionarySection = (props) => {
   )
 }
 
-export default MissionarySection;
+export default Missionary;

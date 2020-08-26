@@ -3,15 +3,16 @@ import Page from '../page/Page';
 import PageBanner from '../page/PageBanner';
 import PageSidebar from '../page/PageSidebar';
 import PageSection from '../page/PageSection';
-import WelcomeSection from './WelcomeSection';
-import HistorySection from './HistorySection';
-import GospelSection from './GospelSection';
-import MinistryTeamSection from './MinistryTeamSection';
-import MissionarySection from './MissionarySection';
-import HistorySectionMore from './HistorySectionMore';
-import WhatWeBelieveSection from './WhatWeBelieveSection';
-import WhatWeBelieveSectionMore from './WhatWeBelieveSectionMore';
-import WhatToExpectSection from './WhatToExpectSection';
+import Welcome from './Welcome';
+import History from './History';
+import Gospel from './Gospel';
+import LeadershipTeam from './LeadershipTeam';
+import ChurchMinistry from './ChurchMinistry';
+import Missionary from './Missionary';
+import HistoryMore from './HistoryMore';
+import WhatWeBelieve from './WhatWeBelieve';
+import WhatWeBelieveMore from './WhatWeBelieveMore';
+import WhatToExpect from './WhatToExpect';
 import './AboutPage.css';
 
 class AboutPage extends React.Component {
@@ -40,7 +41,7 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/about_us.jpg"
             url="/about"
             bannerMobilePosition="right">
-            <WelcomeSection />
+            <Welcome />
           </PageSection>
 
           <PageSection
@@ -48,7 +49,7 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/about_us.jpg"
             url="/about/expect"
             bannerMobilePosition="right">
-            <WhatToExpectSection />
+            <WhatToExpect />
           </PageSection>
 
           <PageSection
@@ -56,15 +57,23 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/about_us.jpg"
             url="/about/gospel"
             bannerMobilePosition="right">
-            <GospelSection />
+            <Gospel />
           </PageSection>
 
           <PageSection
-            linkTitle="Ministry Team"
+            linkTitle="Leadership Team"
+            bannerImageUrl="/img/about_us.jpg"
+            url="/about/leadership"
+            bannerMobilePosition="right">
+            <LeadershipTeam />
+          </PageSection>
+
+          <PageSection
+            linkTitle="Church Ministry"
             bannerImageUrl="/img/about_us.jpg"
             url="/about/ministry"
             bannerMobilePosition="right">
-            <MinistryTeamSection />
+            <ChurchMinistry />
           </PageSection>
 
           <PageSection
@@ -72,7 +81,7 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/about_us.jpg"
             url="/about/missionary"
             bannerMobilePosition="right">
-            <MissionarySection />
+            <Missionary />
           </PageSection>
 
           <PageSection
@@ -81,8 +90,8 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/history.jpg"
             url="/about/history"
             bannerMobilePosition="right">
-            <HistorySection />
-            <HistorySectionMore />
+            <History />
+            <HistoryMore />
           </PageSection>
 
           <PageSection
@@ -90,8 +99,8 @@ class AboutPage extends React.Component {
             bannerImageUrl="/img/what_we_believe.png"
             url="/about/what-we-believe"
             bannerMobilePosition="center">
-            <WhatWeBelieveSection />
-            <WhatWeBelieveSectionMore />
+            <WhatWeBelieve />
+            <WhatWeBelieveMore />
           </PageSection>
 
         </PageSidebar>

@@ -1,7 +1,7 @@
 import React from 'react';
 import BibleVerse from '../utils/BibleVerse';
 
-const GospelSection = (props) => {
+const Gospel = (props) => {
   return (
     <div>
       <h3>God </h3>
@@ -40,4 +40,4 @@ const GospelSection = (props) => {
   )
 }
 
-export default GospelSection;
+export default Gospel;

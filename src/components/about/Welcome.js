@@ -9,12 +9,12 @@ const imgStyleLeft = {
   marginBottom: 10,
 };
 
-const WelcomeSection = (props) => {
+const Welcome = (props) => {
   return (
     <div>
       <h2>WELCOME</h2>
       <p>
-      Fellowship Baptist Church is an Australian independent Baptist church and part of the Australian Fellowship of Bible-believing Churches (<a href='https://afbc.net.au'>afbc.net.au</a>).
+        Fellowship Baptist Church is an Australian independent Baptist church and part of the Australian Fellowship of Bible-believing Churches (<a href='https://afbc.net.au'>afbc.net.au</a>).
       Our mission statement is:
         <br />
         <div className="blockquote">To glorify God as a loving fellowship<br />of Christlike disciplemakers.</div>
@@ -26,7 +26,7 @@ const WelcomeSection = (props) => {
       </p>
       <h2>Magnification</h2>
       <p>
-        Our worship services glorify the Lord as we strive to keep Him at the centre of our church.<br/>
+        Our worship services glorify the Lord as we strive to keep Him at the centre of our church.<br />
         <em>
           <BibleVerse reference="PSA.34.3" text="Psalm 34:3" />;
           <BibleVerse reference="1CO.10.31" text="1 Cor. 10:31" />;
@@ -35,7 +35,7 @@ const WelcomeSection = (props) => {
       </p>
       <h2>Ministry</h2>
       <p>
-        We are called to demonstrate the love of God to one another and the broader community through Spirit-filled ministry<br/>
+        We are called to demonstrate the love of God to one another and the broader community through Spirit-filled ministry<br />
         <em>
           <BibleVerse reference="MAT.22.37-40" text="Matthew 22:37-40" />;
           <BibleVerse reference="EPH.2.19" text="Ephesians 2:10" />
@@ -43,7 +43,7 @@ const WelcomeSection = (props) => {
       </p>
       <h2>Mission</h2>
       <p>
-        The Great Commission is our mission of delivering God’s truth to the world<br/>
+        The Great Commission is our mission of delivering God’s truth to the world<br />
         <em>
           <BibleVerse reference="MAT.28.18-20" text="Matthew 28:18-20" />;
           <BibleVerse reference="MRK.13.10" text="Mark 13:10" />
@@ -51,7 +51,7 @@ const WelcomeSection = (props) => {
       </p>
       <h2>Membership</h2>
       <p>
-        As members of Christ’s body, we are called to discover our place in the local community of believers<br/>
+        As members of Christ’s body, we are called to discover our place in the local community of believers<br />
         <em>
           <BibleVerse reference="EPH.2.19" text="Ephesians 2:19" />;
           <BibleVerse reference="ACT.2.44" text="Acts 2:44" />
@@ -59,7 +59,7 @@ const WelcomeSection = (props) => {
       </p>
       <h2>Maturity</h2>
       <p>
-        We pursue a growing relationship with God through Christ<br/>
+        We pursue a growing relationship with God through Christ<br />
         <em>
           <BibleVerse reference="EPH.4.12-13" text="Ephesians 4:12-13" />;
           <BibleVerse reference="COL.1.27-29" text="Colossians 1:27-29" />
@@ -77,4 +77,4 @@ const WelcomeSection = (props) => {
   )
 }
 
-export default WelcomeSection;
+export default Welcome;

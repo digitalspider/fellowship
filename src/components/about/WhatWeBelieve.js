@@ -1,7 +1,7 @@
 import React from 'react';
 import BibleVerse from '../utils/BibleVerse';
 
-const WhatWeBelieveSection = (props) => {
+const WhatWeBelieve = (props) => {
   return (
     <div>
       <h2>Our Beliefs</h2>
@@ -101,11 +101,11 @@ const WhatWeBelieveSection = (props) => {
         </em></p>
         <h3>Sin&nbsp;</h3>
         <p>We believe that, in Adam's sin of disobedience to the revealed will and Word of
-God, man lost his innocence; incurred the penalty of spiritual and physical death;
-became subject to the wrath of God; and became inherently corrupt and apart
-from divine grace, utterly incapable of choosing or doing that which is acceptable
-to God. With no recuperative powers to enable him to recover himself, man is
-hopelessly lost. Therefore, man's salvation is wholly dependent upon the
+        God, man lost his innocence; incurred the penalty of spiritual and physical death;
+        became subject to the wrath of God; and became inherently corrupt and apart
+        from divine grace, utterly incapable of choosing or doing that which is acceptable
+        to God. With no recuperative powers to enable him to recover himself, man is
+        hopelessly lost. Therefore, man's salvation is wholly dependent upon the
 redemptive work of our Lord Jesus Christ.</p>
         <p><em>
           <BibleVerse reference="GEN.2.17" text="Genesis 2:17" />;
@@ -125,4 +125,4 @@ redemptive work of our Lord Jesus Christ.</p>
   )
 }
 
-export default WhatWeBelieveSection;
+export default WhatWeBelieve;

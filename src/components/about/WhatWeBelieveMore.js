@@ -1,7 +1,7 @@
 import React from 'react';
 import BibleVerse from '../utils/BibleVerse';
 
-const WhatWeBelieveSectionMore = (props) => {
+const WhatWeBelieveMore = (props) => {
   return (
     <div>
       <h3>Salvation</h3>
@@ -153,9 +153,9 @@ const WhatWeBelieveSectionMore = (props) => {
             in number and are as follows:<br />
           <ol type="a">
             <li>Believer&#39;s Baptism by immersion, which is a public identification of the
-believer with Jesus Christ in his death, burial and resurrection. It is a visual
-indication of personal faith in the person and work of Christ for salvation and
-has no sacramental value in imparting salvation.
+            believer with Jesus Christ in his death, burial and resurrection. It is a visual
+            indication of personal faith in the person and work of Christ for salvation and
+            has no sacramental value in imparting salvation.
               <br />
               <em>
                 <BibleVerse reference="MAT.3.16" text="Matthew 3:16" />;
@@ -167,9 +167,9 @@ has no sacramental value in imparting salvation.
               </em>
             </li>
             <li>The Lord&#39;s Supper, in which all believers in the Lord Jesus Christ are invited
-to participate, with due regard to the Scriptural warnings in 1 Corinthians
-11:27-29. It is purely a time of remembering the death, burial, and resurrection
-of the Lord Jesus Christ and has no sacramental value in imparting salvation.
+            to participate, with due regard to the Scriptural warnings in 1 Corinthians
+            11:27-29. It is purely a time of remembering the death, burial, and resurrection
+            of the Lord Jesus Christ and has no sacramental value in imparting salvation.
               <br />
               <em>
                 <BibleVerse reference="MAT.26.26-30" text="Matthew 26:26-30" />;
@@ -183,9 +183,9 @@ of the Lord Jesus Christ and has no sacramental value in imparting salvation.
       </ol>
       <h3>Separation</h3>
       <p>We believe that the Scriptures require separation unto God from the world and
-from apostasy within the visible Church. This doctrine is based upon God&#39;s
-eternal principle of division between truth and error, darkness and light, and His
-specific command to be separated from the ungodliness of the world, and from
+      from apostasy within the visible Church. This doctrine is based upon God&#39;s
+      eternal principle of division between truth and error, darkness and light, and His
+      specific command to be separated from the ungodliness of the world, and from
 disobedient brethren.</p>
       <p><em>
         <BibleVerse reference="2CO.6.14-17" text="2 Corinthians 6:14-17" />;
@@ -260,4 +260,4 @@ disobedient brethren.</p>
   )
 }
 
-export default WhatWeBelieveSectionMore;
+export default WhatWeBelieveMore;

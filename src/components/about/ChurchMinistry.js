@@ -1,14 +1,5 @@
 import React from 'react';
 
-const imgStyleRight = {
-  float: 'right',
-  border: '3px solid #dcd4c5',
-  height: '186px',
-  width: '249px',
-  marginLeft: 20,
-  marginBottom: 10,
-};
-
 const ChurchMinistry = (props) => {
   return (
     <div>

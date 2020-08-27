@@ -11,7 +11,7 @@ const ContactPage = (props) => {
         <br />
         <p>
           Fellowship Baptist Church<br />
-          87 Frederich Road<br />
+          87 Frederich Street<br />
           Blacktown NSW 2148<br />
         </p>
         <br />

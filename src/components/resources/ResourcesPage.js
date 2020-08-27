@@ -1,23 +1,23 @@
 import React from 'react';
-import moment from 'moment';
+// import moment from 'moment';
 import './ResourcesPage.css';
 
-const DATE_FORMAT_ISO = 'YYYY-MM-DD';
-const DATE_FORMAT_AUD = 'DD MMM YYYY';
-const GITHUB_NEWSLETTERS_URL = 'https://api.github.com/repos/digitalspider/fellowship/contents/public/newsletters';
+// const DATE_FORMAT_ISO = 'YYYY-MM-DD';
+// const DATE_FORMAT_AUD = 'DD MMM YYYY';
+// const GITHUB_NEWSLETTERS_URL = 'https://api.github.com/repos/digitalspider/fellowship/contents/public/newsletters';
 
-// String -> [String]
-async function getNewsletters() {
-  const options = {
-    method: 'GET',
-    headers: {
-      'Accept': 'application/vnd.github.v3+json',
-    },
-  };
-  const response = await fetch(GITHUB_NEWSLETTERS_URL, options);
-  const data = await response.json();
-  return data.map((file) => file.name).filter((filename) => filename.slice(-4) === '.pdf').reverse().slice(0, 10);
-}
+// // String -> [String]
+// async function getNewsletters() {
+//   const options = {
+//     method: 'GET',
+//     headers: {
+//       'Accept': 'application/vnd.github.v3+json',
+//     },
+//   };
+//   const response = await fetch(GITHUB_NEWSLETTERS_URL, options);
+//   const data = await response.json();
+//   return data.map((file) => file.name).filter((filename) => filename.slice(-4) === '.pdf').reverse().slice(0, 10);
+// }
 
 class ResourcesSection extends React.Component {
   constructor(props) {
@@ -27,18 +27,17 @@ class ResourcesSection extends React.Component {
     };
   }
 
-  async componentDidMount(_prevProps) {
-    const newsletters = await getNewsletters();
-    this.setState({ newsletters });
-
-  }
+  // async componentDidMount(_prevProps) {
+  //   const newsletters = await getNewsletters();
+  //   this.setState({ newsletters });
+  // }
 
   render() {
     return (
       <div className="page">
         <div className="container">
 
-          <div className="item" key="Left">
+          {/* <div className="item" key="Left">
             <h2>Newsletters</h2>
             <div className="container-vertical">
               {this.state.newsletters.map((value, index) => {
@@ -47,9 +46,9 @@ class ResourcesSection extends React.Component {
                 </div>
               })}
             </div>
-          </div>
+          </div> */}
 
-          <div className="item" key="Right">
+          {/* <div className="item" key="Right">
             <h2>Links</h2>
             <table className="table">
               <thead>
@@ -60,9 +59,9 @@ class ResourcesSection extends React.Component {
                 <tr><td><a rel="noopener noreferrer" target="_blank" href="/media/Gospel-Steps-to-Peace-with-God.pdf">Peace with God (PDF)</a></td><td>Find peace with God</td></tr>
               </tbody>
             </table>
-          </div>
+          </div> */}
 
-          <div className="item" key="Left">
+          {/* <div className="item" key="Left">
             <h2>Books</h2>
             <p>*This listing is provided as a service. FBC is not responsible for all the content of these books.</p>
 
@@ -90,9 +89,25 @@ class ResourcesSection extends React.Component {
             <p>by Ravi Zacharias</p>
 
             <p>Ravi Zacharias shows how affirming the reality of God’s existence matters urgently in our everyday lives, and how your answers to the questions of God’s existence will impact your relationship with others, your commitment to integrity, your attitude toward morality, and your perception of truth.</p>
-          </div>
+          </div> */}
 
           <div className="item" key="Right">
+            <h2>Ministries</h2>
+            <h4>Ministries We Support:</h4>
+            <ul>
+              <li>Australian Fellowship of Bible-believing Churches (AFBC) - <a href='//www.facebook.com/AFBBC'>www.facebook.com/AFBBC</a></li>
+              <li>Sydney Institute for Biblical Studies - <a href='//www.sibs.net.au'>www.sibs.net.au</a></li>
+              <li>Australian Christian College - <a href='//www.acc.edu.au'>www.acc.edu.au</a></li>
+            </ul>
+            <h4>Friends in the AFBC:</h4>
+            <ul>
+              <li>Emmanuel Baptist Church, Glenwood - <a href='//www.emmanuel.org.au'>www.emmanuel.org.au</a></li>
+              <li>Rouse Hill Church, Rouse Hill - <a href='//www.rousehillchurch.com'>www.rousehillchurch.com</a></li>
+            </ul>
+            <h4>Billy Graham Evangelical Association (BGEA)</h4>
+            <ul>
+              <li>Peace With God - <a href='//peacewithgod.net'>peacewithgod.net</a></li>
+            </ul>
             <h2>Web Resources</h2>
             <p>*This listing is provided as a service. FBC is not responsible for the contents of these websites.</p>
 
@@ -135,24 +150,6 @@ class ResourcesSection extends React.Component {
               <li>Bob Jones University (online distance education) - <a href='//www.bju.edu/bjuonline'>www.bju.edu/bjuonline</a></li>
               <li>Cornerstone University &amp; Grand Rapids Theological Seminary (online distance education) - <a href='//online.cornerstone.edu/programs/ministry'>online.cornerstone.edu/programs/ministry</a></li>
               <li>Moody Bible Institute &amp; Theological Seminary (online distance education) - <a href='//www.moody.edu/edu_dlochannelmain.aspx?id=4116'>www.moody.edu/edu_dlochannelmain.aspx?id=4116</a></li>
-            </ul>
-          </div>
-          <div className="item" key="Right">
-            <h2>Other Ministries</h2>
-            <h4>Ministries We Support:</h4>
-            <ul>
-              <li>Australian Fellowship of Bible-believing Churches (AFBC) - <a href='//www.afbc.net.au'>www.afbc.net.au</a></li>
-              <li>Sydney Institute for Biblical Studies - <a href='//www.sibs.net.au'>www.sibs.net.au</a></li>
-              <li>Australian Christian College - <a href='//www.acc.edu.au'>www.acc.edu.au</a></li>
-            </ul>
-            <h4>Friends in the AFBC:</h4>
-            <ul>
-              <li>Emmanuel Baptist Church, Glenwood - <a href='//www.emmanuel.org.au'>www.emmanuel.org.au</a></li>
-              <li>Rouse Hill Church, Rouse Hill - <a href='//www.rousehillchurch.com'>www.rousehillchurch.com</a></li>
-            </ul>
-            <h4>Billy Graham Evangelical Association (BGEA)</h4>
-            <ul>
-              <li>Peace With God - <a href='//peacewithgod.net'>peacewithgod.net</a></li>
             </ul>
           </div>
         </div>

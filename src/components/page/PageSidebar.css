@@ -32,22 +32,22 @@
 }
 
 .btn-page-sidebar-link:hover {
-  color:#ff5a34;
+  color:#b49c7f;
   text-decoration: none;
 }
 
 .btn-page-sidebar-link:focus {
-  color:#ff5a34;
+  color:#b49c7f;
   text-decoration: none;
 }
 
 .btn-page-sidebar-link:active {
-  color:#ff5a34;
+  color:#b49c7f;
   text-decoration: none;
 }
 
 .btn-page-sidebar-link-active {
-  color:#ff5a34;
+  color:#b49c7f;
   font-weight: 500;
   text-decoration: none;
 }
@@ -55,5 +55,5 @@
 .btn-page-sidebar-mobile-toggle {
   line-height: 14px;
   font-size: 32px !important;
-  color:#ff5a34;
+  color:#b49c7f;
 }

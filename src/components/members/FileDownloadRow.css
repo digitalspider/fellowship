@@ -1,19 +1,19 @@
 .file-download-btn {
   padding: 0;
-  color: #ff5a34;
+  color: #b49c7f;
 }
 
 .file-download-btn:hover {
-  color:#ff5a34;
+  color:#b49c7f;
   text-decoration: none;
 }
 
 .file-download-btn:focus {
-  color:#ff5a34;
+  color:#b49c7f;
   text-decoration: none;
 }
 
 .file-download-btn:active {
-  color:#ff5a34;
+  color:#b49c7f;
   text-decoration: none;
 }

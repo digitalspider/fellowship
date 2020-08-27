@@ -1,9 +1,28 @@
+/*
+  Light Brown: #c7bda8
+  Dark Brown: #b49c7f
+  Light Blue: #8e9cb4
+  Dark Blue: #273f6d
+
+ColorPallete:
+Browns
+#c7bda8
+#a7997a
+#b49c7f
+Blues
+#a4aab0
+#273f6d
+#546486
+#677797
+#8e9cb4
+#445c7c
+*/
 a {
-  color:#ff5a34
+  color: #b49c7f
 }
 
 a:hover {
-  color:black
+  color: #273f6d
 }
 
 .row {

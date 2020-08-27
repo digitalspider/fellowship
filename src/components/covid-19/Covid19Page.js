@@ -13,7 +13,7 @@ class Covid19Page extends React.Component {
   render() {
     return (
       <Page>
-        <PageBanner backgroundColor="#273f6d" titleColour="white" title="COVID-19" />
+        <PageBanner imageUrl="/img/banner/table.jpg" />
         <div className="ml-3 mr-3">
           <p>
             After much prayer, research and deliberation the oversight have decided

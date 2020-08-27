@@ -31,7 +31,11 @@ a:hover {
 }
 
 body {
-  padding-top: 90px;;
+  padding-top: 90px;
+  color: #282a29;
+  font-size: 20px;
+  font-family: 'Lato:300';
+  background-color: rgba(226,226,226,1);
 }
 
 @media(min-width: 992px) {

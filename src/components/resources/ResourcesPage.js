@@ -1,4 +1,6 @@
 import React from 'react';
+import Page from '../page/Page';
+import PageBanner from '../page/PageBanner';
 // import moment from 'moment';
 import './ResourcesPage.css';
 
@@ -34,7 +36,8 @@ class ResourcesSection extends React.Component {
 
   render() {
     return (
-      <div className="page">
+      <Page>
+        <PageBanner imageUrl="/img/banner/table-bible.jpg" />
         <div className="container">
 
           {/* <div className="item" key="Left">
@@ -153,7 +156,7 @@ class ResourcesSection extends React.Component {
             </ul>
           </div>
         </div>
-      </div>
+      </Page>
     )
   }
 }

@@ -1,9 +1,12 @@
 import React from 'react';
+import Page from '../page/Page';
+import PageBanner from '../page/PageBanner';
 import './EventsPage.css';
 
 const WhatsOnSection = (props) => {
   return (
-    <div className="page">
+    <Page>
+      <PageBanner imageUrl="/img/banner/table-bible2.jpg" />
       <h2>Sunday Meetings</h2>
       <p className="highlightText">Morning service at 10.00am</p>
 
@@ -17,7 +20,7 @@ const WhatsOnSection = (props) => {
         </tbody>
       </table>
       <br />
-    </div>
+    </Page>
   )
 }
 

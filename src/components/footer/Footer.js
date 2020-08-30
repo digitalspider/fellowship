@@ -9,6 +9,7 @@ const Footer = (props) => {
         <Link to="/about">About Us</Link><span className="footer-link-slash">/</span>
         <Link to="/events">What's On</Link><span className="footer-link-slash">/</span>
         <Link to="/sermons">Sermons</Link><span className="footer-link-slash">/</span>
+        <Link to="/resources">Resources</Link><span className="footer-link-slash">/</span>
         <Link to="/contact">Contact</Link><span className="footer-link-slash">/</span>
         <Link to="/giving">Giving</Link>
       </div>

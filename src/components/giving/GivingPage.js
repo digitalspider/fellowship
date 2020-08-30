@@ -14,7 +14,7 @@ class GivingPage extends React.Component {
   render() {
     return (
       <Page>
-        <PageBanner imageUrl="/img/giving.jpeg" titleColour="white" title="GIVING" />
+        <PageBanner imageUrl="/img/banner/giving.jpg" titleColour="white" title="GIVING" />
         <div className="ml-3 mr-3 pt-4 pb-4">
           <p>
             <strong>Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.</strong>

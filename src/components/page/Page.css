@@ -9,10 +9,13 @@
 }
 
 @media(min-width: 992px) {
-  .page{
-    font-size: 16px;
+  .page {
+    font-size: 20px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+  .page .title {
+    padding-left: 0px;
   }
 }
 

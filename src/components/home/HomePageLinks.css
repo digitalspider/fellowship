@@ -39,6 +39,10 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .row.links {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .row.links .tile {
     height: 250px;
     width: 20%;

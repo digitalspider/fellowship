@@ -1,8 +1,14 @@
-.row {
-  padding-top: 10px;
+.row.intro {
+  padding: 10px;
+  background-color: rgba(186,186,186,1);
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+.page {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .column {
@@ -18,6 +24,9 @@
 }
 
 @media(min-width: 992px) {
+  .row.intro {
+    padding-top: 0px;
+  }
   .column{
     padding: 50px 50px;
   }

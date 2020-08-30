@@ -17,8 +17,7 @@ class GivingPage extends React.Component {
         <PageBanner imageUrl="/img/banner/giving.jpg" titleColour="white" title="GIVING" />
         <div className="ml-3 mr-3 pt-4 pb-4">
           <p>
-            <strong>Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.</strong>
-            <br />
+            <strong>So let each one give as he purposes in his heart, not grudgingly or of necessity: for God loves a cheerful giver.</strong>
             <BibleVerse reference="2CO.9.7" text="2 Corinthians 9:7" />
           </p>
           <p>A number of people have been asking about how they can continue to support the Lord’s work financially while the normal weekly meetings are suspended.</p>

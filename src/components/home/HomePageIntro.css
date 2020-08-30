@@ -1,18 +1,33 @@
-.home-page-intro {
-  text-align: center;
-  padding: 50px 45px;
+.row {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.column {
+  padding: 10px 10px;
+}
+
+.mission-statement-image {
+  max-width: 100%;
+}
+
+.btn-about-us {
+  font-size: 20px;
 }
 
 @media(min-width: 992px) {
-  .home-page-intro{
-    padding: 50px 100px;
+  .column{
+    padding: 50px 50px;
   }
-}
-
-.home-page-intro h2 {
-  color: #b49c7f;
-}
-
-.home-page-intro p {
-  font-size: 26px;
+  .home-page-intro {
+    width: 50%;
+  }
+  .home-page-intro p {
+    font-size: 24px;
+  }
+  .who-we-are.title {
+    font-size: 35px;
+  }
 }

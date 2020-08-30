@@ -7,10 +7,10 @@ const WhatsOnSection = (props) => {
   return (
     <Page>
       <PageBanner imageUrl="/img/banner/table-bible2.jpg" />
-      <h2>Sunday Meetings</h2>
+      <h2 className="title">Sunday Meetings</h2>
       <p className="highlightText">Morning service at 10.00am</p>
 
-      <h2>Midweek Meetings</h2>
+      <h2 className="title">Midweek Meetings</h2>
       <table className="table">
         <tbody>
           <tr><td>Women's Meeting</td><td>Last Tuesday of each month at 8pm</td></tr>

@@ -1,60 +1,74 @@
-.row {
-  padding-left: 50px;
-  padding-right: 50px;
+.row.links {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.row.links .tile {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
 }
 
 .homepage-text {
-  padding: 50px 45px;
+  font-size: 20px;
+  background-size: 100%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row.links .tile-text {
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  margin-top: 25%;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.tile-text {
+  text-align: center;
 }
 
 @media(min-width: 992px) {
   .homepage-text{
-    padding: 50px 100px;
+    background-size: 100%;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .row.links .tile {
+    height: 250px;
+    width: 20%;
+  }
+  .row.links .tile-text {
+    margin-top: 40%;
+    font-size: 30px;
   }
 }
 
-.homepage-text.about {
-  background-color: #b49c7f;
-  color: white;
-}
-
-.homepage-text.vision {
+.homepage-text.covid {
   background-color: #e6e6e6;
+  background-image: url('/img/tile/covid.jpg');
   color: black;
 }
 
-.homepage-text h3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  text-align: center;
+.homepage-text.church {
+  background-image: url('/img/tile/church.jpg');
+  color: #e6e6e6;
 }
 
-.homepage-text p {
-  font-family: 'Crimson Text', serif;
-  font-size: 18px;
-  text-align: center;
-}
-
-.homepage-text span {
-  font-style: italic;
-}
-
-.homepage-text.about a {
-  color: white;
-}
-
-.homepage-text.vision a {
+.homepage-text.sermon {
+  background-color: #e6e6e6;
+  background-image: url('/img/tile/sermon.jpg');
   color: black;
 }
 
-.homepage-text.about hr {
-  border: 1px solid white;
-  width: 20%;
-  margin: 15px auto;
+.homepage-text.contact {
+  background-color: #e6e6e6;
+  background-image: url('/img/tile/contact.jpg');
+  color: black;
 }
 
-.homepage-text.vision hr {
-  border: 1px solid black;
-  width: 20%;
-  margin: 15px auto;
-}

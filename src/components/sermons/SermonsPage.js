@@ -17,10 +17,12 @@ const SermonsPage = (props) => {
   return (
     <Page>
       <PageBanner imageUrl="/img/banner/table-podcast.jpg" />
-      <h1>Sermons</h1>
-      <hr />
-      <div>
-        <iframe style={style} height="700" title="Sermons" src="https://embed.sermonaudio.com/browser/broadcaster/fellowship/?sort=newest&page_size=25"></iframe>
+      <div className="sermon-page">
+        <h1 className="title">Sermons</h1>
+        <hr />
+        <div>
+          <iframe style={style} height="700" title="Sermons" src="https://embed.sermonaudio.com/browser/broadcaster/fellowship/?sort=newest&page_size=25"></iframe>
+        </div>
       </div>
     </Page>
   )

@@ -38,7 +38,7 @@ class HomePageSlider extends React.Component {
         "internalLink": false,
       }, {
         "type": "GOSPEL SERIES",
-        "title": "Revelations",
+        "title": "Revelation",
         "subtitle": "Revelation of Jesus Christ",
         "imageUrl": "img/slides/family.jpg",
         "backgroundPosition": "center",

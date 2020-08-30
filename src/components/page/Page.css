@@ -8,6 +8,10 @@
   padding-left: 10px;
 }
 
+.content {
+  margin: 10px;
+}
+
 @media(min-width: 992px) {
   .page {
     font-size: 20px;
@@ -16,6 +20,11 @@
   }
   .page .title {
     padding-left: 0px;
+  }
+  .content {
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 }
 

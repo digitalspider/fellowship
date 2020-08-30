@@ -17,7 +17,7 @@ const SermonsPage = (props) => {
   return (
     <Page>
       <PageBanner imageUrl="/img/banner/table-podcast.jpg" />
-      <div className="sermon-page">
+      <div className="sermon-page content">
         <h1 className="title">Sermons</h1>
         <hr />
         <div>

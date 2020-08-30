@@ -14,7 +14,7 @@ class Covid19Page extends React.Component {
     return (
       <Page>
         <PageBanner imageUrl="/img/banner/table.jpg" />
-        <div className="ml-3 mr-3">
+        <div className="content">
           <p>
             After much prayer, research and deliberation the oversight have decided
             to <strong>suspend all of our scheduled church gatherings for the foreseeable future</strong>.

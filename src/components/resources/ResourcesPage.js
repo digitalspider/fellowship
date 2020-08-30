@@ -38,7 +38,7 @@ class ResourcesSection extends React.Component {
     return (
       <Page>
         <PageBanner imageUrl="/img/banner/table-bible.jpg" />
-        <div className="container">
+        <div className="container content">
 
           {/* <div className="item" key="Left">
             <h2>Newsletters</h2>

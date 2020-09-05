@@ -13,7 +13,7 @@ const WhatsOnSection = (props) => {
 
         <h2 className="title">Calendar</h2>
         <div className="calendar">
-          <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23b49c7f&amp;ctz=Australia%2FSydney&amp;src=b25oczllajB2MWh1aGtwcmdlamhqY2U0bTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%b49c7f&amp;showTitle=1&amp;title=FBC%20Events&amp;showDate=1&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0&amp;showPrint=0" width="100%" height="600" frameborder="0" scrolling="no" title="calendar"></iframe>
+          <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23b49c7f&amp;ctz=Australia%2FSydney&amp;src=b25oczllajB2MWh1aGtwcmdlamhqY2U0bTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23b49c7f&amp;showTitle=1&amp;title=FBC%20Events&amp;showDate=1&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0&amp;showPrint=0" width="100%" height="600" frameborder="0" scrolling="no" title="calendar"></iframe>
         </div>
 
         <h2 className="title">Regular Ministries</h2>

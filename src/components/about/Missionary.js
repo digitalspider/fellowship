@@ -51,7 +51,7 @@ const Missionary = (props) => {
       <p>&nbsp;</p>
       <p>&nbsp;</p>
 
-      <h2>Pastor James Montenegro</h2>
+      <h2>Pastor James and Lourdes Montenegro</h2>
       <p><img src='/img/profile/Pastor_James_Montenegro.jpg' alt='Pastor James Montenegro' style={imgStyleRight}></img></p>
       <p>A graduate of the Asia Baptist Bible College in Manila, Pastor James entered the ministry in 1990, and has been the lead pastor at the Bible Baptist Church in the Bulacan Province of the Philippines since 2002. He and his wife, Lourdes, have four children, and they labour in church ministries such as a youth Bible club, Sunday school, choir, prayer meetings, and home visitation. (Picture below - Filipinos)</p>
       <p>&nbsp;</p>
@@ -63,7 +63,7 @@ const Missionary = (props) => {
       <p>&nbsp;</p>
       <h2>Elise Long</h2>
       <p><img src='/img/profile/EliseLong.jpg' alt='Elise Long' style={imgStyleRight}></img></p>
-      <p>Elise serves with CrossView in the Province of Palawan, part of the Philippines. Her ministry with the Palawanos includes the maintenance of a community health programme, and training local believers from Bintat Karis in discipleship, church planting, and evangelism. Elise pursues a holistic approach to ministry by feeding the hungry, tending to the sick, and teaching the Word.</p>
+      <p>Elise serves with CrossView in the Province of Palawan, part of the Philippines. Her ministry with the Palawanos includes the maintenance of a community health programme, and training local believers from BK in discipleship, church planting, and evangelism. Elise pursues a holistic approach to ministry by feeding the hungry, tending to the sick, and teaching the Word.</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>

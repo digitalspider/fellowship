@@ -21,9 +21,9 @@ const LeadershipTeam = (props) => {
       they parent three sons and two daughters. Pastor Mike is an avid believer in expositional preaching and he loves church history,
         spending time with his wife, and tennis. He completed his ministry doctorate in 2019 on the topic of church planting.</p>
       <p>&nbsp;</p>
-      <h4>Pastor Brian Eggert</h4>
+      <h4>Pastor Brian and Angie Eggert</h4>
       <p>&nbsp;</p>
-      <h4>Pastor Paul Weber</h4>
+      <h4>Pastor Paul and Rachel Weber</h4>
       <p><img src='/img/profile/PaulAndRachelWeber.jpg' alt='Paul and Rachel Weber' style={imgStyleRight}></img></p>
       <p>Pastor Paul was born and raised in the USA in Detroit, Michigan. Following graduation, he joined the
       US Marines. Afterward, he moved to Columbus, Indiana, and met Rachel. He studied for the

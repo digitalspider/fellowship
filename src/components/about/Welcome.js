@@ -14,15 +14,16 @@ const Welcome = (props) => {
     <div>
       <h2>WELCOME</h2>
       <p>
-        Fellowship Baptist Church is an Australian independent Baptist church and part of the <a href='https://www.facebook.com/AFBBC' target="_blank" rel="noopener noreferrer">Australian Fellowship of Bible-believing Churches</a>.
-      Our mission statement is:
+        Fellowship Baptist Church is an Australian independent Baptist Church and part of the <a href='https://www.facebook.com/AFBBC' target="_blank" rel="noopener noreferrer">Australian Fellowship of Bible-believing Churches</a>.
+        <br />Our mission statement is:
         <br />
         <div className="blockquote">To glorify God as a loving fellowship<br />of Christlike disciplemakers.</div>
       </p>
       <p>
-        Crèche facilities and Children’s church operate during our Sunday morning meeting.
-        If you are visiting in the area or seeking a place to worship we heartily invite you to come along and enjoy the
-        fellowship of God’s people. We assure you of a warm welcome at all times.
+        We are a body of believers, in Jesus Christ, who meet weekly on Sunday mornings for worship and fellowship.<br />
+        During our Sunday morning services, we provide services for younger kids, inclduing crèche facilities and children’s church.<br />
+        If you are visiting in the area, or seeking a place to worship, we heartily invite you to come along and enjoy the fellowship of God’s people.<br />
+        We assure you of a warm welcome at all times.
       </p>
       <h2>Magnification</h2>
       <p>

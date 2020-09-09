@@ -7,7 +7,7 @@ import Welcome from './Welcome';
 import History from './History';
 import Gospel from './Gospel';
 import LeadershipTeam from './LeadershipTeam';
-import ChurchMinistry from './ChurchMinistry';
+// import ChurchMinistry from './ChurchMinistry';
 import Missionary from './Missionary';
 import HistoryMore from './HistoryMore';
 import WhatWeBelieve from './WhatWeBelieve';
@@ -53,7 +53,7 @@ class AboutPage extends React.Component {
           </PageSection>
 
           <PageSection
-            linkTitle="Good news"
+            linkTitle="Peace with God"
             bannerImageUrl="/img/about_us.jpg"
             url="/about/gospel"
             bannerMobilePosition="right">
@@ -68,13 +68,13 @@ class AboutPage extends React.Component {
             <LeadershipTeam />
           </PageSection>
 
-          <PageSection
-            linkTitle="Church Ministry"
+          {/* <PageSection
+            linkTitle="Church Ministries"
             bannerImageUrl="/img/about_us.jpg"
             url="/about/ministry"
             bannerMobilePosition="right">
             <ChurchMinistry />
-          </PageSection>
+          </PageSection> */}
 
           <PageSection
             linkTitle="Missionaries"

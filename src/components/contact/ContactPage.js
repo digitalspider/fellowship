@@ -15,6 +15,8 @@ const ContactPage = (props) => {
             Fellowship Baptist Church<br />
             87 Frederick Street<br />
             Blacktown NSW 2148<br />
+            <br/>
+            Phone: 02 9672 1691<br />
           </p>
           <br />
           <a href="mailto:pastor@fellowship.org.au"><i className="far fa-envelope"></i> Email Us</a>

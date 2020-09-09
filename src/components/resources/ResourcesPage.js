@@ -96,24 +96,9 @@ class ResourcesSection extends React.Component {
 
           <div className="item" key="Right">
             <h2>Ministries</h2>
-            <h4>Ministries We Support:</h4>
             <ul>
               <li>Australian Fellowship of Bible-believing Churches (AFBC) - <a href='//www.facebook.com/AFBBC'>www.facebook.com/AFBBC</a></li>
-              <li>Sydney Institute for Biblical Studies - <a href='//www.sibs.net.au'>www.sibs.net.au</a></li>
-              <li>Australian Christian College - <a href='//www.acc.edu.au'>www.acc.edu.au</a></li>
             </ul>
-            <h4>Friends in the AFBC:</h4>
-            <ul>
-              <li>Emmanuel Baptist Church, Glenwood - <a href='//www.emmanuel.org.au'>www.emmanuel.org.au</a></li>
-              <li>Rouse Hill Church, Rouse Hill - <a href='//www.rousehillchurch.com'>www.rousehillchurch.com</a></li>
-            </ul>
-            <h4>Billy Graham Evangelical Association (BGEA)</h4>
-            <ul>
-              <li>Peace With God - <a href='//peacewithgod.net'>peacewithgod.net</a></li>
-            </ul>
-            <h2>Web Resources</h2>
-            <p>*This listing is provided as a service. FBC is not responsible for the contents of these websites.</p>
-
             <h4>Evangelism &amp; Discipleship:</h4>
             <ul>
               <li>Answers in Genesis (creation science) - <a href='//www.answersingenesis.org'>www.answersingenesis.org</a></li>
@@ -125,35 +110,18 @@ class ResourcesSection extends React.Component {
             <h4>Bible Study Resources:</h4>
             <ul>
               <li>Walk Thru the Bible - <a href='//www.walkthru.org'>www.walkthru.org</a></li>
-              <li>StudyLight (free online Bible study resources) - <a href='//www.studylight.org'>www.studylight.org</a></li>
-              <li>Christian Answers Network (evangelism/apologetics) - <a href='//www.christiananswers.net'>www.christiananswers.net</a></li>
               <li>BibleStudyTools.com (free online resources) - <a href='//www.biblestudytools.com'>www.biblestudytools.com</a></li>
-              <li>Blue Letter Bible (many searchable Bible translations &amp; reliable study tools) - <a href='//www.blueletterbible.org'>www.blueletterbible.org</a></li>
               <li>E-Sword (free downloadable Bible study software) - <a href='//www.e-sword.net'>www.e-sword.net</a></li>
             </ul>
 
             <h4>Other Christian Resources:</h4>
             <ul>
-              <li>Christian Today Australia (evangelical news source) - <a href='//au.christiantoday.com'>au.christiantoday.com</a></li>
               <li>Desiring God (God-centered resources from John Piper's ministry) - <a href='//www.desiringgod.org'>www.desiringgod.org</a></li>
-              <li>Matthias Media (Bible-based ministry resources) - <a href='//www.matthiasmedia.com.au'>www.matthiasmedia.com.au</a></li>
               <li>Reformers' Bookshop (quality Christian literature) - <a href='//reformers.org.au'>reformers.org.au</a></li>
-              <li>Spiritual Gifts Analysis - <a href='//www.churchgrowth.org/analysis/intro.php'>www.churchgrowth.org/analysis/intro.php</a></li>
-              <li>World’s largest library of free mp3 sermons - <a href='//www.sermonaudio.com/fellowship'>www.sermonaudio.com/fellowship</a></li>
               <li>9Marks Ministries(an educational forum to discuss, examine &amp; debate the elements of a healthy local church) - <a href='//www.9marks.org'>www.9marks.org</a></li>
-              <li>The following 3 are resources from the Billy Graham Evangelical Association(BGEA):</li>
-              <li>1. Peace With God - <a href='https://peacewithgod.net'>https://peacewithgod.net</a></li>
-              <li>2. Going Further - <a href='https://goingfarther.net'>https://goingfarther.net</a></li>
-              <li>3. Search For Jesus - <a href='http://searchforjesus.net'>http://searchforjesus.net</a></li>
+              <li>Billy Graham Evangelical Association(BGEA) - <a href='//billygraham.com.au'>billygraham.com.au</a></li>
+              <li>Peace With God - <a href='https://peacewithgod.net'>peacewithgod.net</a></li>
             </ul >
-            <h4>Continuing Education:</h4>
-            <ul>
-              <li>Asia Biblical Theological Seminary (locations in SE Asia) - <a href='//abts.cornerstone.edu'>abts.cornerstone.edu</a></li>
-              <li>Baptist Bible College &amp; Seminary (online distance education) - <a href='//www.bbc.edu/online'>www.bbc.edu/online</a></li>
-              <li>Bob Jones University (online distance education) - <a href='//www.bju.edu/bjuonline'>www.bju.edu/bjuonline</a></li>
-              <li>Cornerstone University &amp; Grand Rapids Theological Seminary (online distance education) - <a href='//online.cornerstone.edu/programs/ministry'>online.cornerstone.edu/programs/ministry</a></li>
-              <li>Moody Bible Institute &amp; Theological Seminary (online distance education) - <a href='//www.moody.edu/edu_dlochannelmain.aspx?id=4116'>www.moody.edu/edu_dlochannelmain.aspx?id=4116</a></li>
-            </ul>
           </div>
         </div>
       </Page>

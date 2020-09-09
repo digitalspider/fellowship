@@ -22,6 +22,7 @@ const LeadershipTeam = (props) => {
         spending time with his wife, and tennis. He completed his ministry doctorate in 2019 on the topic of church planting.</p>
       <p>&nbsp;</p>
       <h4>Pastor Brian and Angie Eggert</h4>
+      <p>Pastor Brian grew up in central Florida. In 1988-93, he attended Moody Bible Institute in Chicago, where he earned a BMus and met his wife, Angela. From Chicago, the Lord led Brian into church ministry as an associate pastor & music minister in Illinois, and later in Michigan. While in Michigan, he attended Moody Theological Seminary, earning a MDiv in 2008. In the meantime, God blessed Brian and Angela with three children – Maeghan, Gilbert and Emily. In August 2009, the family moved to Sydney, where among other things, they have enjoyed being part of the ministry at Fellowship since January 2010. Brian loves to teach Bible, music, history and English, and especially enjoys gardening, woodworking and time with his family.</p>
       <p>&nbsp;</p>
       <h4>Pastor Paul and Rachel Weber</h4>
       <p><img src='/img/profile/PaulAndRachelWeber.jpg' alt='Paul and Rachel Weber' style={imgStyleRight}></img></p>
@@ -32,6 +33,15 @@ const LeadershipTeam = (props) => {
       area. In 2019, he accepted the role as an Elder at Fellowship. Paul and Rachel have three sons, born
       in the USA and two daughters, born in Australia. Pastor Paul has a passion for preaching God’s
         Word. He loves spending time with his family, sport, and playing board games.</p>
+      <p>&nbsp;</p>
+      <h4>Deacons</h4>
+      <ul>
+        <li>Nelson and Tonton Yunzal</li>
+        <li>Stuart and Karen Higgins</li>
+        <li>Glen and Debbie Truman</li>
+        <li>Justin and Cornelia Portelli</li>
+        <li>Noel and Pines Hearsey</li>
+      </ul>
     </div >
   )
 }

@@ -1,30 +1,31 @@
 import React from 'react';
 import BibleVerse from '../utils/BibleVerse';
 
-const imgStyleLeft = {
-  align: 'left',
-  border: '3px solid #dcd4c5',
-  marginRight: 20,
-  marginTop: 0,
-  marginBottom: 10,
-};
+// const imgStyleLeft = {
+//   align: 'left',
+//   border: '3px solid #dcd4c5',
+//   marginRight: 20,
+//   marginTop: 0,
+//   marginBottom: 10,
+// };
 
 const Welcome = (props) => {
   return (
     <div>
       <h2>WELCOME</h2>
       <p>
-        Fellowship Baptist Church is an Australian independent Baptist Church and part of the <a href='https://www.facebook.com/AFBBC' target="_blank" rel="noopener noreferrer">Australian Fellowship of Bible-believing Churches</a>.
-        <br />Our mission statement is:
-        <br />
-        <div className="blockquote">To glorify God as a loving fellowship<br />of Christlike disciplemakers.</div>
+        Fellowship Baptist Church is an Australian Independent Baptist Church and part of the <a href='https://www.facebook.com/AFBBC' target="_blank" rel="noopener noreferrer">Australian Fellowship of Bible-believing Churches.</a>
       </p>
       <p>
         We are a body of believers, in Jesus Christ, who meet weekly on Sunday mornings for worship and fellowship.<br />
-        During our Sunday morning services, we provide services for younger kids, inclduing crèche facilities and children’s church.<br />
+        During our Sunday morning services, we provide services for younger kids, including crèche facilities and children’s church.<br />
         If you are visiting in the area, or seeking a place to worship, we heartily invite you to come along and enjoy the fellowship of God’s people.<br />
+        <br/>
         We assure you of a warm welcome at all times.
       </p>
+      <br />Our purpose statement is:
+        <br />
+        <div className="blockquote">To glorify God as a loving fellowship<br />of Christlike disciplemakers.</div>
       <h2>Magnification</h2>
       <p>
         Our worship services glorify the Lord as we strive to keep Him at the centre of our church.<br />
@@ -66,14 +67,14 @@ const Welcome = (props) => {
           <BibleVerse reference="COL.1.27-29" text="Colossians 1:27-29" />
         </em>
       </p>
-      <h2>Fellowship Photos</h2>
+      {/* <h2>Fellowship Photos</h2>
       <p>
         <img width="200" height="132" alt="_MG_4519" src="/img/about/_MG_4519.JPG" style={imgStyleLeft}></img>
         <img alt="IMG_4444" src="/img/about/IMG_4444_2.JPG" style={imgStyleLeft}></img>
         <img width="200" height="163" alt="IMG_4478" src="/img/about/IMG_4478.JPG" style={imgStyleLeft}></img>
         <img width="133" height="200" alt="_MG_4524" src="/img/about/_MG_4524.jpg" style={imgStyleLeft}></img>
         <img alt="IMG_4443" src="/img/about/IMG_4443_2.JPG" style={imgStyleLeft}></img>
-      </p>
+      </p> */}
     </div>
   )
 }

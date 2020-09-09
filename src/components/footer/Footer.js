@@ -27,7 +27,7 @@ const Footer = (props) => {
           <div class="mp-brick-text">
             <h4>CONTACT</h4>
             <p>
-              Phone: 02 9837 8352<br />
+              Phone: 02 9672 1691<br />
               Email: info@fellowship.org.au
             </p>
           </div>

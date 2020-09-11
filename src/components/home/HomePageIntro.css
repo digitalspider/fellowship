@@ -15,11 +15,15 @@
   padding: 10px 10px;
 }
 
-.mission-statement-image {
+.purpose-statement-image {
   max-width: 100%;
 }
 
 .btn-about-us {
+  font-size: 20px;
+}
+
+.welcome-text {
   font-size: 20px;
 }
 
@@ -33,8 +37,8 @@
   .home-page-intro {
     width: 50%;
   }
-  .home-page-intro p {
-    font-size: 24px;
+  .welcome-text {
+    font-size: 22px;
   }
   .who-we-are.title {
     font-size: 35px;

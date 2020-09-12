@@ -4,7 +4,7 @@ import Footer from '../footer/Footer';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './FBC.css';
 
-const FBC = (props) => {
+function FBC(props) {
   return (
     <div>
       <Header />

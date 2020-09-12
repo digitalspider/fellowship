@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WhatToExpect = (props) => {
+function WhatToExpect(props) {
   return (
     <div>
       <h2>Parking</h2>

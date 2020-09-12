@@ -3,7 +3,7 @@ import Page from '../page/Page';
 import Map from '../map/Map';
 import './ContactPage.css';
 
-const ContactPage = (props) => {
+function ContactPage(props) {
   return (
     <Page>
       <div className="content">
@@ -15,7 +15,7 @@ const ContactPage = (props) => {
             Fellowship Baptist Church<br />
             87 Frederick Street<br />
             Blacktown NSW 2148<br />
-            <br/>
+            <br />
             Phone: 02 9672 1691<br />
           </p>
           <br />

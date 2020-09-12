@@ -3,7 +3,7 @@ import Page from '../page/Page';
 import PageBanner from '../page/PageBanner';
 import './EventsPage.css';
 
-const WhatsOnSection = (props) => {
+function WhatsOnSection(props) {
   return (
     <Page>
       <PageBanner imageUrl="/img/banner/table-bible2.jpg" />

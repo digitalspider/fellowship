@@ -9,7 +9,7 @@ const imgStyleRight = {
   marginBottom: 10,
 };
 
-const LeadershipTeam = (props) => {
+function LeadershipTeam(props) {
   return (
     <div>
       <h2>Pastoral leadership team</h2>

@@ -9,7 +9,7 @@ const imgStyleRight = {
   marginBottom: 10,
 };
 
-const Missionary = (props) => {
+function Missionary(props) {
   return (
     <div>
       <h2>Horacio and Sara Brancatelli</h2>

@@ -1,13 +1,9 @@
 import React from 'react';
 
-const SermonAudioSermon = ({
-  sermonId,
-  title
-}) => {
-
+function SermonAudioSermon({ sermonId, title }) {
   const style = {
-    minWidth:"100%",
-    maxWidth:"100%",
+    minWidth: "100%",
+    maxWidth: "100%",
     border: "1px solid #ddd",
     boxSizing: "border-box"
   }

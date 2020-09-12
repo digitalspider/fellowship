@@ -4,7 +4,7 @@ import PageBanner from '../page/PageBanner';
 import './SermonsPage.css';
 
 
-const SermonsPage = (props) => {
+function SermonsPage(props) {
 
   var style = {
     minHeight: "700px",

@@ -1,7 +1,7 @@
 import React from 'react';
 import BibleVerse from '../utils/BibleVerse';
 
-const Gospel = (props) => {
+function Gospel(props) {
   return (
     <div>
       <h3>God </h3>

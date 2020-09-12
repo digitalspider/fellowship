@@ -8,7 +8,7 @@ const imgStyle = {
   marginBottom: 10,
 };
 
-const History = (props) => {
+function History(props) {
   return (
     <div>
       <h2>HISTORY</h2>

@@ -9,7 +9,6 @@ import Gospel from './Gospel';
 import LeadershipTeam from './LeadershipTeam';
 import ChurchMinistry from './ChurchMinistry';
 import Missionary from './Missionary';
-import HistoryMore from './HistoryMore';
 import WhatWeBelieve from './WhatWeBelieve';
 import WhatWeBelieveMore from './WhatWeBelieveMore';
 import WhatToExpect from './WhatToExpect';
@@ -91,7 +90,6 @@ class AboutPage extends React.Component {
             url="/about/history"
             bannerMobilePosition="right">
             <History />
-            <HistoryMore />
           </PageSection>
 
           <PageSection

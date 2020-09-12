@@ -6,7 +6,7 @@ import HomePageLinks from './HomePageLinks';
 // import HomePageSlider from './HomePageSlider';
 import './HomePage.css';
 
-const HomePage = (props) => {
+function HomePage(props) {
   return (
     <Page>
       <PageBanner imageUrl="/img/banner/auditorium.jpg" />

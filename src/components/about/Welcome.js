@@ -9,7 +9,7 @@ import BibleVerse from '../utils/BibleVerse';
 //   marginBottom: 10,
 // };
 
-const Welcome = (props) => {
+function Welcome(props) {
   return (
     <div>
       <h2>WELCOME</h2>
@@ -20,12 +20,12 @@ const Welcome = (props) => {
         We are a body of believers, in Jesus Christ, who meet weekly on Sunday mornings for worship and fellowship.<br />
         During our Sunday morning services, we provide services for younger kids, including crèche facilities and children’s church.<br />
         If you are visiting in the area, or seeking a place to worship, we heartily invite you to come along and enjoy the fellowship of God’s people.<br />
-        <br/>
+        <br />
         We assure you of a warm welcome at all times.
       </p>
       <br />Our purpose statement is:
-        <br />
-        <div className="blockquote">To glorify God as a loving fellowship<br />of Christlike disciplemakers.</div>
+      <br />
+      <div className="blockquote">To glorify God as a loving fellowship<br />of Christlike disciplemakers.</div>
       <h2>Magnification</h2>
       <p>
         Our worship services glorify the Lord as we strive to keep Him at the centre of our church.<br />

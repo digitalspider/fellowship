@@ -3,7 +3,7 @@ import './HomePageLinks.css';
 import { Link } from 'react-router-dom';
 
 
-const HomePageLinks = (props) => {
+function HomePageLinks(props) {
   return (
     <div className="row links">
       <Link to="/covid19" className="tile homepage-text covid">

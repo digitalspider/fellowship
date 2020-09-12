@@ -34,3 +34,14 @@
   color:#233d68;
   text-decoration: none;
 }
+
+@media(min-width: 992px) {
+  .church-ministry h3 {
+    font-size: 2rem;
+  }
+
+  .church-ministry p {
+    margin-right: 10%;
+    margin-bottom: 50px;
+  }
+}

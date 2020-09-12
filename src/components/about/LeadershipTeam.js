@@ -1,6 +1,7 @@
 import React from 'react';
 
 const imgStyleRight = {
+  borderRadius: '50%',
   float: 'right',
   border: '3px solid #dcd4c5',
   height: '186px',

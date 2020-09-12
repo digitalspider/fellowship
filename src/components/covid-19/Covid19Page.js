@@ -11,6 +11,7 @@ function Covid19Page(props) {
         <p>
           <h3>Limited meetings in person</h3>
           <p>
+            <img src='/img/COVID_Safe_Badge.png' alt='Covid Safe Badge' className="covid-img" align='left'></img>
             We are now meeting at our church building on Frederick St as a COVID safe venue.
             The limit on attendees is 62, excluding staff. In order to regulate numbers,
             regular attenders are required to obtain a Sunday pass for each Sunday service they attend.

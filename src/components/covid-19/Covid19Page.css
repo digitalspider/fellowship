@@ -1,0 +1,12 @@
+.covid-img {
+  margin-left: 20;
+  margin-right: 20;
+  margin-top: 10;
+  margin-bottom: 10;
+}
+
+@media(max-width: 600px) {
+  .covid-img {
+    width: 100%;
+  }
+}

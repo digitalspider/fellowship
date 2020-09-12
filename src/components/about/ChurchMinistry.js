@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ChurchMinistry(_props) {
+function ChurchMinistry(props) {
   return (
     <div className="church-ministry">
       <h3>KIDS</h3>

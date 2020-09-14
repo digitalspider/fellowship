@@ -4,7 +4,7 @@ const imgStyleRight = {
   borderRadius: '50%',
   float: 'right',
   border: '3px solid #dcd4c5',
-  height: '186px',
+  height: '215px',
   width: '249px',
   marginLeft: 20,
   marginBottom: 10,

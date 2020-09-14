@@ -8,7 +8,7 @@ function ChurchMinistry(props) {
       <p>During the Bible message, kids aged 4-9 are encouraged to attend the children's church service downstairs. Children's church is run by volunteer helpers who provide a children's Bible lesson, as well as songs, crafts, games and snacks for the kids. Please inform the helpers if your child has any special needs or dietary requirements.</p>
       <p>Holiday Bible Club is a week-long school-holiday event for children aged 12 and younger. Each year the club is built around a fun theme, and the kids learn interactive Bible lessons while enjoying the skits, music, food, and games – all provided free of charge.</p>
       <h3>FBC YOUTH</h3>
-      <p>EPIC is a monthly ministry for students aged 10-16. It’s a time when our young people can ask the big question of life, discover Jesus, make friends, and have a lot of fun.</p>
+      <p>EPIC is a monthly ministry for students in Junior High (years 7-9). It’s a time when our young people can ask the big question of life, discover Jesus, make friends, and have a lot of fun.</p>
       <p>IGNITE is a bi-weekly ministry for young adults, and includes a regular Bible study, social events, and ministry opportunities to help young people experience the joy of knowing and growing in Christ.</p>
       <h3>SMALL GROUPS</h3>
       <p>Our care groups are all about family doing life together in God’s Word. Each care group meets bi-weekly to enjoy fellowship, Bible study, and prayer. Care groups also plan ministry and social activities together, and are a great way to connect with other members in the church. We have several groups meeting across Western Sydney. We want you to be in a group that works for you.</p>

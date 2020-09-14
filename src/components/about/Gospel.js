@@ -17,8 +17,8 @@ function Gospel(props) {
       <p>"... all have sinned and fall short of the glory of God." <BibleVerse reference="ROM.3.23" text="Romans 3:23" /></p>
 
       <h3>Death</h3>
-      <p>From the Bible we learn that we are facing God's judgment and cannot escape it on our own:</p>
-      <p>"... it is appointed for men to die once, but after this the judgment." <BibleVerse reference="HEB.9.27" text="Hebrews 9:27" /></p>
+      <p>From the Bible we learn that we are facing God's judgement and cannot escape it on our own:</p>
+      <p>"... it is appointed for men to die once, but after this the judgement." <BibleVerse reference="HEB.9.27" text="Hebrews 9:27" /></p>
 
       <h3>Christ</h3>
       <p>From the Bible we learn that Jesus Christ is the perfect Son of God AND the perfect Son of Man, the only way to eternal life:</p>

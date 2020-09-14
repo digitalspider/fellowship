@@ -19,7 +19,7 @@ function ChurchMinistry(props) {
       <p>Evangelistic training takes place every year to help you live out your Christianity. Past courses include, “Share Jesus without Fear,” “Two Ways to Live,” “Good Soil Evangelism,” and “Stand to Reason.”</p>
       <p>The FBC missions committee plans fund-raising events and mission-related activities to raise awareness of our missionaries and their needs.</p>
       <h3>CONFERENCES</h3>
-      <p>We promote and attend conferences put on by the Katoomba Christian Convention, an interdenominational organization that hosts annual conferences in the Blue Mountains. Our men attend Basecamp, our women attend One Love, and our kids enjoy Onward. Go to https://www.kcc.org.au/ for more information on these conferences.</p>
+      <p>We promote and attend conferences put on by the Katoomba Christian Convention, an interdenominational organization that hosts annual conferences in the Blue Mountains. Our men attend Basecamp, our women attend One Love, and our kids enjoy Onward. Go to <a href="//www.kcc.org.au">https://www.kcc.org.au</a> for more information on these conferences.</p>
       <p>The AFBC also hosts an annual Bible Conference with international speakers, and the young adult conference Recalibrate.</p>
     </div >
   )

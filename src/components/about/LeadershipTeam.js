@@ -23,6 +23,7 @@ function LeadershipTeam(props) {
         spending time with his wife, and tennis. He completed his ministry doctorate in 2019 on the topic of church planting.</p>
       <p>&nbsp;</p>
       <h4>Pastor Brian and Angie Eggert</h4>
+      <p><img src='/img/profile/BrianAndAngieEggert.jpg' alt='Brian And Angie Eggert' style={imgStyleRight}></img></p>
       <p>Pastor Brian grew up in central Florida. In 1988-93, he attended Moody Bible Institute in Chicago, where he earned a BMus and met his wife, Angela. From Chicago, the Lord led Brian into church ministry as an associate pastor & music minister in Illinois, and later in Michigan. While in Michigan, he attended Moody Theological Seminary, earning a MDiv in 2008. In the meantime, God blessed Brian and Angela with three children – Maeghan, Gilbert and Emily. In August 2009, the family moved to Sydney, where among other things, they have enjoyed being part of the ministry at Fellowship since January 2010. Brian loves to teach Bible, music, history and English, and especially enjoys gardening, woodworking and time with his family.</p>
       <p>&nbsp;</p>
       <h4>Pastor Paul and Rachel Weber</h4>

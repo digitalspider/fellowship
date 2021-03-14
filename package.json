@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "cfcachereset": "aws --profile fbc cloudfront create-invalidation --distribution-id E1YYUG85PDJNEX --paths \"/*\"",
+    "cfcachereset": "aws --profile fbc cloudfront create-invalidation --distribution-id EHT7NE1IP7KTD --paths \"/*\"",
     "deploy": "aws s3 sync build/ s3://fellowship.org.au && aws s3 sync build/ s3://fellowship.com.au",
     "deploy-fbc": "npm run build && aws --profile fbc s3 sync build/ s3://fellowship.com.au && npm run cfcachereset"
   },

@@ -26,3 +26,6 @@ jobs:
 
       - name: Deploy website to S3 bucket
         run: npm run deploy
+
+      - name: Clear cache
+        run: aws cloudfront create-invalidation --distribution-id EHT7NE1IP7KTD --paths "/*"

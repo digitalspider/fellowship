@@ -17,6 +17,8 @@
 
 .purpose-statement-image {
   max-width: 100%;
+  border-radius: 25%;
+  opacity: 0.9;
 }
 
 .btn-about-us {

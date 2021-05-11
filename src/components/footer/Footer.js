@@ -2,29 +2,48 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-const Footer = (props) => {
+function Footer(props) {
   return (
     <div className="footer">
       <div className="footer-links">
-        <Link to="/about">About</Link><span className="footer-link-slash">/</span>
+        <Link to="/about">About Us</Link><span className="footer-link-slash">/</span>
+        <Link to="/covid19">COVID-19</Link><span className="footer-link-slash">/</span>
         <Link to="/events">What's On</Link><span className="footer-link-slash">/</span>
         <Link to="/sermons">Sermons</Link><span className="footer-link-slash">/</span>
+        <Link to="/resources">Resources</Link><span className="footer-link-slash">/</span>
         <Link to="/contact">Contact</Link><span className="footer-link-slash">/</span>
         <Link to="/giving">Giving</Link>
       </div>
       <div className="row">
         <div className="col-sm">
-          <p>Fellowship Baptist Church<br />87 Frederick Street, <br />Blacktown NSW 2148 <br />&copy; Fellowship Baptist Church</p>
+          <div class="mp-brick-text"><h4>SERVICE TIMES<strong><br /></strong></h4>
+            <p>Sundays<br />10:00am — Morning Service</p>
+            <p>
+              Fellowship Baptist Church<br />
+              87 Frederick Street,<br />
+              Blacktown NSW 2148<br />
+              © Fellowship Baptist Church
+            </p>
+          </div>
+          <div class="mp-brick-text">
+            <h4>CONTACT</h4>
+            <p>
+              Phone: 02 9672 1691<br />
+              Email: info@fellowship.org.au
+            </p>
+          </div>
         </div>
-        <div className="col-sm">
+        {/* <div className="col-sm">
           <p className="footer-social-title">STAY CONNECTED</p>
           <div className="footer-social-links">
             <a href="https://www.facebook.com/groups/584850305633207/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
-            {/* <a href="https://twitter.com/FellowshipBC"><i className="fab fa-twitter"></i></a> */}
+            <a href="https://twitter.com/FellowshipBC"><i className="fab fa-twitter"></i></a>
           </div>
-        </div>
+        </div> */}
         <div className="col-sm d-none d-sm-none d-md-none d-lg-block">
-          <img alt="footer-logo" srcSet="img/logo_footer@2x.png 2x" className="footer-logo float-right" src="img/logo_footer.png" />
+          <a href='/'>
+            <img className="footer-logo float-right" src="img/fellowship_logo_white.png" srcSet="img/fellowship_logo_white.png 2x" alt="Fellowship Baptist Church logo" />
+          </a>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "auth0-js": "^9.10.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.0.0",
     "jest-enzyme": "^7.0.1",
     "jquery": "^3.3.1",
@@ -31,8 +31,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "aws s3 sync build/ s3://fellowship.org.au",
-    "deploy-fellowship": "aws --profile fellowship s3 sync build/ s3://fellowship.org.au"
+    "cfcachereset": "aws --profile fbc cloudfront create-invalidation --distribution-id EHT7NE1IP7KTD --paths \"/*\"",
+    "deploy": "aws s3 sync build/ s3://fellowship.org.au && aws s3 sync build/ s3://fellowship.com.au",
+    "deploy-fbc": "npm run build && aws --profile fbc s3 sync build/ s3://fellowship.org.au && npm run cfcachereset"
   },
   "browserslist": [
     ">0.2%",

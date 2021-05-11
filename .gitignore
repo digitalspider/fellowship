@@ -1,8 +1,9 @@
 node_modules
-build
+**/build
 dist
 out
 .env
 .next
 .DS_Store
 **/.DS_Store
+**/*.log

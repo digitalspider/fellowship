@@ -1,15 +1,33 @@
 .page {
-  margin: 0 10px;
-  font-family: 'Raleway', sans-serif;
+  color: #282a29;
+  font-size: 20px;
+  font-family: 'Lato:300';
+}
+
+.page .title {
+  padding-left: 10px;
+}
+
+.content {
+  margin: 10px;
 }
 
 @media(min-width: 992px) {
-  .page{
-    margin: 0 100px;
+  .page {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .page .title {
+    padding-left: 0px;
+  }
+  .content {
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 }
 
 .page h2 {
-  font-weight: 700;
   margin-bottom: 25px;
 }

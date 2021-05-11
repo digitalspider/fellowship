@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Auth from '../auth/Auth';
 import FileDownloadRow from './FileDownloadRow';
-import loading from '../auth/Loading.svg'
+import loading from '../auth/Loading.svg';
 
 class FileDownloadsSection extends React.Component {
   constructor(props) {
@@ -15,22 +15,22 @@ class FileDownloadsSection extends React.Component {
   componentDidMount() {
     const auth = new Auth()
     const accessToken = auth.getAccessToken()
-    const headers = { 'Authorization': `Bearer ${accessToken}`}
+    const headers = { 'Authorization': `Bearer ${accessToken}` }
 
     axios.get('https://api.fellowship.org.au/api/v1/members/files', { headers })
-    .then((response) => {
-      // handle success
-      console.log(response);
+      .then((response) => {
+        // handle success
+        console.log(response);
 
-      this.setState({
-        files: response.data.map(file => file.key)
+        this.setState({
+          files: response.data.map(file => file.key)
+        })
+      }).catch((error) => {
+        if (error.response && error.response.status && error.response.status.toString().indexOf("4") === 0) {
+          auth.logout()
+        }
+        console.error(error)
       })
-    }).catch((error) => {
-      if (error.response && error.response.status && error.response.status.toString().indexOf("4") === 0) {
-        auth.logout()
-      }
-      console.error(error)
-    })
 
   }
 
@@ -52,14 +52,14 @@ class FileDownloadsSection extends React.Component {
 
       content = (
         <div style={style}>
-          <img src={loading} alt="loading"/>
+          <img src={loading} alt="loading" />
         </div>
       )
     } else {
       content = (
         <table className="table">
           <tbody>
-          { this.state.files.map((file, index) => <FileDownloadRow key={`file-download-${index}`} file={file}/>)}
+            {this.state.files.map((file, index) => <FileDownloadRow key={`file-download-${index}`} file={file} />)}
           </tbody>
         </table>
       )

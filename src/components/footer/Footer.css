@@ -1,10 +1,14 @@
 .footer {
   padding: 50px 45px;
-  background-color: #e6e6e6;
-  color: black;
-  font-family: 'Raleway', sans-serif;
+  background-color: rgba(22,22,22,1);
+  color: white;
+  font-family: 'Lato';
+  font-size: 15px;
 }
 
+.footer p, .footer h4 {
+  font-size: 15px;
+}
 @media(min-width: 992px) {
   .footer{
     padding: 50px 100px;
@@ -12,8 +16,7 @@
 }
 
 .footer-logo {
-  height:100px;
-  width:23px;
+  height:60px;
 }
 
 .footer-links {
@@ -22,12 +25,12 @@
 }
 
 .footer-links a {
-  color:black;
-  font-family: 'Raleway', sans-serif;
+  color:white;
+  font-family: 'Lato';
 }
 
 .footer-links a:hover {
-  color: black;
+  color: white;
   text-decoration: none;
   border-bottom: 1px solid #233d68;
 }
@@ -49,7 +52,7 @@
 
 .footer-social-links a {
   padding-right: 10px;
-  color: black;
+  color: white;
 }
 
 .footer-social-links a:hover {

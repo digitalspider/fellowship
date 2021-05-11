@@ -1,9 +1,6 @@
 .page-banner {
-  margin-left: -10px;
-  margin-right: -10px;
   min-height: 300px;
   background-size: cover !important;
-  margin-bottom: 20px;
 }
 
 .page-banner-mobile-center {
@@ -16,7 +13,7 @@
 
 .page-banner h1 {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato';
   font-weight: 700;
 }
 
@@ -26,8 +23,6 @@
 
 @media(min-width: 992px) {
   .page-banner{
-    margin-left: -100px;
-    margin-right: -100px;
     min-height: 350px;
     background-position: center !important;
   }

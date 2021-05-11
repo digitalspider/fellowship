@@ -4,14 +4,14 @@ import Footer from '../footer/Footer';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './FBC.css';
 
-const FBC = (props) => {
-    return (
-      <div>
-          <Header/>
-          {props.children}
-          <Footer/>
-      </div>
-    );
+function FBC(props) {
+  return (
+    <div>
+      <Header />
+      {props.children}
+      <Footer />
+    </div>
+  );
 }
 
 export default FBC;

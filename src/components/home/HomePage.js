@@ -1,20 +1,25 @@
 import React from 'react';
-import HomePageSlider from './HomePageSlider';
+import Page from '../page/Page';
+import PageBanner from '../page/PageBanner';
 import HomePageIntro from './HomePageIntro';
-// import HomePageText from './HomePageText';
-import HomePageMeetingTimes from './HomePageMeetingTimes';
-import Map from '../map/Map';
-import './HomePage.css'
+import HomePageLinks from './HomePageLinks';
+// import HomePageSlider from './HomePageSlider';
+import './HomePage.css';
 
-const HomePage = (props) => {
+function HomePage(props) {
   return (
-    <div className="home-page">
-      <HomePageSlider />
+    <Page>
+      <PageBanner imageUrl="/img/banner/auditorium.jpg" />
       <HomePageIntro />
-      {/* <HomePageText/> */}
-      <HomePageMeetingTimes />
-      <Map />
-    </div>
+      <HomePageLinks />
+      <br />
+    </Page>
+    // <div className="home-page">
+    //   <HomePageSlider />
+    //   <HomePageIntro />
+    //   <HomePageLinks />
+    //   <br />
+    // </div>
   )
 }
 

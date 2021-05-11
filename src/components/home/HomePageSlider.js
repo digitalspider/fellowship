@@ -4,7 +4,7 @@ import $ from 'jquery';
 import HomePageSlide from './HomePageSlide'
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-import "./HomePageSlider.css"
+import "./HomePageSlider.css";
 
 
 class HomePageSlider extends React.Component {
@@ -14,31 +14,31 @@ class HomePageSlider extends React.Component {
     this.state = {
       padding: this.getPadding(),
       slides: [{
-        "imageUrl": "/img/about_us_fbc.jpeg",
+        "imageUrl": "/img/banner/FBC.jpg",
         "backgroundPosition": "center",
         "internalLink": true,
       }, {
-        "imageUrl": "/img/GlorifyGod.png",
+        "imageUrl": "/img/banner/GlorifyGod.png",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Kwok Family",
-        "imageUrl": "/img/community/Kwok_Family.jpeg",
+        "imageUrl": "/img/banner/KwokFamilyPhoto.jpg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Eggert Family",
-        "imageUrl": "/img/community/Eggert_famliy_pic_2017_Dec.jpg",
+        "imageUrl": "/img/banner/EggertFamilyPhoto.jpg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "subtitle": "Weber Family",
-        "imageUrl": "/img/community/Weber_Family_Photos___2019.JPG",
+        "imageUrl": "/img/banner/WeberFamilyPhoto.jpg",
         "backgroundPosition": "center",
         "internalLink": false,
       }, {
         "type": "GOSPEL SERIES",
-        "title": "Revelations",
+        "title": "Revelation",
         "subtitle": "Revelation of Jesus Christ",
         "imageUrl": "img/slides/family.jpg",
         "backgroundPosition": "center",

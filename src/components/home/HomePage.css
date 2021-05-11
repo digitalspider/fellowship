@@ -1,3 +1,6 @@
 .home-page {
-  background-color: '#3a3636',
+  background-color: '#3a3636';
+  color: #282a29;
+  font-size: 20px;
+  font-family: 'Lato:300';
 }

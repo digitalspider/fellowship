@@ -1,5 +1,5 @@
 import React from 'react'
-import './BibleVerse.css'
+import './BibleVerse.css';
 
 const BibleVerse = ({ reference, text }) => {
 

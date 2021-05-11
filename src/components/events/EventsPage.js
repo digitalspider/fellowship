@@ -1,30 +1,27 @@
 import React from 'react';
+import Page from '../page/Page';
+import PageBanner from '../page/PageBanner';
+import './EventsPage.css';
 
-const highlightText = {
-  fontSize: '2.5rem',
-  textAlign: 'center',
-  border: 'solid #a7b3ec',
-  marginTop: 40,
-  marginBottom: 40,
-};
-
-const WhatsOnSection = (props) => {
+function WhatsOnSection(props) {
   return (
-    <div className="page">
-      <h2>Sunday Meetings</h2>
-      <p style={highlightText}>Morning service at 10.00am</p>
+    <Page>
+      <PageBanner imageUrl="/img/banner/table-bible2.jpg" />
+      <div className="content">
+        <h2 className="title">Calendar</h2>
+        <div className="calendar">
+          <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23e2e2e2&amp;ctz=Australia%2FSydney&amp;src=b25oczllajB2MWh1aGtwcmdlamhqY2U0bTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23e2e2e2&amp;showTitle=1&amp;title=FBC%20Events&amp;showDate=1&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0&amp;showPrint=0" width="100%" height="600" frameborder="0" scrolling="no" title="calendar"></iframe>
+        </div>
 
-      <h2>Midweek Meetings</h2>
-      <table className="table">
-        <tbody>
-          <tr><td>Women's Meeting</td><td>Last Tuesday of each month at 8pm</td></tr>
-          <tr><td>Bible study and care groups</td><td>Friday fortnightly 7:30pm</td></tr>
-          <tr><td>IGNITE Young adults</td><td>Friday fortnightly 7:30pm</td></tr>
-          <tr><td>EPIC Youth</td><td>First Thursday of each month at 7:00pm</td></tr>
-        </tbody>
-      </table>
-      <br />
-    </div>
+        <h2 className="title">Sunday Meetings</h2>
+        <p className="highlightText">Morning service at 10.00am</p>
+
+        <h2 className="title">Church Ministries</h2>
+        <p>For more information about church ministries see our:
+          <a class="btn btn-lg" href="/about/church">Church Ministries page</a>
+        </p>
+      </div>
+    </Page >
   )
 }
 

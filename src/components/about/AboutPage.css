@@ -3,10 +3,10 @@
   border: 5px solid #d5c9b4;
   font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 30px;
-  background: #cebfa4;
-  color: #615A4D;
+  /* background: #cebfa4; */
+  /* color: #615A4D; */
   margin: 10px 0;
   text-align: center;
 }
@@ -33,4 +33,15 @@
 .history-section-button:active {
   color:#233d68;
   text-decoration: none;
+}
+
+@media(min-width: 992px) {
+  .church-ministry h3 {
+    font-size: 2rem;
+  }
+
+  .church-ministry p {
+    margin-right: 10%;
+    margin-bottom: 50px;
+  }
 }

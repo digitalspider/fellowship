@@ -11,7 +11,7 @@ function Covid19Page(props) {
         <p>&nbsp;</p>
         <img src='/img/COVID_Safe_Badge.png' alt='Covid Safe Badge' className="covid-img" align='left'></img>
         <p>
-          Our church building on Frederick St as a COVID safe venue.
+          Our church building on Frederick St is a COVID safe venue.
         </p>
         <p>
           For the latest COVID-19 information see <a href="https://www.nsw.gov.au/covid-19" target="_blank" rel="noopener noreferrer">Service NSW</a>, and our <a href="https://www.facebook.com/FBCBlacktown" target="_blank" rel="noopener noreferrer">Facebook page</a>

@@ -14,8 +14,7 @@
 .page-banner h1 {
   text-align: center;
   font-family: 'Lato:300';
-  padding-left: 100px;
-  padding-top: 150px;
+  display: none;
 }
 
 .page-banner .row {
@@ -33,5 +32,12 @@
   }
   .page-banner .row {
     height: 350px;
+  }
+  .page-banner h1 {
+    text-align: center;
+    font-family: 'Lato:300';
+    padding-left: 100px;
+    padding-top: 150px;
+    display: block;
   }
 }

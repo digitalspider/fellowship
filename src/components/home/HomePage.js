@@ -9,7 +9,7 @@ import './HomePage.css';
 function HomePage(props) {
   return (
     <Page>
-      <PageBanner imageUrl="/img/banner/auditorium.jpg" />
+      <PageBanner imageUrl="/img/banner/auditorium.jpg" titleColour="white" title="Welcome Home"/>
       <HomePageIntro />
       <HomePageLinks />
       <br />

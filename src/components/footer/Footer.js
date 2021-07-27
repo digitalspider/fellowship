@@ -7,7 +7,6 @@ function Footer(props) {
     <div className="footer">
       <div className="footer-links">
         <Link to="/about">About Us</Link><span className="footer-link-slash">/</span>
-        <Link to="/covid19">COVID-19</Link><span className="footer-link-slash">/</span>
         <Link to="/events">What's On</Link><span className="footer-link-slash">/</span>
         <Link to="/sermons">Sermons</Link><span className="footer-link-slash">/</span>
         <Link to="/resources">Resources</Link><span className="footer-link-slash">/</span>

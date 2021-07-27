@@ -95,31 +95,32 @@ class ResourcesSection extends React.Component {
           </div> */}
 
           <div className="item" key="Right">
-            <h2>Ministries</h2>
+            <h2 className="title">Ministries</h2>
             <ul>
+              <li>Fellowship Baptist Church (FBC) facebook page - <a href='//www.facebook.com/FBCBlacktown'>www.facebook.com/FBCBlacktown</a></li>
               <li>Australian Fellowship of Bible-believing Churches (AFBC) - <a href='//www.facebook.com/AFBBC'>www.facebook.com/AFBBC</a></li>
             </ul>
-            <h4>Evangelism &amp; Discipleship:</h4>
+            <h4 className="sectionHeading">Evangelism &amp; Discipleship</h4>
             <ul>
-              <li>Answers in Genesis (creation science) - <a href='//www.answersingenesis.org'>www.answersingenesis.org</a></li>
+              <li>Answers in Genesis (Creation Science) - <a href='//www.answersingenesis.org'>www.answersingenesis.org</a></li>
               <li>Centre for Apologetic Scholarship &amp; Education - <a href='//www.case.edu.au'>www.case.edu.au</a></li>
               <li>Good Soil Evangelism &amp; Discipleship - <a href='//www.goodsoil.com'>www.goodsoil.com</a></li>
               <li>Sow &amp; Harvest International (evangelism/discipleship material in many languages) - <a href='//www.sowandharvest.com'>www.sowandharvest.com</a></li>
               <li>Ravi Zacharias Intl Ministries (apologetics) - <a href='//www.rzim.org'>www.rzim.org</a></li>
             </ul>
-            <h4>Bible Study Resources:</h4>
+            <h4 className="sectionHeading">Bible Study Resources</h4>
             <ul>
               <li>Walk Thru the Bible - <a href='//www.walkthru.org'>www.walkthru.org</a></li>
               <li>BibleStudyTools.com (free online resources) - <a href='//www.biblestudytools.com'>www.biblestudytools.com</a></li>
               <li>E-Sword (free downloadable Bible study software) - <a href='//www.e-sword.net'>www.e-sword.net</a></li>
             </ul>
 
-            <h4>Other Christian Resources:</h4>
+            <h4 className="sectionHeading">Other Christian Resources</h4>
             <ul>
               <li>Desiring God (God-centered resources from John Piper's ministry) - <a href='//www.desiringgod.org'>www.desiringgod.org</a></li>
               <li>Reformers' Bookshop (quality Christian literature) - <a href='//reformers.org.au'>reformers.org.au</a></li>
-              <li>9Marks Ministries(an educational forum to discuss, examine &amp; debate the elements of a healthy local church) - <a href='//www.9marks.org'>www.9marks.org</a></li>
-              <li>Billy Graham Evangelical Association(BGEA) - <a href='//billygraham.com.au'>billygraham.com.au</a></li>
+              <li>9Marks Ministries (an educational forum to discuss, examine &amp; debate the elements of a healthy local church) - <a href='//www.9marks.org'>www.9marks.org</a></li>
+              <li>Billy Graham Evangelical Association (BGEA) - <a href='//billygraham.com.au'>billygraham.com.au</a></li>
               <li>Peace With God - <a href='https://peacewithgod.net'>peacewithgod.net</a></li>
             </ul >
           </div>

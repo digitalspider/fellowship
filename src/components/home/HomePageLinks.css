@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background-color: white;
 }
 
 .row.links .tile {
@@ -21,11 +22,13 @@
 
 .row.links .tile-text {
   background-color: black;
+  border-radius: 20px;
   opacity: 0.7;
+  padding: 10px;
   color: white;
   margin-top: 25%;
   font-size: 25px;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .tile-text {
@@ -41,7 +44,6 @@
   }
   .row.links {
     padding-top: 50px;
-    padding-bottom: 50px;
   }
   .row.links .tile {
     height: 250px;
@@ -49,30 +51,31 @@
   }
   .row.links .tile-text {
     margin-top: 40%;
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 
 .homepage-text.covid {
-  background-color: #e6e6e6;
   background-image: url('/img/tile/covid.jpg');
+  background-repeat: no-repeat;
   color: black;
 }
 
 .homepage-text.church {
   background-image: url('/img/tile/church.jpg');
-  color: #e6e6e6;
+  background-repeat: no-repeat;
+  color: black;
 }
 
 .homepage-text.sermon {
-  background-color: #e6e6e6;
   background-image: url('/img/tile/sermon.jpg');
+  background-repeat: no-repeat;
   color: black;
 }
 
 .homepage-text.contact {
-  background-color: #e6e6e6;
   background-image: url('/img/tile/contact.jpg');
+  background-repeat: no-repeat;
   color: black;
 }
 

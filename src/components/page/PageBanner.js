@@ -33,13 +33,13 @@ const PageBanner = (props) => {
         <meta property="og:title" content={props.title} />
         <meta name="twitter:title" content={props.title} />
       </Helmet>
-      {/* {props.title &&
+      {props.title &&
         <div className="row">
-          <div className="col align-self-end">
+          <div className={props.titleClass}>
             <h1>{props.title}</h1>
           </div>
         </div>
-      } */}
+      }
     </div>
   )
 }

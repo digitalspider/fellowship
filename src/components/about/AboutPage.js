@@ -32,7 +32,7 @@ class AboutPage extends React.Component {
   render() {
     return (
       <Page>
-        <PageBanner title={this.state.title} imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="black" />
+        <PageBanner title='' imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="black" />
         <PageSidebar onSectionChange={this.handleSectionChange} currentSection={this.state.currentSection}>
 
           <PageSection
@@ -85,7 +85,6 @@ class AboutPage extends React.Component {
 
           <PageSection
             linkTitle="History"
-            bannerTitle="HOW IT ALL BEGAN"
             bannerImageUrl="/img/history.jpg"
             url="/about/history"
             bannerMobilePosition="right">

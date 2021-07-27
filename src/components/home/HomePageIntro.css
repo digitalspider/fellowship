@@ -1,6 +1,5 @@
 .row.intro {
   padding: 10px;
-  background-color: rgba(186,186,186,1);
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -21,6 +20,9 @@
 
 .btn-about-us {
   font-size: 20px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .welcome-text {
@@ -38,9 +40,11 @@
     width: 50%;
   }
   .welcome-text {
-    font-size: 22px;
+    font-size: 18px;
   }
   .who-we-are.title {
-    font-size: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 }

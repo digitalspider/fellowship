@@ -56,25 +56,25 @@
 }
 
 .homepage-text.covid {
-  background-image: url('/img/tile/covid.jpg');
+  background-image: url('../../img/tile/covid.jpg');
   background-repeat: no-repeat;
   color: black;
 }
 
 .homepage-text.church {
-  background-image: url('/img/tile/church.jpg');
+  background-image: url('../../img/tile/church.jpg');
   background-repeat: no-repeat;
   color: black;
 }
 
 .homepage-text.sermon {
-  background-image: url('/img/tile/sermon.jpg');
+  background-image: url('../../img/tile/sermon.jpg');
   background-repeat: no-repeat;
   color: black;
 }
 
 .homepage-text.contact {
-  background-image: url('/img/tile/contact.jpg');
+  background-image: url('../../img/tile/contact.jpg');
   background-repeat: no-repeat;
   color: black;
 }

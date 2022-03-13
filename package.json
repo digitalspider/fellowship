@@ -17,14 +17,12 @@
     "react-router": "^5.1.1",
     "react-router-dom": "^5.1.1",
     "react-slick": "^0.28.1",
-    "sftp-upload": "^1.0.3",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16.2": "^1.6.4",
-    "ftp-deploy": "2.4.1",
-    "react-scripts": "4.0.3"
+    "enzyme-adapter-react-16": "^1.15.6",
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

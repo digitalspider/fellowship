@@ -8,7 +8,7 @@
     "bootstrap": "^4.0.0",
     "jest-enzyme": "^7.1.2",
     "jquery": "^3.6.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "popper.js": "^1.12.9",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",

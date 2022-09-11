@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "auth0-js": "^9.19.0",
-    "axios": "^0.26.1",
+    "axios": "^0.27.2",
     "bootstrap": "^4.0.0",
     "jest-enzyme": "^7.1.2",
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.1",
     "moment": "^2.29.4",
     "popper.js": "^1.12.9",
     "react": "^16.14.0",
@@ -22,7 +22,7 @@
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
-    "react-scripts": "5.0.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

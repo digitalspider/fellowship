@@ -12,7 +12,6 @@
     "popper.js": "^1.16.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-google-maps": "^9.4.5",
     "react-helmet": "^6.1.0",
     "react-router": "^5.1.1",
     "react-router-dom": "^5.1.1",
@@ -27,7 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --watchAll",
     "eject": "react-scripts eject",
     "cfcachereset": "aws --profile fbc cloudfront create-invalidation --distribution-id EHT7NE1IP7KTD --paths \"/*\"",
     "deploy": "aws s3 sync build/ s3://fellowship.org.au && aws s3 sync build/ s3://fellowship.com.au",

@@ -15,7 +15,7 @@ function Footer(props) {
       </div>
       <div className="row">
         <div className="col-sm">
-          <div class="mp-brick-text"><h4>SERVICE TIMES<strong><br /></strong></h4>
+          <div className="mp-brick-text"><h4>SERVICE TIMES<strong><br /></strong></h4>
             <p>Sundays<br />10:00am — Morning Service</p>
             <p>
               Fellowship Baptist Church<br />
@@ -24,7 +24,7 @@ function Footer(props) {
               © Fellowship Baptist Church
             </p>
           </div>
-          <div class="mp-brick-text">
+          <div className="mp-brick-text">
             <h4>CONTACT</h4>
             <p>
               Phone: 02 9672 1691<br />

@@ -10,9 +10,14 @@ function WhatsOnSection(props) {
       <div className="content">
         <h2 className="title">Holiday Bible Club</h2>
         <div className="details">
-          <a href="http://shorturl.at/MOW29">Registration form</a>
           <img src="/img/holiday_bible_club_2022.jpg" alt="Holiday Bible Club" width="100%" />
-          <div>&nbsp;</div>
+          <br />
+          <br />
+          <div width="500px" className="text-center">
+            <a href="http://shorturl.at/MOW29">Holiday Bible Club registration form</a>
+          </div>
+          <br />
+          <br />
         </div>
         <h2 className="title">What's on</h2>
         <p>Our main service occurs every Sunday at 10.00am</p>

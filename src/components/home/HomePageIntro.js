@@ -20,7 +20,10 @@ function HomePageIntro(props) {
         {/* <img className="purpose-statement-image" src="/img/purpose_statement.jpg" alt="FBC Purpose Statement" /> */}
         <img className="purpose-statement-image" src="/img/holiday_bible_club_2022.jpg" alt="Holiday Bible Club" width="500px" />
         <br />
-        <a href="http://shorturl.at/MOW29">Registration form</a>
+        <br />
+        <div width="500px" className="text-center">
+          <a href="http://shorturl.at/MOW29">Holiday Bible Club registration form</a>
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import './Map.css';
 
 class Map extends React.Component {
   render() {
-    const API_KEY = 'AIzaSyARjU5xBCplgOPHWJUhRTKNRglNrrlaL1Y';
+    const API_KEY = '__API_KEY__';
     return (
       <iframe
         title="Fellowship Baptist Church"

@@ -18,7 +18,7 @@ jobs:
 
       - name: Setup API Key
         run: |
-          sed -i '' s/__API_KEY__/${{secrets.GOOGLE_MAPS_API_KEY}}/g src/components/map/Map.js
+          sed -i s/__API_KEY__/${{secrets.GOOGLE_MAPS_API_KEY}}/g src/components/map/Map.js
 
       - name: Build website
         run: yarn build

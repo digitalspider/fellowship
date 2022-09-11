@@ -8,15 +8,19 @@ function HomePageIntro(props) {
       <div className="column home-page-intro">
         <h2 className="title who-we-are">Who We Are</h2>
         <p className="welcome-text">
-          Fellowship Baptist Church is a medium-sized family church, serving the suburbs of Blacktown.
-          Whether you are curious about Christianity or looking for a church home, you will find us to be friendly and helpful—a real fellowship.
+          Fellowship Baptist Church is a medium-sized family church, serving the suburbs of Blacktown. Whether you are curious about Christianity or looking for a church home, you will find us to be friendly and helpful—a real fellowship.
           You are welcome to join us this Sunday! We show love and reverence for God in our songs, prayers, giving, and messages from His Word.
         </p>
         <p>&nbsp;</p>
-        <Link to="/about" className="btn-about-us">Find Out More</Link>
+        <Link to="/about" className="btn-about-us">
+          Find Out More
+        </Link>
       </div>
       <div className="column">
-        <img className="purpose-statement-image" src="/img/purpose_statement.jpg" alt="FBC Purpose Statement" />
+        {/* <img className="purpose-statement-image" src="/img/purpose_statement.jpg" alt="FBC Purpose Statement" /> */}
+        <img className="purpose-statement-image" src="/img/holiday_bible_club_2022.jpg" alt="Holiday Bible Club" width="500px" />
+        <br />
+        <a href="http://shorturl.at/MOW29">Registration form</a>
       </div>
     </div>
   );

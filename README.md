@@ -13,8 +13,21 @@ Many thanks to Matthew Wilson for his original source code:
 * [http://www.saintfieldbaptist.org.uk/](http://www.saintfieldbaptist.org.uk/)
 
 ## Installation
+Install yarn. See https://classic.yarnpkg.com/en/docs/install#mac-stable
+```
+npm install --global yarn
+```
+
 Run the following for local installation
 ```
-npm install
-npm run start
+yarn install
+yarn start
 ```
+
+Run in production mode
+```
+yarn build
+serve -s build
+```
+
+Go to http://localhost:3000 to test

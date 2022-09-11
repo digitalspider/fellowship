@@ -11,11 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: NPM Install
-        run: sudo npm install
+      - name: YARN Install
+        run: |
+          npm install --location=global yarn
+          yarn install
 
       - name: Build website
-        run: npm run build
+        run: yarn build
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -25,7 +27,7 @@ jobs:
           aws-region: ap-southeast-2
 
       - name: Deploy website to S3 bucket
-        run: npm run deploy
+        run: yarn deploy
 
       - name: Clear cache
         run: aws cloudfront create-invalidation --distribution-id EHT7NE1IP7KTD --paths "/*"

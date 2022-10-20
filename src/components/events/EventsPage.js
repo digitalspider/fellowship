@@ -8,7 +8,7 @@ function WhatsOnSection(props) {
     <Page>
       <PageBanner imageUrl="/img/banner/table-bible2.jpg" />
       <div className="content">
-        <h2 className="title">Holiday Bible Club</h2>
+        {/* <h2 className="title">Holiday Bible Club</h2>
         <div className="details">
           <img src="/img/holiday_bible_club_2022.jpg" alt="Holiday Bible Club" width="100%" />
           <br />
@@ -18,7 +18,7 @@ function WhatsOnSection(props) {
           </div>
           <br />
           <br />
-        </div>
+        </div> */}
         <h2 className="title">What's on</h2>
         <p>Our main service occurs every Sunday at 10.00am</p>
         <p>

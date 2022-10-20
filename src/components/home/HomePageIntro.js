@@ -17,13 +17,7 @@ function HomePageIntro(props) {
         </Link>
       </div>
       <div className="column">
-        {/* <img className="purpose-statement-image" src="/img/purpose_statement.jpg" alt="FBC Purpose Statement" /> */}
-        <img className="purpose-statement-image" src="/img/holiday_bible_club_2022.jpg" alt="Holiday Bible Club" width="500px" />
-        <br />
-        <br />
-        <div width="500px" className="text-center">
-          <a href="http://shorturl.at/MOW29">Holiday Bible Club registration form</a>
-        </div>
+        <img className="purpose-statement-image" src="/img/purpose_statement.jpg" alt="FBC Purpose Statement" />
       </div>
     </div>
   );

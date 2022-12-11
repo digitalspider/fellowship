@@ -1,8 +1,8 @@
 import React from 'react';
-import SermonAudioSeries from './SermonAudioSeries'
+import SermonAudioSeries from './SermonAudioSeries';
 
 function SermonSeriesPage(props) {
-  const title = decodeURIComponent(props.match.params.title)
+  const title = decodeURIComponent(props.match.params.title);
   return (
     <div className="sermons-page">
       <h1>{title}</h1>
@@ -11,7 +11,7 @@ function SermonSeriesPage(props) {
         <SermonAudioSeries title={title} showHeader={false} />
       </div>
     </div>
-  )
+  );
 }
 
 export default SermonSeriesPage;

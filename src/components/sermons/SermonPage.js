@@ -1,5 +1,5 @@
 import React from 'react';
-import SermonAudioSermon from './SermonAudioSermon'
+import SermonAudioSermon from './SermonAudioSermon';
 
 function SermonPage(props) {
   return (
@@ -10,7 +10,7 @@ function SermonPage(props) {
         <SermonAudioSermon title={props.match.params.title} sermonId={props.match.params.sermonId} />
       </div>
     </div>
-  )
+  );
 }
 
 export default SermonPage;

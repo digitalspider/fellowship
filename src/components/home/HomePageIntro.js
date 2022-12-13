@@ -17,7 +17,7 @@ function HomePageIntro(props) {
         </Link>
       </div>
       <div className="column">
-        <img className="purpose-statement-image" src="/img/purpose_statement.jpg" alt="FBC Purpose Statement" />
+        <img className="purpose-statement-image" src="/img/purpose-statement3.jpg" alt="FBC Purpose Statement" />
       </div>
     </div>
   );

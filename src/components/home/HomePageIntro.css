@@ -16,7 +16,8 @@
 
 .purpose-statement-image {
   max-width: 100%;
-  border-radius: 25%;
+  width: 500px;
+  border-radius: 2%;
   opacity: 0.9;
 }
 

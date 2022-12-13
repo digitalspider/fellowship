@@ -13,7 +13,7 @@
 
 .page-banner h1 {
   text-align: center;
-  font-family: 'Lato:300';
+  font-family: 'Calibri';
   display: none;
 }
 
@@ -35,7 +35,7 @@
   }
   .page-banner h1 {
     text-align: center;
-    font-family: 'Lato:300';
+    font-family: 'Calibri';
     padding-left: 100px;
     padding-top: 150px;
     display: block;

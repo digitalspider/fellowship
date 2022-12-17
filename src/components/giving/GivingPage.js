@@ -16,14 +16,15 @@ class GivingPage extends React.Component {
       <Page>
         <PageBanner imageUrl="/img/banner/giving.jpg" titleColour="white" />
         <div className="content">
+          <p>Our God is a gracious and giving God. We at Fellowship Baptist Church believe that as Christians we seek to be generous in support of our local church. We give with a grateful and cheerful heart for what God has done for us and for the advancement of the Gospel.</p>
+          <br />
+          <p>If you would like to give via Bank Transfer, please contact us for the details.</p>
+          {/* <a href="media/online-giving.pdf">Online Giving (PDF)</a> */}
+          <br/>
           <p>
             <strong>So let each one give as he purposes in his heart, not grudgingly or of necessity: for God loves a cheerful giver.</strong>
             <BibleVerse reference="2CO.9.7" text="2 Corinthians 9:7" />
           </p>
-          <p>A number of people have been asking about how they can continue to support the Lord’s work financially while the normal weekly meetings are restricted.</p>
-          <p>Please contact our church treasurer, Justin Portelli, at <a href="mailto:info@fellowship.org.au?subject=Enquiry%20about%20giving&body=Dear%Pastor,%0A%0AI%20would%20like%20to%20enquire%20about%20the%20process%20for%20supporting%20the%20Lord’s%20work%20financially.%0A%0AThank%20You">info@fellowship.org.au</a> and details of how you can do this will be sent to you by email.</p>
-          <br />
-          <a href="media/online-giving.pdf">Online Giving (PDF)</a>
         </div>
       </Page>
     )

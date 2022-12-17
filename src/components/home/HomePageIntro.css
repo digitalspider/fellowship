@@ -22,14 +22,14 @@
 }
 
 .btn-about-us {
-  font-size: 20px;
+  font-size: 19px;
   border-style: solid;
   padding: 10px;
   border-radius: 15px;
 }
 
 .welcome-text {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 @media(min-width: 992px) {

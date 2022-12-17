@@ -1,6 +1,6 @@
 .page {
   color: #282a29;
-  font-size: 20px;
+  font-size: 19px;
   font-family: 'Calibri';
 }
 
@@ -14,7 +14,7 @@
 
 @media(min-width: 992px) {
   .page {
-    font-size: 20px;
+    font-size: 19px;
     padding-left: 100px;
     padding-right: 100px;
   }

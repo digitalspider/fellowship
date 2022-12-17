@@ -14,7 +14,7 @@ class GivingPage extends React.Component {
   render() {
     return (
       <Page>
-        <PageBanner imageUrl="/img/banner/giving.jpg" titleColour="white" />
+        {/* <PageBanner imageUrl="/img/banner/giving.jpg" titleColour="white" /> */}
         <div className="content">
           <p>Our God is a gracious and giving God. We at Fellowship Baptist Church believe that as Christians we seek to be generous in support of our local church. We give with a grateful and cheerful heart for what God has done for us and for the advancement of the Gospel.</p>
           <br />

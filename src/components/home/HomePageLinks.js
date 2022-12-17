@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 function HomePageLinks(props) {
   return (
     <div className="row links">
-      <Link to="/covid19" className="tile homepage-text covid">
+      {/* <Link to="/covid19" className="tile homepage-text covid">
         <div className="tile-text">COVID-19 Update</div>
-      </Link>
+      </Link> */}
       <Link to="/about/church" className="tile homepage-text church">
         <div className="tile-text">Church Ministries</div>
       </Link>

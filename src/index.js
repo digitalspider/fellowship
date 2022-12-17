@@ -16,6 +16,7 @@ import ResourcesPage from './components/resources/ResourcesPage';
 import SermonPage from './components/sermons/SermonPage';
 import SermonSeriesPage from './components/sermons/SermonSeriesPage';
 import SermonsPage from './components/sermons/SermonsPage';
+import ScrollToTop from './components/utils/ScrollToTop';
 
 const auth = new Auth();
 
@@ -37,27 +38,29 @@ function privateRoute(auth, component, props) {
 
 const Index = () => (
   <BrowserRouter>
-    <FBC>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/about" component={AboutPage} />
-      <Route path="/live" component={LivePage} />
-      <Route path="/events" component={EventsPage} />
-      <Route path="/resources" component={ResourcesPage} />
-      <Route path="/sermons" exact component={SermonsPage} />
-      <Route path="/sermons/series/:title" component={SermonSeriesPage} />
-      <Route path="/sermon/:sermonId/:title" component={SermonPage} />
-      <Route path="/contact" component={ContactPage} />
-      <Route path="/covid19" component={Covid19Page} />
-      <Route path="/giving" component={GivingPage} />
-      <Route path="/members" render={(props) => privateRoute(auth, <MembersPage {...props} />, props)} />
-      <Route
-        path="/callback"
-        render={(props) => {
-          handleAuthentication(props);
-          return <Callback {...props} />;
-        }}
-      />
-    </FBC>
+    <ScrollToTop>
+      <FBC>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/live" component={LivePage} />
+        <Route path="/events" component={EventsPage} />
+        <Route path="/resources" component={ResourcesPage} />
+        <Route path="/sermons" exact component={SermonsPage} />
+        <Route path="/sermons/series/:title" component={SermonSeriesPage} />
+        <Route path="/sermon/:sermonId/:title" component={SermonPage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/covid19" component={Covid19Page} />
+        <Route path="/giving" component={GivingPage} />
+        <Route path="/members" render={(props) => privateRoute(auth, <MembersPage {...props} />, props)} />
+        <Route
+          path="/callback"
+          render={(props) => {
+            handleAuthentication(props);
+            return <Callback {...props} />;
+          }}
+        />
+      </FBC>
+    </ScrollToTop>
   </BrowserRouter>
 );
 

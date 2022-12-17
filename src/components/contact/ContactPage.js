@@ -7,8 +7,6 @@ function ContactPage(props) {
   return (
     <Page>
       <div className="content">
-        <h2 className="title">Location</h2>
-        <Map fullWidth={true} />
         <div className="contact-page">
           <br />
           <p>
@@ -23,6 +21,8 @@ function ContactPage(props) {
           <br />
           <a href="mailto:info@fellowship.org.au"><i className="far fa-envelope"></i> Email Us</a>
         </div>
+        <h2 className="title">Directions to FBC</h2>
+        <Map fullWidth={true} />
       </div>
     </Page>
   )

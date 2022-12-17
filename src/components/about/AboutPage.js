@@ -35,13 +35,13 @@ class AboutPage extends React.Component {
         <PageBanner title='' imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="black" />
         <PageSidebar onSectionChange={this.handleSectionChange} currentSection={this.state.currentSection}>
 
-          <PageSection
+          {/* <PageSection
             linkTitle="Welcome"
             bannerImageUrl="/img/about_us.jpg"
             url="/about"
             bannerMobilePosition="right">
             <Welcome />
-          </PageSection>
+          </PageSection> */}
 
           <PageSection
             linkTitle="What to Expect"

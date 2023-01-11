@@ -15,26 +15,24 @@ import WhatToExpect from './WhatToExpect';
 import './AboutPage.css';
 
 class AboutPage extends React.Component {
-
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {};
   }
 
   handleSectionChange = (bannerImage, title, bannerMobilePosition) => {
     this.setState({
       currentBannerImage: bannerImage,
       title: title,
-      bannerMobilePosition: bannerMobilePosition
-    })
-  }
+      bannerMobilePosition: bannerMobilePosition,
+    });
+  };
 
   render() {
     return (
       <Page>
-        <PageBanner title='' imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="black" />
+        {/* <PageBanner title='' imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="black" /> */}
         <PageSidebar onSectionChange={this.handleSectionChange} currentSection={this.state.currentSection}>
-
           {/* <PageSection
             linkTitle="Welcome"
             bannerImageUrl="/img/about_us.jpg"
@@ -43,68 +41,38 @@ class AboutPage extends React.Component {
             <Welcome />
           </PageSection> */}
 
-          <PageSection
-            linkTitle="What to Expect"
-            bannerImageUrl="/img/about_us.jpg"
-            url="/about/expect"
-            bannerMobilePosition="right">
+          <PageSection linkTitle="What to Expect" bannerImageUrl="/img/about_us.jpg" url="/about/expect" bannerMobilePosition="right">
             <WhatToExpect />
           </PageSection>
 
-          <PageSection
-            linkTitle="Peace with God"
-            bannerImageUrl="/img/about_us.jpg"
-            url="/about/gospel"
-            bannerMobilePosition="right">
+          <PageSection linkTitle="Peace with God" bannerImageUrl="/img/about_us.jpg" url="/about/gospel" bannerMobilePosition="right">
             <Gospel />
           </PageSection>
 
-          <PageSection
-            linkTitle="Leadership Team"
-            bannerImageUrl="/img/about_us.jpg"
-            url="/about/leadership"
-            bannerMobilePosition="right">
+          <PageSection linkTitle="Leadership Team" bannerImageUrl="/img/about_us.jpg" url="/about/leadership" bannerMobilePosition="right">
             <LeadershipTeam />
           </PageSection>
 
-          <PageSection
-            linkTitle="Church Ministries"
-            bannerImageUrl="/img/about_us.jpg"
-            url="/about/church"
-            bannerMobilePosition="right">
+          <PageSection linkTitle="Church Ministries" bannerImageUrl="/img/about_us.jpg" url="/about/church" bannerMobilePosition="right">
             <ChurchMinistry />
           </PageSection>
 
-          <PageSection
-            linkTitle="Missionaries"
-            bannerImageUrl="/img/about_us.jpg"
-            url="/about/missionary"
-            bannerMobilePosition="right">
+          <PageSection linkTitle="Missionaries" bannerImageUrl="/img/about_us.jpg" url="/about/missionary" bannerMobilePosition="right">
             <Missionary />
           </PageSection>
 
-          <PageSection
-            linkTitle="History"
-            bannerImageUrl="/img/history.jpg"
-            url="/about/history"
-            bannerMobilePosition="right">
+          <PageSection linkTitle="History" bannerImageUrl="/img/history.jpg" url="/about/history" bannerMobilePosition="right">
             <History />
           </PageSection>
 
-          <PageSection
-            linkTitle="What We Believe"
-            bannerImageUrl="/img/what_we_believe.png"
-            url="/about/what-we-believe"
-            bannerMobilePosition="center">
+          <PageSection linkTitle="What We Believe" bannerImageUrl="/img/what_we_believe.png" url="/about/what-we-believe" bannerMobilePosition="center">
             <WhatWeBelieve />
             <WhatWeBelieveMore />
           </PageSection>
-
         </PageSidebar>
       </Page>
-    )
+    );
   }
-
 }
 
 export default AboutPage;

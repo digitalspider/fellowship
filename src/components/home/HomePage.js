@@ -9,7 +9,7 @@ import './HomePage.css';
 function HomePage(props) {
   return (
     <Page>
-      <PageBanner imageUrl="/img/banner/auditorium.jpg" titleColour="white" title="Welcome Home"/>
+      <PageBanner imageUrl="/img/banner/auditorium.jpg" titleColour="white" title="Welcome Home" />
       <HomePageIntro />
       <HomePageLinks />
       <br />
@@ -20,7 +20,7 @@ function HomePage(props) {
     //   <HomePageLinks />
     //   <br />
     // </div>
-  )
+  );
 }
 
 export default HomePage;

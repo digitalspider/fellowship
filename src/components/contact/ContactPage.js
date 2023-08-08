@@ -15,7 +15,7 @@ function ContactPage(props) {
             Blacktown NSW 2148<br />
           </p>
           <br />
-          <i className="fas fa-phone"></i> 02 9672 1691
+          <i className="fas fa-phone"></i> 0403 305 384
           <br />
           <a href="//www.facebook.com/FBCBlacktown"><i className="fab fa-facebook-f"></i> Facebook</a>
           <br />

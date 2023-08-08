@@ -3,6 +3,12 @@ import React from 'react';
 function ChurchMinistry(props) {
   return (
     <div className="church-ministry">
+      <h3>hands&feet</h3>
+      <div className="handsFeetLink">
+        <a href="https://handsandfeet.com.au/community-care/" target="_blank"><img src="/img/HF-WHITE2-250x80.png"/></a>
+      </div>
+      <p>Our church works with hands&feet ministries to distribute food to our local community.<br/>
+      Every Saturday morning between 9am - 11am</p>
       <h3>KIDS</h3>
       <p>Creche is available during our serves for all children 3 years or younger. We strive to provide an environment where all parents can enjoy the gospel message, while allowing their children time to play and interact with other children of the church.</p>
       <p>During the Bible message, kids aged 4-9 are encouraged to attend the children's church service downstairs. Children's church is run by volunteer helpers who provide a children's Bible lesson, as well as songs, crafts, games and snacks for the kids. Please inform the helpers if your child has any special needs or dietary requirements.</p>

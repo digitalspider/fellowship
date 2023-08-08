@@ -38,6 +38,11 @@ html {
   color:#233d68;
   text-decoration: none;
 }
+.handsFeetLink {
+  background: black;
+  height: 80px;
+  width: 250px;
+}
 
 @media(min-width: 992px) {
   .church-ministry h3 {
